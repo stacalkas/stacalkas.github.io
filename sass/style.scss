@@ -1,0 +1,23 @@
+
+// Redoing site version, with the old versioning this is 12.0
+// Actionscript 2 versions will be considered v1
+// Actionscript 3 versions will be considered v2
+// First HTML5 version will be considered v3
+// Thus, this version will be considered v4
+$site-version: "4.0.0";
+$site-version-date: "December 2017";
+
+/* BS Site #{$site-version} #{$site-version-date} by Britt Scott */
+@import 'variables';
+@import 'reset';
+@import 'functions';
+@import 'mixins';
+@import 'layout';
+
+@import 'nav';
+
+@import 'text';
+@import 'components';
+
+@import 'visibility';
+@import 'mediaQueries';

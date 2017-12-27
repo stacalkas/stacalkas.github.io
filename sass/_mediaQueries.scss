@@ -1,0 +1,60 @@
+// Media Queries
+
+// Desktop
+@media only screen and (min-width:$desktop-min-size) {
+     .#{$site-prefix}-footer-mobile, .#{$site-prefix}-indicator-tablet, .bs-mobile-btn,
+     #pageComics a{
+          display: none !important;
+     }
+     #menuExtras{
+          display: none;
+     }
+}
+
+// Tablet
+@media (max-width: $tablet-max-size) and (min-width: $tablet-min-size) {
+     .#{$site-prefix}-indicator-desktop, .#{$site-prefix}-footer-mobile, #menuExtras, .bs-mobile-btn, 
+     .#{$site-prefix}-last-mod, .#{$site-prefix}-nav-title, .#{$site-prefix}-nav-logo, #pageComics embed{
+          display: none !important;
+     }
+     .#{$site-prefix}-indicator-tablet, #pageComics a{
+          display: inline;
+     }
+     #resumeLinks a{
+          clear: both;
+          width: 100%;
+     }
+     .#{$site-prefix}-gallery div{
+          width: $third;
+     }
+}
+
+// Mobile
+@media only screen and (max-width: $mobile-max-size) {
+     .#{$site-prefix}-footer-non-mobile, #menuExtras, nav .#{$site-prefix}-bar-item, .#{$site-prefix}-nav-logo,
+     #pageComics embed{
+          display: none !important;
+     }
+     #resumeLinks a, #poweredBy a{
+          clear: both;
+          width: 100%;
+     }
+     .#{$site-prefix}-search-mobile-adjust{
+          position:fixed;
+          width:81%;
+          z-index:1;
+          top: -0.75rem;
+
+     }
+     .#{$site-prefix}-gallery div{
+          clear: left;
+          width: 100%;
+          img{
+               left: 50%;
+               transform: translateX(-50%);
+          }
+     }
+     #pageComics a{
+          display: inline;
+     }
+}

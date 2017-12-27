@@ -1,0 +1,110 @@
+// Text
+.#{$site-prefix}-text-red{
+     color: $red;
+}
+.#{$site-prefix}-text-blue{
+     color: $blue;
+}
+
+// Center Txt
+.#{$site-prefix}-center-txt {
+     text-align: center;
+}
+
+p{
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
+}
+
+.#{$site-prefix}-ul{
+     list-style-type: none;
+     li{
+          padding: 0.5rem 1rem;
+          border-bottom: 0.15rem solid $white;
+          &:last-child{
+               border-bottom:none;
+          }
+     }
+}
+
+mark{
+     background: $yellow;
+     color: $black;
+}
+
+.#{$site-prefix}-last-mod{
+     color: $sand;
+}
+
+.#{$site-prefix}-site-ver{
+     font-weight: bold;
+     padding: 0.2rem;
+     border-radius: 0.5rem;
+     background-color: $secondary-color;
+     color:set-text-color($secondary-color);
+}
+
+.#{$site-prefix}-text-size-default{
+     font-size: 1rem;
+}
+
+.#{$site-prefix}-bg-grid{
+     position: fixed;
+     transform: translate(-50%,-10%);
+     -ms-transform: translate(-50%,-10%);
+     top: 0;
+     left: 50%;
+     z-index: -1;
+     font-size: 106rem;
+     color: $blue;
+}
+
+.#{$site-prefix}-page-announce span{
+     color: $primary-color;
+}
+
+.#{$site-prefix}-input{
+     padding: 0.5rem 0;
+     display:block;
+     border:none;
+     font-size: 1.25rem; 
+     width:100%;
+     background-color: $light-color;
+     color:set-text-color($light-color);
+}
+
+.#{$site-prefix}-tag{
+     border-radius: 0.5rem;
+     width: 100%;
+     display:inline-block;
+     text-align:center;
+     margin-bottom: 0.5rem;
+     margin-top: 0.5rem;
+     background-color: $primary-color;
+     color:set-text-color($primary-color);
+}
+
+blockquote{
+     padding: 1rem;
+     margin-top: 1rem;
+     font-size: 1.25em;
+}
+
+#pageQuotes cite{
+     display: block;
+     font-size: 1rem;
+     &:before{
+          content: " - ";
+     }
+}
+
+#pageQuotes blockquote:nth-child(odd){
+     border-left: 0.5rem solid $secondary-color;
+     background-color: $primary-color;
+     color:set-text-color($primary-color);
+}
+#pageQuotes blockquote:nth-child(even){
+     border-left: 0.5rem solid $primary-color;
+     background-color: $secondary-color;
+     color: $dark-color;
+}

@@ -1,0 +1,236 @@
+// Layout
+
+html,body{
+     font-family: #{$font};
+     font-size: #{$font-base-size};
+     line-height: #{$font-base-line-height};
+}
+html{
+     overflow-x:hidden;
+}
+body{
+     background-color: $dark-color;
+     margin-top: 2.5rem;
+     margin-bottom: 3rem;
+}
+
+.#{$site-prefix}-container-bg{
+     background-color: $bg-opacity;
+     color:set-text-color($bg-opacity);
+     padding: 0.33rem;
+}
+
+// Container
+.#{$site-prefix}-container{
+     max-width: #{$container-width};
+     margin:auto;
+}
+
+section{
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+// Page Announce
+.#{$site-prefix}-page-announce{
+     background-color: $light-color;
+     color:set-text-color($light-color);
+     border-radius: 0.5rem;
+     padding: 0.5rem 1rem;   
+}
+
+// Align
+.#{$site-prefix}-top, .#{$site-prefix}-bottom{
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+}
+.#{$site-prefix}-top {
+     top: 0;
+}
+.#{$site-prefix}-bottom{
+     bottom: 0;
+}
+
+.#{$site-prefix}-row:before, .#{$site-prefix}-row:after{
+     content:"";
+     display:table;
+     clear:both;
+}
+
+.#{$site-prefix}-col, .#{$site-prefix}-half, .#{$site-prefix}-third, .#{$site-prefix}-twothird,
+.#{$site-prefix}-threequarter, .#{$site-prefix}-quarter, .#{$site-prefix}-fifth{
+     float:left;
+     width:100%;
+}
+
+.#{$site-prefix}-quarter{width: $quarter;}
+.#{$site-prefix}-fifth{width: $fifth;}
+.#{$site-prefix}-third{width: $third;}
+.#{$site-prefix}-half{width: $half;}
+.#{$site-prefix}-threequarter{width: $three-quarter;}
+.#{$site-prefix}-twothird{width: $two-third;}
+.#{$site-prefix}-rest{overflow:hidden;}
+
+#resumeLinks{
+     @extend .#{$site-prefix}-row;
+     margin: 1em 0 1em 0;
+}
+#resumeLinks a{
+     @extend .#{$site-prefix}-third;
+     background-color: $dark-color;
+     color:set-text-color($dark-color);
+     text-align: center;
+     padding: 0.5rem 0 0.5rem 0;     
+     &:hover{
+          background-color: $light-color;
+          color:set-text-color($light-color);
+     }
+}
+
+.fa-file-pdf{
+     color: $red;
+}
+#resumeLinks .fa-file-word{
+     color: $blue;
+}
+#resumeLinks .fa-file-alt{
+     color: $grey;
+}
+
+#poweredBy{
+     @extend .#{$site-prefix}-row;
+     margin: 1rem 0 1rem 0;
+}
+
+#poweredBy a{
+     @extend .#{$site-prefix}-fifth;
+     background-color: $dark-color;
+     color:set-text-color($dark-color);
+     text-align: center;
+     padding: 0.5rem 0 0.5rem 0;     
+     &:hover{
+          background-color: $light-color;
+          color:set-text-color($light-color);
+     }
+}
+#poweredBy .fa-html5, #pageBlog i{
+     color: $orange;
+}
+#poweredBy .fa-css3-alt{
+     color: #2196F3;
+}
+#poweredBy .fa-js{
+     color: saddlebrown;
+}
+#poweredBy .fa-sass{
+     color: $pink;
+}
+#poweredBy .fa-font-awesome{
+     color: #2196F3;
+}
+
+.#{$site-prefix}-search-mobile-adjust{
+     margin: 1rem 0;
+}
+
+//Blog
+#pageBlog b {
+     color: $green;
+}
+#pageBlog .version {
+     color: $light-color !important;
+     background-color: $blue;
+}
+#pageBlog .first {
+     color: $yellow !important;
+     font-size: 1.25rem;
+     font-variant: small-caps;
+}
+
+//Videos and images
+#pageVideos h2, #pageImages h2, #pageModels h2, #pageGames h2, #pageBooks h2,
+#pageToys h2{
+     @extend .#{$site-prefix}-tag;
+}
+.embed-responsive{
+     margin-bottom: 2rem;
+}
+
+.#{$site-prefix}-gallery{
+     @extend .#{$site-prefix}-row;    
+     div{
+          width: $quarter;
+          background-color: $secondary-color;
+          color:set-text-color($secondary-color);
+          display:inline-table;
+          margin-bottom: 1rem;
+          img{
+               margin-top: 0.5rem;
+               @extend .#{$site-prefix}-center-object;
+               &:hover{
+                    opacity: 0.5;
+               }
+          }
+          p{
+               margin: 0.5rem; 
+          }
+          .fas{
+               margin-left: 1rem;
+               font-size: 1.25em;
+          }
+     }
+}
+
+.#{$site-prefix}-have-completed{
+     background-color: $green !important;
+     color:set-text-color($green);
+     text-decoration: line-through;
+}
+.#{$site-prefix}-has-problems{
+     background-color: $red !important;
+     color:set-text-color($red);
+     text-decoration: line-through;
+}
+
+//Comics
+#pageComics p{
+    text-align: center;
+}
+
+//Games and MoviesTV
+#pageGames .#{$site-prefix}-tag, #pageMoviesTV .#{$site-prefix}-tag{
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+#pageMoviesTV .fas, #pageMoviesTV .rj{
+     position: relative;
+     margin-left: 0.5rem;
+     padding: 0.25rem 0.25rem;
+}
+
+#pageMoviesTV .rj-hentai-txt{
+     background-color: $dark-color;
+     color: $pink;
+}
+
+#pageMoviesTV .fa-tv{
+     background-color: $dark-color;
+     color: $cyan;
+}
+
+#pageMoviesTV .fa-film{
+     background-color: $dark-color;
+     color: $yellow;
+}
+
+#pageMoviesTV .fa-thumbs-up{
+     background-color: $dark-color;
+     color: $green;
+}
+
+#pageMoviesTV .fa-thumbs-down{
+     background-color: $dark-color;
+     color: $red;
+}
