@@ -1,10 +1,4 @@
 // Text
-.#{$site-prefix}-text-red{
-     color: $red;
-}
-.#{$site-prefix}-text-blue{
-     color: $blue;
-}
 
 // Center Txt
 .#{$site-prefix}-center-txt {
@@ -32,6 +26,16 @@ mark{
      color: $black;
 }
 
+.version {
+     color: $light-color !important;
+     background-color: $blue;
+}
+.first {
+     color: $yellow !important;
+     font-size: 1.25rem;
+     font-variant: small-caps;
+}
+
 .#{$site-prefix}-last-mod{
      color: $sand;
 }
@@ -40,8 +44,7 @@ mark{
      font-weight: bold;
      padding: 0.2rem;
      border-radius: 0.5rem;
-     background-color: $secondary-color;
-     color:set-text-color($secondary-color);
+     @include color-txt-based-on-bg($secondary-color);
 }
 
 .#{$site-prefix}-text-size-default{
@@ -59,18 +62,13 @@ mark{
      color: $blue;
 }
 
-.#{$site-prefix}-page-announce span{
-     color: $primary-color;
-}
-
 .#{$site-prefix}-input{
      padding: 0.5rem 0;
      display:block;
      border:none;
      font-size: 1.25rem; 
      width:100%;
-     background-color: $light-color;
-     color:set-text-color($light-color);
+     @include color-txt-based-on-bg($light-color);
 }
 
 .#{$site-prefix}-tag{
@@ -80,8 +78,7 @@ mark{
      text-align:center;
      margin-bottom: 0.5rem;
      margin-top: 0.5rem;
-     background-color: $primary-color;
-     color:set-text-color($primary-color);
+     @include color-txt-based-on-bg($primary-color);
 }
 
 blockquote{
@@ -90,21 +87,35 @@ blockquote{
      font-size: 1.25em;
 }
 
-#pageQuotes cite{
-     display: block;
-     font-size: 1rem;
-     &:before{
-          content: " - ";
+// Font Icons
+.rj-bs-text{color: $black;}
+
+footer{
+     .fab{
+          background-color: $light-color;
      }
 }
 
-#pageQuotes blockquote:nth-child(odd){
-     border-left: 0.5rem solid $secondary-color;
-     background-color: $primary-color;
-     color:set-text-color($primary-color);
+.fa-facebook{color: #607d8b;}
+.rj-bs-outline, .fa-desktop{color: $light-color;}
+
+.#{$site-prefix}-page-movies-tv{
+    .fas, .rj{
+         background-color: $dark-color;
+         position: relative;
+         margin-left: 0.5rem;
+         padding: 0.25rem 0.25rem;
+     }
 }
-#pageQuotes blockquote:nth-child(even){
-     border-left: 0.5rem solid $primary-color;
-     background-color: $secondary-color;
-     color: $dark-color;
-}
+
+.fa-tv{color: $cyan;}
+.fa-film{color: $yellow;}
+.#{$site-prefix}-page-blog b, .fa-thumbs-up{color: $green;}
+.formValidate, .fa-youtube, .fa-thumbs-down, .fa-file-pdf{color: $red;}
+
+.#{$site-prefix}-page-announce span, .rj-bs-grid, .fa-mobile-alt, .fa-file-word{color: $blue;}
+.rj-bs-block, .fa-file-alt{color: $grey;}
+.fa-tablet-alt, .fa-html5, .#{$site-prefix}-page-blog i{color: $orange;}
+.fa-css3-alt, .fa-font-awesome{color: #2196F3;}
+.fa-js{color: saddlebrown;}
+.rj-hentai-txt, .fa-sass{color: $pink;}

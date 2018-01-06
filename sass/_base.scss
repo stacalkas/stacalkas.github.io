@@ -1,0 +1,39 @@
+// Base
+
+// Reset
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+
+a{
+     text-decoration: none;
+}
+
+.#{$site-prefix}-container-bg a, .#{$site-prefix}-container-bg a:visited{
+     color: $cyan;
+}
+
+ul{
+     list-style-type:none;
+}
+
+// Base
+html,body{
+     font-family: #{$font};
+     font-size: #{$font-base-size};
+     line-height: #{$font-base-line-height};
+}
+html{
+     overflow-x:hidden;
+}
+body{
+     background-color: $dark-color;
+     margin-top: 2.5rem;
+     margin-bottom: 3rem;
+}
+
+h2{
+     @extend .#{$site-prefix}-tag;
+}

@@ -1,4 +1,4 @@
-/* BS Site 4.0.0 December 2017 by Britt Scott */
+/*! BS Site 4.0.0 January 2018 by Britt Scott */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 a { text-decoration: none; }
@@ -12,100 +12,6 @@ html, body { font-family: Verdana, sans-serif; font-size: 96.84%; line-height: 1
 html { overflow-x: hidden; }
 
 body { background-color: black; margin-top: 2.5rem; margin-bottom: 3rem; }
-
-.bs-container-bg { background-color: rgba(50, 50, 50, 0.9); color: white; padding: 0.33rem; }
-
-.bs-container, form { max-width: 63.36rem; margin: auto; }
-
-section { margin-top: 1rem; margin-bottom: 1rem; }
-
-.bs-page-announce { background-color: white; color: black; border-radius: 0.5rem; padding: 0.5rem 1rem; }
-
-.bs-top, .bs-bottom { position: fixed; width: 100%; z-index: 1; }
-
-.bs-top { top: 0; }
-
-.bs-bottom { bottom: 0; }
-
-.bs-row:before, #resumeLinks:before, #poweredBy:before, .bs-gallery:before, .bs-bar:before, .bs-row:after, #resumeLinks:after, #poweredBy:after, .bs-gallery:after, .bs-bar:after { content: ""; display: table; clear: both; }
-
-.bs-col, .bs-half, .bs-third, #resumeLinks a, .bs-twothird, .bs-threequarter, .bs-quarter, .bs-fifth, #poweredBy a { float: left; width: 100%; }
-
-.bs-quarter { width: 24.5%; }
-
-.bs-fifth, #poweredBy a { width: 19.99%; }
-
-.bs-third, #resumeLinks a { width: 32.75%; }
-
-.bs-half { width: 49.99%; }
-
-.bs-threequarter { width: 74.99%; }
-
-.bs-twothird { width: 66.66%; }
-
-.bs-rest { overflow: hidden; }
-
-#resumeLinks { margin: 1em 0 1em 0; }
-
-#resumeLinks a { background-color: black; color: white; text-align: center; padding: 0.5rem 0 0.5rem 0; }
-#resumeLinks a:hover { background-color: white; color: black; }
-
-.fa-file-pdf { color: #f44336; }
-
-#resumeLinks .fa-file-word { color: #3853A4; }
-
-#resumeLinks .fa-file-alt { color: #808184; }
-
-#poweredBy { margin: 1rem 0 1rem 0; }
-
-#poweredBy a { background-color: black; color: white; text-align: center; padding: 0.5rem 0 0.5rem 0; }
-#poweredBy a:hover { background-color: white; color: black; }
-
-#poweredBy .fa-html5, #pageBlog i { color: #ff9800; }
-
-#poweredBy .fa-css3-alt { color: #2196F3; }
-
-#poweredBy .fa-js { color: saddlebrown; }
-
-#poweredBy .fa-sass { color: #e91e63; }
-
-#poweredBy .fa-font-awesome { color: #2196F3; }
-
-.bs-search-mobile-adjust { margin: 1rem 0; }
-
-#pageBlog b { color: #4CAF50; }
-
-#pageBlog .version { color: white !important; background-color: #3853A4; }
-
-#pageBlog .first { color: yellow !important; font-size: 1.25rem; font-variant: small-caps; }
-
-.embed-responsive { margin-bottom: 2rem; }
-
-.bs-gallery div { width: 24.5%; background-color: #808184; color: black; display: inline-table; margin-bottom: 1rem; }
-.bs-gallery div img { margin-top: 0.5rem; }
-.bs-gallery div img:hover { opacity: 0.5; }
-.bs-gallery div p { margin: 0.5rem; }
-.bs-gallery div .fas { margin-left: 1rem; font-size: 1.25em; }
-
-.bs-have-completed { background-color: #4CAF50 !important; color: white; text-decoration: line-through; }
-
-.bs-has-problems { background-color: #f44336 !important; color: black; text-decoration: line-through; }
-
-#pageComics p { text-align: center; }
-
-#pageGames .bs-tag, #pageGames #pageVideos h2, #pageVideos #pageGames h2, #pageGames #pageImages h2, #pageImages #pageGames h2, #pageGames #pageModels h2, #pageModels #pageGames h2, #pageGames h2, #pageGames #pageBooks h2, #pageBooks #pageGames h2, #pageGames #pageToys h2, #pageToys #pageGames h2, #pageMoviesTV .bs-tag, #pageMoviesTV #pageVideos h2, #pageVideos #pageMoviesTV h2, #pageMoviesTV #pageImages h2, #pageImages #pageMoviesTV h2, #pageMoviesTV #pageModels h2, #pageModels #pageMoviesTV h2, #pageMoviesTV #pageGames h2, #pageGames #pageMoviesTV h2, #pageMoviesTV #pageBooks h2, #pageBooks #pageMoviesTV h2, #pageMoviesTV #pageToys h2, #pageToys #pageMoviesTV h2 { font-size: 1.5rem; font-weight: bold; }
-
-#pageMoviesTV .fas, #pageMoviesTV .rj { position: relative; margin-left: 0.5rem; padding: 0.25rem 0.25rem; }
-
-#pageMoviesTV .rj-hentai-txt { background-color: black; color: #e91e63; }
-
-#pageMoviesTV .fa-tv { background-color: black; color: #00bcd4; }
-
-#pageMoviesTV .fa-film { background-color: black; color: yellow; }
-
-#pageMoviesTV .fa-thumbs-up { background-color: black; color: #4CAF50; }
-
-#pageMoviesTV .fa-thumbs-down { background-color: black; color: #f44336; }
 
 .bs-bar { width: 100%; overflow: hidden; }
 
@@ -122,10 +28,6 @@ nav, footer { background-color: #808184; color: black; }
 .bs-nav-title { padding-left: 0 !important; padding-right: 0 !important; color: white; background-color: transparent !important; cursor: default; }
 
 .bs-nav-logo { margin: 0.25em 1rem 0 1rem; float: left; border: none; outline: none; display: block; cursor: default; }
-.bs-nav-logo .rj-bs-grid { color: #3853A4; }
-.bs-nav-logo .rj-bs-block { color: #808184; }
-.bs-nav-logo .rj-bs-text { color: black; }
-.bs-nav-logo .rj-bs-outline { color: white; }
 
 .bs-menu-highlight { background-color: white; color: black; }
 
@@ -141,58 +43,13 @@ nav, footer { background-color: #808184; color: black; }
 .bs-dropdown-content:hover .bs-dropdown-hover { color: inherit; }
 .bs-dropdown-content a { display: block; padding: 0 1em 0 1em; }
 
+.bs-search-mobile-adjust { margin: 1rem 0; }
+
 footer { font-size: 0.8rem; }
-
-footer .fa-facebook { background-color: white; color: #607d8b; }
-
-footer .fa-youtube { background-color: white; color: #f44336; }
-
-footer .fa-desktop { color: white; }
-
-footer .fa-tablet-alt { color: #ff9800; }
-
-footer .fa-mobile-alt { color: #3853A4; }
 
 footer .bs-bar span { background-color: transparent !important; cursor: default; }
 
 footer b { padding-bottom: 0.8em !important; }
-
-.bs-text-red { color: #f44336; }
-
-.bs-text-blue { color: #3853A4; }
-
-.bs-center-txt { text-align: center; }
-
-p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
-
-.bs-ul { list-style-type: none; }
-.bs-ul li { padding: 0.5rem 1rem; border-bottom: 0.15rem solid white; }
-.bs-ul li:last-child { border-bottom: none; }
-
-mark { background: yellow; color: black; }
-
-.bs-last-mod { color: #fdf5e6; }
-
-.bs-site-ver { font-weight: bold; padding: 0.2rem; border-radius: 0.5rem; background-color: #808184; color: black; }
-
-.bs-text-size-default { font-size: 1rem; }
-
-.bs-bg-grid { position: fixed; transform: translate(-50%, -10%); -ms-transform: translate(-50%, -10%); top: 0; left: 50%; z-index: -1; font-size: 106rem; color: #3853A4; }
-
-.bs-page-announce span { color: #3853A4; }
-
-.bs-input { padding: 0.5rem 0; display: block; border: none; font-size: 1.25rem; width: 100%; background-color: white; color: black; }
-
-.bs-tag, #pageVideos h2, #pageImages h2, #pageModels h2, #pageGames h2, #pageBooks h2, #pageToys h2 { border-radius: 0.5rem; width: 100%; display: inline-block; text-align: center; margin-bottom: 0.5rem; margin-top: 0.5rem; background-color: #3853A4; color: white; }
-
-blockquote { padding: 1rem; margin-top: 1rem; font-size: 1.25em; }
-
-#pageQuotes cite { display: block; font-size: 1rem; }
-#pageQuotes cite:before { content: " - "; }
-
-#pageQuotes blockquote:nth-child(odd) { border-left: 0.5rem solid #808184; background-color: #3853A4; color: white; }
-
-#pageQuotes blockquote:nth-child(even) { border-left: 0.5rem solid #3853A4; background-color: #808184; color: black; }
 
 .bs-to-top { background-color: rgba(50, 50, 50, 0.9); color: white; position: fixed; right: 0; z-index: 2; bottom: 2.5rem; opacity: 0.75; border-radius: 2rem; display: inline-block; padding: 0.5rem 1rem; vertical-align: middle; }
 .bs-to-top:hover { opacity: 1; }
@@ -200,7 +57,7 @@ blockquote { padding: 1rem; margin-top: 1rem; font-size: 1.25em; }
 .bs-btn, .bs-button { border: none; display: inline-block; outline: 0; padding: 0.5rem 1rem; vertical-align: middle; overflow: hidden; text-decoration: none; color: inherit; background-color: inherit; text-align: center; cursor: pointer; white-space: nowrap; }
 .bs-btn:hover, .bs-button:hover { box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5), 0 0.75rem 1.25rem 0 rgba(0, 0, 0, 0.4); }
 
-.bs-card { box-shadow: 0 0.25em 0.75em 0 rgba(0, 0, 0, 0.2), 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.19); margin-left: -1em; margin-top: 0.5em; color: #000; background-color: #fff; }
+.bs-card { box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.2), 0 0.25rem 1.25rem 0 rgba(0, 0, 0, 0.19); margin-left: -1rem; margin-top: 0.5rem; color: #000; background-color: #fff; }
 
 .bs-hover-none:hover, .bs-indicator-desktop:hover, .bs-indicator-tablet:hover, .bs-indicator-mobile:hover { background-color: transparent !important; box-shadow: none !important; color: inherit; cursor: default; }
 
@@ -218,8 +75,7 @@ blockquote { padding: 1rem; margin-top: 1rem; font-size: 1.25em; }
 
 .embed-responsive-1by1::before { padding-top: 100%; }
 
-form { padding: 1rem; margin-bottom: 2rem; }
-form .formValidate { color: #f44336; }
+form { padding: 1rem 1rem 3rem 1rem; margin-bottom: 2rem; }
 form div { margin-bottom: 1rem; }
 form label { display: block; margin-left: 3em; }
 form .bs-input { float: right; width: 95%; }
@@ -237,19 +93,129 @@ form input[type=submit] { float: right; font-size: 1.25rem; background-color: #8
 
 .bs-center-object, .bs-gallery div img { position: relative; left: 50%; transform: translateX(-50%); }
 
-.bs-show { display: block; }
+.bs-container-bg { background-color: rgba(50, 50, 50, 0.9); color: white; padding: 0.33rem; }
 
-.bs-hide { display: none; }
+.bs-container, form { max-width: 63.36rem; margin: auto; }
 
-@media only screen and (min-width: 993px) { .bs-footer-mobile, .bs-indicator-tablet, .bs-mobile-btn, #pageComics a { display: none !important; }
+section { margin-top: 1rem; margin-bottom: 1rem; }
+
+.bs-page-announce { background-color: white; color: black; border-radius: 0.5rem; padding: 0.5rem 1rem; }
+
+.bs-top, .bs-bottom { position: fixed; width: 100%; z-index: 1; }
+
+.bs-top { top: 0; }
+
+.bs-bottom { bottom: 0; }
+
+.bs-row:before, .bs-bar:before, .bs-gallery:before, .bs-link-btns:before, .bs-resume-links:before, .bs-powered-by:before, .bs-row:after, .bs-bar:after, .bs-gallery:after, .bs-link-btns:after, .bs-resume-links:after, .bs-powered-by:after { content: ""; display: table; clear: both; }
+
+.bs-col, .bs-half, .bs-third, .bs-resume-links a, .bs-twothird, .bs-threequarter, .bs-quarter, .bs-fifth, .bs-powered-by a { float: left; width: 100%; }
+
+.bs-quarter { width: 24.5%; }
+
+.bs-fifth, .bs-powered-by a { width: 19.99%; }
+
+.bs-third, .bs-resume-links a { width: 32.75%; }
+
+.bs-half { width: 49.99%; }
+
+.bs-threequarter { width: 74.99%; }
+
+.bs-twothird { width: 66.66%; }
+
+.bs-rest { overflow: hidden; }
+
+.embed-responsive { margin-bottom: 2rem; }
+
+.bs-gallery div { width: 24.5%; display: inline-table; margin-bottom: 1rem; }
+.bs-gallery div img { margin-top: 0.5rem; }
+.bs-gallery div img:hover { opacity: 0.5; }
+.bs-gallery div p { margin: 0.5rem; }
+.bs-gallery div .fas { margin-left: 1rem; font-size: 1.25em; }
+
+.bs-have-completed { background-color: #4CAF50; color: white; text-decoration: line-through; }
+
+.bs-has-problems { background-color: #f44336; color: black; text-decoration: line-through; }
+
+.bs-center-txt { text-align: center; }
+
+p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+
+.bs-ul { list-style-type: none; }
+.bs-ul li { padding: 0.5rem 1rem; border-bottom: 0.15rem solid white; }
+.bs-ul li:last-child { border-bottom: none; }
+
+mark { background: yellow; color: black; }
+
+.version { color: white !important; background-color: #3853A4; }
+
+.first { color: yellow !important; font-size: 1.25rem; font-variant: small-caps; }
+
+.bs-last-mod { color: #fdf5e6; }
+
+.bs-site-ver { font-weight: bold; padding: 0.2rem; border-radius: 0.5rem; background-color: #808184; color: black; }
+
+.bs-text-size-default { font-size: 1rem; }
+
+.bs-bg-grid { position: fixed; transform: translate(-50%, -10%); -ms-transform: translate(-50%, -10%); top: 0; left: 50%; z-index: -1; font-size: 106rem; color: #3853A4; }
+
+.bs-input { padding: 0.5rem 0; display: block; border: none; font-size: 1.25rem; width: 100%; background-color: white; color: black; }
+
+.bs-tag, h2 { border-radius: 0.5rem; width: 100%; display: inline-block; text-align: center; margin-bottom: 0.5rem; margin-top: 0.5rem; background-color: #3853A4; color: white; }
+
+blockquote { padding: 1rem; margin-top: 1rem; font-size: 1.25em; }
+
+.rj-bs-text { color: black; }
+
+footer .fab { background-color: white; }
+
+.fa-facebook { color: #607d8b; }
+
+.rj-bs-outline, .fa-desktop { color: white; }
+
+.bs-page-movies-tv .fas, .bs-page-movies-tv .rj { background-color: black; position: relative; margin-left: 0.5rem; padding: 0.25rem 0.25rem; }
+
+.fa-tv { color: #00bcd4; }
+
+.fa-film { color: yellow; }
+
+.bs-page-blog b, .fa-thumbs-up { color: #4CAF50; }
+
+.formValidate, .fa-youtube, .fa-thumbs-down, .fa-file-pdf { color: #f44336; }
+
+.bs-page-announce span, .rj-bs-grid, .fa-mobile-alt, .fa-file-word { color: #3853A4; }
+
+.rj-bs-block, .fa-file-alt { color: #808184; }
+
+.fa-tablet-alt, .fa-html5, .bs-page-blog i { color: #ff9800; }
+
+.fa-css3-alt, .fa-font-awesome { color: #2196F3; }
+
+.fa-js { color: saddlebrown; }
+
+.rj-hentai-txt, .fa-sass { color: #e91e63; }
+
+.bs-link-btns, .bs-resume-links, .bs-powered-by { margin: 1em 0 1em 0; }
+.bs-link-btns a, .bs-resume-links a, .bs-powered-by a { background-color: black; color: white; text-align: center; padding: 0.5rem 0 0.5rem 0; border-left: 0.05rem #808184 solid; }
+.bs-link-btns a:hover, .bs-resume-links a:hover, .bs-powered-by a:hover { background-color: white; color: black; }
+
+.bs-page-games .bs-tag, .bs-page-games h2, .bs-page-movies-tv .bs-tag, .bs-page-movies-tv h2 { font-size: 1.5rem; font-weight: bold; }
+
+blockquote cite { display: block; font-size: 1rem; }
+blockquote cite:before { content: " - "; }
+
+blockquote:nth-child(odd) { border-left: 0.5rem solid #808184; background-color: #3853A4; color: white; }
+
+blockquote:nth-child(even) { border-left: 0.5rem solid #3853A4; background-color: #808184; color: black; }
+
+@media only screen and (min-width: 993px) { .bs-footer-mobile, .bs-indicator-tablet, .bs-mobile-btn, .bs-page-comics a { display: none !important; }
   #menuExtras { display: none; } }
-@media (max-width: 992px) and (min-width: 601px) { .bs-indicator-desktop, .bs-footer-mobile, #menuExtras, .bs-mobile-btn, .bs-last-mod, .bs-nav-title, .bs-nav-logo, #pageComics embed { display: none !important; }
-  .bs-indicator-tablet, #pageComics a { display: inline; }
-  #resumeLinks a { clear: both; width: 100%; }
+@media (max-width: 992px) and (min-width: 601px) { .bs-indicator-desktop, .bs-footer-mobile, #menuExtras, .bs-mobile-btn, .bs-last-mod, .bs-nav-title, .bs-nav-logo, .bs-page-comics embed { display: none !important; }
+  .bs-indicator-tablet { display: inline; }
   .bs-gallery div { width: 32.75%; } }
-@media only screen and (max-width: 600px) { .bs-footer-non-mobile, #menuExtras, nav .bs-bar-item, nav .bs-dropdown-hover, .bs-nav-logo, #pageComics embed { display: none !important; }
-  #resumeLinks a, #poweredBy a { clear: both; width: 100%; }
+@media only screen and (max-width: 600px) { .bs-footer-non-mobile, #menuExtras, nav .bs-bar-item, nav .bs-dropdown-hover, .bs-nav-logo, .bs-page-comics embed { display: none !important; }
   .bs-search-mobile-adjust { position: fixed; width: 81%; z-index: 1; top: -0.75rem; }
   .bs-gallery div { clear: left; width: 100%; }
   .bs-gallery div img { left: 50%; transform: translateX(-50%); }
-  #pageComics a { display: inline; } }
+  .bs-page-comics a { display: inline; }
+  .bs-link-btns a, .bs-resume-links a, .bs-powered-by a { clear: both; width: 100%; border-left: none; border-bottom: 0.05rem #808184 solid; } }

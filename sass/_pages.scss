@@ -1,0 +1,56 @@
+// Pages
+
+// About
+.#{$site-prefix}-link-btns{
+     @extend .#{$site-prefix}-row;
+     margin: 1em 0 1em 0;
+     a{
+          @include color-txt-based-on-bg($dark-color);
+          text-align: center;
+          padding: 0.5rem 0 0.5rem 0;   
+          border-left: 0.05rem $secondary-color solid;  
+          &:hover{
+               @include color-txt-based-on-bg($light-color);
+          }
+     }
+}
+
+.#{$site-prefix}-resume-links{
+     @extend .#{$site-prefix}-link-btns;    
+     a{
+          @extend .#{$site-prefix}-third; 
+     }
+}
+
+.#{$site-prefix}-powered-by{
+     @extend .#{$site-prefix}-link-btns;    
+     a{
+          @extend .#{$site-prefix}-fifth; 
+     }
+}
+
+//Games and MoviesTV
+.#{$site-prefix}-page-games, .#{$site-prefix}-page-movies-tv{
+     .#{$site-prefix}-tag{
+          font-size: 1.5rem;
+          font-weight: bold;
+     }
+}
+
+//Quotes
+blockquote cite{
+     display: block;
+     font-size: 1rem;
+     &:before{
+          content: " - ";
+     }
+}
+
+blockquote:nth-child(odd){
+     border-left: 0.5rem solid $secondary-color;
+     @include color-txt-based-on-bg($primary-color);
+}
+blockquote:nth-child(even){
+     border-left: 0.5rem solid $primary-color;
+     @include color-txt-based-on-bg($secondary-color);
+}

@@ -62,8 +62,8 @@
           <div class="bs-page-announce">
                <h1 class="bs-center-txt"><span class="fas fa-car"></span> Models <span class="fas fa-car"></span></h1>
           </div>
-          <input type="text" class="bs-input bs-search-mobile-adjust" placeholder="Search..." oninput="bs.filterHTML('#pageModels','#pageModels div', this.value)">
-          <section id="pageModels">
+          <input type="text" class="bs-input bs-search-mobile-adjust" placeholder="Search..." oninput="bs.filterHTML('.bs-page-models','.bs-page-models div', this.value)">
+          <section class="bs-page-models">
                <div><h2>Gundam 1/144</h2></div>
                <div class="bs-gallery">
                     <div>
@@ -244,7 +244,7 @@
                               MG 1/100
                          </p>
                     </div>
-                    <div>
+                    <div class="bs-have-completed">
                          <a href="images/models/Rx78v3Mg.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rx78v3Mg" alt="Rx 78 v3 Mg"></a>						
                          <p>
                               RX-78-2 Version 3.0<br>

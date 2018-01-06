@@ -18,26 +18,21 @@
      border:none;
      outline:none;
      display:block;
-     background-color: $secondary-color;
-     color:set-text-color($secondary-color);
+     @include color-txt-based-on-bg($secondary-color);
      &:hover{
-          background-color: $dark-color;
-          color:set-text-color($dark-color);
+          @include color-txt-based-on-bg($dark-color);
      }
 }
 
 nav,footer {
-     background-color: $secondary-color;
-     color:set-text-color($secondary-color);
+     @include color-txt-based-on-bg($secondary-color);
 }
 .#{$site-prefix}-mobile-btn{
      padding: 0.5rem 1rem;
      float: right;
-     background-color: $light-color;
-     color:set-text-color($light-color);
+     @include color-txt-based-on-bg($light-color);
      &:hover{
-          background-color: $dark-color;
-          color:set-text-color($dark-color);
+          @include color-txt-based-on-bg($dark-color);
      }
 }
 
@@ -61,30 +56,16 @@ nav,footer {
 }
 
 .#{$site-prefix}-nav-logo{
-     //padding: 0.25em 1rem 0 1rem;
      margin: 0.25em 1rem 0 1rem;
      float:left;
      border:none;
      outline:none;
      display:block;
      cursor: default;
-     .rj-bs-grid{
-          color: $primary-color;
-     }
-     .rj-bs-block{
-          color: $secondary-color;
-     }
-     .rj-bs-text{
-          color: $black;
-     }
-     .rj-bs-outline{
-          color: $white;
-     }
 }
 
 .#{$site-prefix}-menu-highlight{
-     background-color: $light-color;
-     color:set-text-color($light-color);
+     @include color-txt-based-on-bg($light-color);
 }
 
 .#{$site-prefix}-menu-dropdown-highlight{
@@ -130,27 +111,14 @@ nav,footer {
      }
 }
 
+// Search input on mobile
+.#{$site-prefix}-search-mobile-adjust{margin: 1rem 0;}
+
 // Footer
 footer {
      font-size: 0.8rem;
 }
-footer .fa-facebook{
-     background-color: $light-color;
-     color: #607d8b;
-}
-footer .fa-youtube{
-     background-color: $light-color;
-     color: $red;
-}
-footer .fa-desktop{
-     color: $light-color;
-}
-footer .fa-tablet-alt{
-     color: $orange;
-}
-footer .fa-mobile-alt{
-     color: $blue;
-}
+
 footer .#{$site-prefix}-bar span{
      background-color: transparent !important;
      cursor: default;
