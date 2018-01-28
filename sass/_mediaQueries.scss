@@ -23,6 +23,13 @@
      .#{$site-prefix}-gallery div{
           width: $third;
      }
+     form .fa-fw{
+          display: block;
+          margin: 0.5rem auto;
+     }
+     form .#{$site-prefix}-input{
+          width: 100%;
+     }
 }
 // Mobile
 @media only screen and (max-width: $mobile-max-size) {
@@ -53,5 +60,12 @@
           width: 100%;
           border-left: none;
           border-bottom: 0.05rem $secondary-color solid;
+     }
+     form .fa-fw{
+          display: block;
+          margin: 0.5rem auto;
+     }
+     form .#{$site-prefix}-input{
+          width: 100%;
      }
 }

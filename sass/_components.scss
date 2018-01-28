@@ -92,6 +92,9 @@ form{
     .captcha{
           @include color-txt-based-on-bg($orange);
     }
+    .captchaImg{
+         margin-left: 2rem;
+    }
     input[type=reset]{
          float: left;
          font-size: 1.25rem; 

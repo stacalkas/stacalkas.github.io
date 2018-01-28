@@ -56,17 +56,18 @@
           </nav>
      </header> <!-- END Header -->
 
-     <div class="bs-container bs-container-bg" class="bs-page-contact">
+     <div class="bs-container bs-container-bg" id="bs-page-contact">
           <div class="bs-page-announce">
                <h1 class="bs-center-txt"><span class="fas fa-envelope-square"></span> Contact <span class="fas fa-envelope-square"></span></h1>
           </div>
 
           <p class="bs-center-txt">The best method of contacting me is by filling out this form and submitting it.</p>
-          <form id="thisForm" action="php/ProcessForm.php" method="POST" target="frame" autocomplete="on">
+          <!-- <form id="thisForm" action="php/ProcessForm.php" method="POST" target="frame" autocomplete="on"> -->
+          <form id="thisForm" method="post" action="php/ProcessForm.php" target="frame" autocomplete="on">
                <div>
                     <i class="fas fa-user fa-fw"></i>
-                    <input type="name" class="bs-input" id="name" name="name" placeholder="First and last name" title="Enter your name" size="30" required autofocus/>
-                    <label class="formValidate">Required</label>
+                    <input type="text" class="bs-input" id=name name="name" placeholder="First and last name" title="Enter your name" size="30" required autofocus/>
+                    <label class="formValidate" for="name">Required</label>
                </div>
                <div>                   
                     <span class="fas fa-phone fa-fw fa-flip-horizontal"></span>
@@ -79,7 +80,7 @@
                </div>
                <div>                   
                     <span class="fas fa-comment fa-fw"></span>              
-                    <textarea type="textarea" class="bs-input" name="message" id="message" placeholder="Message here" title="Enter your message" cols="30" rows="5" required ></textarea>
+                    <textarea type="textarea" class="bs-input" id="comment" name="comment" placeholder="Comment here" title="Enter your comment" cols="30" rows="5" required ></textarea>
                     <label class="formValidate">Required</label>                  
                </div>
                <div>
@@ -89,12 +90,14 @@
                </div>
 
                <div id="reCaptchaDiv">
-                    <div id="reCaptcha" class="g-recaptcha" data-sitekey="6LfFPRcUAAAAACt6XFOrVAcp3iHx5DgzctFmtsmk"></div>
+                    <!-- <div id="reCaptcha" class="g-recaptcha" data-sitekey="6LfFPRcUAAAAACt6XFOrVAcp3iHx5DgzctFmtsmk"></div> -->
+                    <img src="php/captcha.php" alt="Captcha" id="captchaImg" class="captchaImg" height="45" width="85">
+                    <input type="text" class="bs-input" id="vercode" name="vercode" placeholder="Type code here" title="Requires a vaild code" required/>
                     <label class="formValidate">Required</label>
                </div>
 
                <input type="reset" class="bs-btn" id="clear" name="clear" value="Clear"/>
-               <input type="submit" class="bs-btn" id="submit" name="submit" value="Submit" />
+               <input type="submit" class="bs-btn" id="submit" name="submit" value="Submit"/>
           </form>
 
           <!-- Submit the form without redirecting the page -->
@@ -129,7 +132,7 @@
      <script src="js/jquery.min.js"></script>
      <script src="js/bs-javascript.js"></script>
      <!-- reCaptcha Javascript -->
-	<script src="https://www.google.com/recaptcha/api.js"></script>
+     <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
      <!-- Menu Hightlight -->
 	<script type="text/javascript">
           $(".bs-menu-Contact").addClass("bs-menu-highlight");

@@ -84,6 +84,7 @@ form #reCaptchaDiv { border: 0.05rem white solid; }
 form .error { background-color: #f44336; color: black; }
 form .success { background-color: #4CAF50; color: white; }
 form .captcha { background-color: #ff9800; color: white; }
+form .captchaImg { margin-left: 2rem; }
 form input[type=reset] { float: left; font-size: 1.25rem; background-color: #ff9800; color: white; }
 form input[type=submit] { float: right; font-size: 1.25rem; background-color: #808184; color: black; }
 
@@ -212,10 +213,14 @@ blockquote:nth-child(even) { border-left: 0.5rem solid #3853A4; background-color
   #menuExtras { display: none; } }
 @media (max-width: 992px) and (min-width: 601px) { .bs-indicator-desktop, .bs-footer-mobile, #menuExtras, .bs-mobile-btn, .bs-last-mod, .bs-nav-title, .bs-nav-logo, .bs-page-comics embed { display: none !important; }
   .bs-indicator-tablet { display: inline; }
-  .bs-gallery div { width: 32.75%; } }
+  .bs-gallery div { width: 32.75%; }
+  form .fa-fw { display: block; margin: 0.5rem auto; }
+  form .bs-input { width: 100%; } }
 @media only screen and (max-width: 600px) { .bs-footer-non-mobile, #menuExtras, nav .bs-bar-item, nav .bs-dropdown-hover, .bs-nav-logo, .bs-page-comics embed { display: none !important; }
   .bs-search-mobile-adjust { position: fixed; width: 81%; z-index: 1; top: -0.75rem; }
   .bs-gallery div { clear: left; width: 100%; }
   .bs-gallery div img { left: 50%; transform: translateX(-50%); }
   .bs-page-comics a { display: inline; }
-  .bs-link-btns a, .bs-resume-links a, .bs-powered-by a { clear: both; width: 100%; border-left: none; border-bottom: 0.05rem #808184 solid; } }
+  .bs-link-btns a, .bs-resume-links a, .bs-powered-by a { clear: both; width: 100%; border-left: none; border-bottom: 0.05rem #808184 solid; }
+  form .fa-fw { display: block; margin: 0.5rem auto; }
+  form .bs-input { width: 100%; } }

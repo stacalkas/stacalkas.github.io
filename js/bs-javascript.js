@@ -12,17 +12,17 @@ function startup(){
 // Dynamic Copyright Year //
 ////////////////////////////
 function getYear(){
-  var today = new Date();
-  var currentYear = today.getFullYear();
-  document.getElementsByName("dynYear")[0].innerText = currentYear;
-  document.getElementsByName("dynYear")[1].innerText = currentYear;
-  clearTimeout(getYear); // Kill our setTimeout to stop calling this
+     var today = new Date();
+     var currentYear = today.getFullYear();
+     document.getElementsByName("dynYear")[0].innerText = currentYear;
+     document.getElementsByName("dynYear")[1].innerText = currentYear;
+     clearTimeout(getYear); // Kill our setTimeout to stop calling this
 }
 // Site Version //
 //////////////////
 function siteVersion(){
-  document.getElementById("siteVer").innerHTML = "4.0.1";
-  clearTimeout(siteVersion); // Kill our setTimeout to stop calling this
+     document.getElementById("siteVer").innerHTML = "4.0.2";
+      clearTimeout(siteVersion); // Kill our setTimeout to stop calling this
 }
 // Mobile menu show/hide //
 ///////////////////////////
@@ -44,76 +44,87 @@ function getLastMod(){
 }
 // on submit btn click, check each input //
 ///////////////////////////////////////////
-$("#submit").click(function()
-{
-     if(!validateText("name"))
-     {
-          return false;
-     }
-     if(!validateText("email"))
-     {
-          return false;
-     }
-     // This is optional, so don't validate
-     // if(!validateText("telephone"))
-     // {
-          // return false;
-     // }
-     if(!validateText("message"))
-     {
-          return false;
-     }
+// $("#submit").click(function()
+// {
+//      if(!validateText("name"))
+//      {
+//           return false;
+//      }
+//      if(!validateText("email"))
+//      {
+//           return false;
+//      }
+//      // This is optional, so don't validate
+//      // if(!validateText("telephone"))
+//      // {
+//           // return false;
+//      // }
+//      if(!validateText("message"))
+//      {
+//           return false;
+//      }
 
-     //This is where we check to see if the captcha has
-     //been triggered to decide if, is human.
-     var v = grecaptcha.getResponse();
-     if(v.length == 0)
-     {
-          $(".captcha").show();
-          return false;
-     }
-     else
-     {
-          $(".captcha").hide();
-          return true;
-     }
-});
+//      //This is where we check to see if the captcha has
+//      //been triggered to decide if, is human.
+     
+//      // var v = grecaptcha.getResponse();
+//      // if(v.length == 0)
+//      // {
+//      //      $(".captcha").show();
+//      //      return false;
+//      // }
+//      // else
+//      // {
+//      //      $(".captcha").hide();
+//      //      return true;
+//      // }
+// });
 // Display form alert after submit //
 /////////////////////////////////////
 $("#thisForm").submit(function(){
-     $(".error").hide(); //Clear error message
-     $(".captcha").hide();
+     //$(".error").hide(); //Clear error message
+     //$(".captcha").hide();
      $(".success").show();
      $(".success").fadeOut(5000);
-     //$("#captcha").attr("src", "php/captcha.php");
-     //$("#captcha").removeAttr("src").attr("src", "php/captcha.php");
+     $(".captchaImg").attr("src", ""); // Clear captcha source, so we can reload it later
+     //$(".captchaImg").attr("src", "php/captcha.php");
+     //$(".captchaImg").removeAttr("src").attr("src", "php/captcha.php");
      //event.target.reset(); //this clears the inputs to their default placeholders
      //setTimeout(reloadPage, 3000); 	// Relaod the page after Message status is displayed
                                         // this prevents multiple, rapid messages being sent.
-     var form = document.getElementById("thisForm");                                   
-     form.reset();
+     setTimeout(resetForm, 100); 
+     //var form = document.getElementById("thisForm");                                 
+     //form.reset(); //Reset the form
+     //grecaptcha.reset(); //Reset the reCaptcha
 });
+
+function resetForm()
+{
+     var form = document.getElementById("thisForm");                                 
+     form.reset(); //Reset the form
+     $(".captchaImg").attr("src", "php/captcha.php"); // Reload Captcha
+}	
 // form client-side validation //
 /////////////////////////////////
-function validateText(id)
-{
-     if($("#"+id).val()==null || $("#"+id).val()=="")
-     {
-          var div = $("#"+id).closest("div");
-          //var div = $("#"+id).closest(".w3-rest");
-          div.addClass("bs-form-error");
-          $(".error").show();
-          //alert("Validation Error!!!");
-          return false;
-     }
-     else
-     {
-          var div = $("#"+id).closest("div");
-          //var div = $("#"+id).closest(".w3-rest");
-          div.removeClass("bs-form-error");
-          return true;
-     }
-}
+// function validateText(id)
+// {
+//      if($("#"+id).val()==null || $("#"+id).val()=="")
+//      {
+//           var div = $("#"+id).closest("div");
+//           //var div = $("#"+id).closest(".w3-rest");
+//           div.addClass("bs-form-error");
+//           $(".error").show();
+//           //alert("Validation Error!!!");
+//           return false;
+//      }
+//      else
+//      {
+//           var div = $("#"+id).closest("div");
+//           //var div = $("#"+id).closest(".w3-rest");
+//           div.removeClass("bs-form-error");
+//           return true;
+//      }
+// }
 // Clear form mesaages on clear btn click //
 ////////////////////////////////////////////
 $("#clear").click(function()
@@ -526,5 +537,3 @@ bs.displayObject = function (id, data) {
     a.innerHTML = a.innerHTML.replace(r, result);
   }
 };	
-	
-	
