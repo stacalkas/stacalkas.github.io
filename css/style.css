@@ -1,4 +1,4 @@
-/*! BS Site 4.0.0 January 2018 by Britt Scott */
+/*! BS Site 4.0.3 February 2018 by Britt Scott */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 a { text-decoration: none; }
@@ -75,28 +75,11 @@ footer b { padding-bottom: 0.8em !important; }
 
 .embed-responsive-1by1::before { padding-top: 100%; }
 
-form { padding: 1rem 1rem 3rem 1rem; margin-bottom: 2rem; }
-form div { margin-bottom: 1rem; }
-form label { display: block; margin-left: 3em; }
-form .bs-input { float: right; width: 95%; }
-form .fas { vertical-align: top; font-size: 2em; }
-form #reCaptchaDiv { border: 0.05rem white solid; }
-form .error { background-color: #f44336; color: black; }
-form .success { background-color: #4CAF50; color: white; }
-form .captcha { background-color: #ff9800; color: white; }
-form .captchaImg { margin-left: 2rem; }
-form input[type=reset] { float: left; font-size: 1.25rem; background-color: #ff9800; color: white; }
-form input[type=submit] { float: right; font-size: 1.25rem; background-color: #808184; color: black; }
-
-.bs-form-error { background-color: yellow; color: #f44336; }
-
-.hiddenIframe { display: none; }
-
 .bs-center-object, .bs-gallery div img { position: relative; left: 50%; transform: translateX(-50%); }
 
 .bs-container-bg { background-color: rgba(50, 50, 50, 0.9); color: white; padding: 0.33rem; }
 
-.bs-container, form { max-width: 63.36rem; margin: auto; }
+.bs-container { max-width: 63.36rem; margin: auto; }
 
 section { margin-top: 1rem; margin-bottom: 1rem; }
 
@@ -188,7 +171,7 @@ footer .fab { background-color: white; }
 
 .rj-bs-block, .fa-file-alt { color: #808184; }
 
-.fa-tablet-alt, .fa-html5, .bs-page-blog i { color: #ff9800; }
+.fa-tablet-alt, .fa-html5, .bs-contact-note, .bs-page-blog i { color: #ff9800; }
 
 .fa-css3-alt, .fa-font-awesome { color: #2196F3; }
 
