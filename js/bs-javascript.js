@@ -21,7 +21,7 @@ function getYear(){
 // Site Version //
 //////////////////
 function siteVersion(){
-     document.getElementById("siteVer").innerHTML = "4.0.3";
+     document.getElementById("siteVer").innerHTML = "4.0.4";
       clearTimeout(siteVersion); // Kill our setTimeout to stop calling this
 }
 // Mobile menu show/hide //

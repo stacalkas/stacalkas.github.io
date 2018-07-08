@@ -1,4 +1,4 @@
-/*! BS Site 4.0.3 February 2018 by Britt Scott */
+/*! BS Site 4.0.4 July 2018 by Britt Scott */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 a { text-decoration: none; }
@@ -155,7 +155,7 @@ footer .fab { background-color: white; }
 
 .fa-facebook { color: #607d8b; }
 
-.rj-bs-outline, .fa-desktop { color: white; }
+.rj-bs-block, .fa-desktop { color: white; }
 
 .bs-page-movies-tv .fas, .bs-page-movies-tv .rj { background-color: black; position: relative; margin-left: 0.5rem; padding: 0.25rem 0.25rem; }
 
@@ -169,7 +169,7 @@ footer .fab { background-color: white; }
 
 .bs-page-announce span, .rj-bs-grid, .fa-mobile-alt, .fa-file-word { color: #3853A4; }
 
-.rj-bs-block, .fa-file-alt { color: #808184; }
+.fa-file-alt { color: #808184; }
 
 .fa-tablet-alt, .fa-html5, .bs-contact-note, .bs-page-blog i { color: #ff9800; }
 
@@ -177,7 +177,7 @@ footer .fab { background-color: white; }
 
 .fa-js { color: saddlebrown; }
 
-.rj-hentai-txt, .fa-sass { color: #e91e63; }
+.fa-bed, .fa-sass { color: #e91e63; }
 
 .bs-link-btns, .bs-resume-links, .bs-powered-by { margin: 1em 0 1em 0; }
 .bs-link-btns a, .bs-resume-links a, .bs-powered-by a { background-color: black; color: white; text-align: center; padding: 0.5rem 0 0.5rem 0; border-left: 0.05rem #808184 solid; }
