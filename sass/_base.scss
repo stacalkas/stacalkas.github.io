@@ -8,11 +8,16 @@
 }
 
 a{
-     text-decoration: none;
+     text-decoration: none;   
+}
+a:visited{
+     color: none !important;
 }
 
-.#{$site-prefix}-container-bg a, .#{$site-prefix}-container-bg a:visited{
-     color: $cyan;
+.#{$site-prefix}-container-bg a{
+     background: $secondary-color;
+     color: $white;
+     padding: 0.1rem 0.2rem;
 }
 
 ul{

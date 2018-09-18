@@ -3,7 +3,9 @@
 
 a { text-decoration: none; }
 
-.bs-container-bg a, .bs-container-bg a:visited { color: #00bcd4; }
+a:visited { color: none !important; }
+
+.bs-container-bg a { background: #808184; color: white; padding: 0.1rem 0.2rem; }
 
 ul { list-style-type: none; }
 
@@ -179,14 +181,27 @@ footer .fab { background-color: white; }
 
 .fa-bed, .fa-sass { color: #e91e63; }
 
-.bs-link-btns, .bs-resume-links, .bs-powered-by { margin: 1em 0 1em 0; }
-.bs-link-btns a, .bs-resume-links a, .bs-powered-by a { background-color: black; color: white; text-align: center; padding: 0.5rem 0 0.5rem 0; border-left: 0.05rem #808184 solid; }
+.bs-link-btns, .bs-resume-links, .bs-powered-by { margin: 2rem 1rem; }
+.bs-link-btns a, .bs-resume-links a, .bs-powered-by a { background-color: black; color: white; text-align: center; padding: 2rem 0.5rem; border-left: 0.05rem #808184 solid; }
 .bs-link-btns a:hover, .bs-resume-links a:hover, .bs-powered-by a:hover { background-color: white; color: black; }
+
+.bs-education, .bs-related-experience { line-height: 2rem; }
+.bs-education span, .bs-related-experience span { color: black; background: white; border: 0.2rem solid #3853A4; padding: 0.1rem 0.25rem; }
+
+.bs-page-images a { background: none; }
+.bs-page-images h1 .fas { background: none; }
+.bs-page-images .fas { background: #3853A4; padding: 0.1rem; }
+
+.bs-page-books a { background: none; }
+
+.bs-page-models a { background: none; }
 
 .bs-page-games .bs-tag, .bs-page-games h2, .bs-page-movies-tv .bs-tag, .bs-page-movies-tv h2 { font-size: 1.5rem; font-weight: bold; }
 
 blockquote cite { display: block; font-size: 1rem; }
 blockquote cite:before { content: " - "; }
+
+.bs-page-toys a { background: none; }
 
 blockquote:nth-child(odd) { border-left: 0.5rem solid #808184; background-color: #3853A4; color: white; }
 

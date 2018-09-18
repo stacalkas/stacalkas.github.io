@@ -3,11 +3,11 @@
 // About
 .#{$site-prefix}-link-btns{
      @extend .#{$site-prefix}-row;
-     margin: 1em 0 1em 0;
+     margin: 2rem 1rem;
      a{
           @include color-txt-based-on-bg($dark-color);
           text-align: center;
-          padding: 0.5rem 0 0.5rem 0;   
+          padding: 2rem 0.5rem;   
           border-left: 0.05rem $secondary-color solid;  
           &:hover{
                @include color-txt-based-on-bg($light-color);
@@ -22,10 +22,52 @@
      }
 }
 
+.#{$site-prefix}-education{
+     line-height: 2rem;
+     span{
+          color: $black;
+          background: $white;
+          border: 0.2rem solid $primary-color;
+          padding: 0.1rem 0.25rem;
+     }
+}
+
+.#{$site-prefix}-related-experience{
+     @extend .#{$site-prefix}-education;
+}
+
 .#{$site-prefix}-powered-by{
      @extend .#{$site-prefix}-link-btns;    
      a{
           @extend .#{$site-prefix}-fifth; 
+     }
+}
+
+//Images
+.#{$site-prefix}-page-images{
+     a{
+          background: none;
+     }
+     h1 .fas{
+          background: none;
+     }
+     .fas{
+          background: $primary-color;
+          padding: 0.1rem;
+     }
+}
+
+//Books
+.#{$site-prefix}-page-books{
+     a{
+          background: none;
+     }
+}
+
+//Models
+.#{$site-prefix}-page-models{
+     a{
+          background: none;
      }
 }
 
@@ -43,6 +85,13 @@ blockquote cite{
      font-size: 1rem;
      &:before{
           content: " - ";
+     }
+}
+
+//Toys
+.#{$site-prefix}-page-toys{
+     a{
+          background: none;
      }
 }
 
