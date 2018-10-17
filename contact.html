@@ -12,7 +12,7 @@
      <!-- Custom CSS -->
      <link rel="stylesheet" href="css/main.css">
 
-     <title>Comics</title>
+     <title>Contact</title>
 </head>
 <body>
      <header>
@@ -29,7 +29,7 @@
                     <li><a class="menu-Blog" href="blog.html">Blog</a></li>
                     <li><a class="menu-Videos" href="videos.html">Videos</a></li>
                     <li><a class="menu-Images" href="images.html">Images</a></li>
-                    <li><a class="menu-Contact" href="contact.html">Contact</a></li>
+                    <li><a class="menu-Contact" href="contact.php">Contact</a></li>
                     <li class="menu-Extras">
                          <a href="#">Extras <i class="fas fa-caret-down"></i> </a>
                          <div class="dropdown-content">
@@ -50,7 +50,7 @@
                          <a href="blog.html" class="menu-Blog">Blog</a>
                          <a href="videos.html" class="menu-Videos">Videos</a>
                          <a href="images.html" class="menu-Images">Images</a>
-                         <a href="contact.html" class="menu-Contact">Contact</a>
+                         <a href="contact.php" class="menu-Contact">Contact</a>
                     </div>
                </div>
           </nav>
@@ -58,11 +58,33 @@
 
      <main>
           <div class="page-announce">
-               <h1><span class="fas fa-archive"></span> Comics <span class="fas fa-archive"></span></h1>
+               <h1><span class="fas fa-envelope"></span> Contact <span class="fas fa-envelope"></span></h1>
           </div>
-          <section class="page-comics">
-               <embed src="downloads/Comics-v3_BrittScott.pdf" type="application/pdf" >
-               <p><a href="downloads/Comics-v3_BrittScott.pdf" target="_blank"><span class="fas fa-file-pdf"></span> Download Britt's Comics <span class="fas fa-download"></span></a></p>
+          <section class="page-contact">
+               <div class="social">
+                    <h3>Britt Scott</h3>
+                    <ul>
+                         <li><i class="fab fa-youtube"></i> Youtube</li>
+                         <li><i class="fab fa-facebook"></i> Facebook</li>
+                    </ul>
+               </div>
+               <form class="contact-form" method="post" action="mailto:stacalkas_nomen@outlook.com?Subject=From%20Britts%20Website" enctype="text/plain">     
+                    <p>
+                         <label for="name">Name:</label>
+                         <input type="text" name="name" placeholder="Enter Your Name" title="Enter Your Name" required>
+                    </p>
+                    <p>
+                         <label for="email">Email:</label>
+                         <input type="email" name="email" placeholder="Enter Your Email Address" title="Enter Your Email Address" required>
+                    </p>
+                    <p>
+                         <label for="message">Message:</label>
+                         <textarea name="message" placeholder="Enter Your Message Here..." title="Enter Your Message Here..." rows="5" required></textarea>
+                    </p>
+                    <p>
+                         <button type="submit" name="submit">Submit</button>
+                    </p>
+               </form>  
           </section>     
      </main> <!-- END Main Container -->
 
@@ -80,7 +102,7 @@
      <!-- JS -->
      <script src="js/bs-javascript.js"></script>
      <script>
-          menuComics.classList.add('menu-dropdown-highlight');// Desktop Menu Highlight
+          menuContact.classList.add('menu-highlight');// Desktop Menu Highlight
      </script>
     
 </body>
