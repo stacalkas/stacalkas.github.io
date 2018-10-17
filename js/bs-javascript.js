@@ -1,48 +1,87 @@
 // BS Javascript
-$(document).ready(startup);
-function startup(){
 
-    // Get Year
-    getYear();
+// Define Menu Vars
+const menuBlog = document.querySelector('.menu-Blog');
+const menuBooks = document.querySelector('.menu-Books');
+const menuComics = document.querySelector('.menu-Comics');
+const menuGames = document.querySelector('.menu-Games');
+const menuImages = document.querySelector('.menu-Images');
+const menuAbout = document.querySelector('.menu-About');
+const menuContact = document.querySelector('.menu-Contact');
+const menuModels = document.querySelector('.menu-Models');
+const menuMoviesTV = document.querySelector('.menu-MoviesTV');
+const menuQuotes = document.querySelector('.menu-Quotes');
+const menuToys = document.querySelector('.menu-Toys');
+const menuVideos = document.querySelector('.menu-Videos');
+const menuExtras = document.querySelector('.menu-Extras');
+const mobileBtn = document.querySelector('.mobile-btn');
+const menuMobile = document.querySelector('.mobile-dropdown-content');
+// Define Site Version Vars
+const siteVerElement = document.querySelector('.site-ver');
+const versionNumber = "4.1.0";
+// Define Time Vars
+const today = new Date();
+const currentYear = today.getFullYear();
+const dynYear = document.querySelector('.dynYearElement');
+// Define Last Modified Vars
+const lastModElement = document.querySelector('.last-Mod-Element');
+// Define Filter HTML Vars
+const filterInput = document.querySelector('filter-input');
 
-     // Get Last Modified
-     getLastMod();
+// Run these functions, when this file loads
+getYear();
+getLastMod();
 
-};
-// Dynamic Copyright Year //
-////////////////////////////
-function getYear(){
-     var today = new Date();
-     var currentYear = today.getFullYear();
-     document.getElementsByName("dynYear")[0].innerText = currentYear;
-     document.getElementsByName("dynYear")[1].innerText = currentYear;
-     clearTimeout(getYear); // Kill our setTimeout to stop calling this
-}
-// Site Version //
-//////////////////
-function siteVersion(){
-     document.getElementById("siteVer").innerHTML = "4.0.4";
-      clearTimeout(siteVersion); // Kill our setTimeout to stop calling this
-}
-// Mobile menu show/hide //
-///////////////////////////
-function mobileMenuClick(){
-     var x = document.getElementById("mobileMenu");
-     if (x.className.indexOf("bs-show") == -1){
-          x.className += " bs-show";
-          console.log("mobile menu show");
-     } else {
-          x.className = x.className.replace(" bs-hide", "");
-          console.log("mobile menu hide");
+// Hide Form Success
+setTimeout(function(){
+     document.querySelector('.formSuccess').style.display = 'none';
+}, 5000);
+
+// Toggle Mobile Menu //
+mobileBtn.addEventListener('click', toggleMobileMenu);
+let showMobileMenu = false;
+
+function toggleMobileMenu(){
+     if(!showMobileMenu){
+          menuMobile.style.display = 'block';
+          showMobileMenu = true;
+     } else{
+          menuMobile.style.display = 'none';
+          showMobileMenu = false;
      }
 }
-// Document Last Modified //
-////////////////////////////
-function getLastMod(){
-     document.getElementById("lastMod").innerText = document.lastModified;
-     clearTimeout(getLastMod); // Kill our setTimeout to stop calling this
-}		
+// Toggle Extras //
+lastModElement.addEventListener('click', toggleExtras);
+let showExtras = false;
 
+function toggleExtras(){
+     if(!showExtras){
+          menuExtras.style.display = 'inline';  
+          showExtras = true;
+          //console.log('extras shown');
+     } else{
+          menuExtras.style.display = 'none';        
+          showExtras = false;
+          //console.log('extras hidden');
+     }
+}
+// Site Version //
+function siteVersion(){
+     siteVerElement.innerHTML = versionNumber;
+     //clearTimeout(siteVersion); // Kill our setTimeout to stop calling this
+}
+// Dynamic Copyright Year //
+function getYear(){
+     dynYear.innerText = currentYear;
+     //dynYear[1].innerText = currentYear;
+     //clearTimeout(getYear); // Kill our setTimeout to stop calling this
+}
+// Document Last Modified //
+function getLastMod(){
+     lastModElement.innerText = document.lastModified;
+     //clearTimeout(getLastMod); // Kill our setTimeout to stop calling this
+}
+	
 /* W3.JS 1.01 Jan 2017 by w3schools.com */
 "use strict";
 var bs = {};

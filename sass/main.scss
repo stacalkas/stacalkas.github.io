@@ -1,15 +1,12 @@
 // Main Style
 
 @import 'variables';
+@import 'functionsAndMixins';
 @import 'base';
-@import 'functions';
-@import 'mixins';
 
 @import 'nav';
+@import 'iconsAndText';
 @import 'components';
 
-@import 'text';
 @import 'pages';
-
-@import 'animations';
 @import 'mediaQueries';

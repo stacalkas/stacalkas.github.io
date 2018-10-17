@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0, user-scalable=0">    
+     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">    
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <meta name="description" content="Britt is interested in video game level design because it incorprates a little bit of everything that goes into making a game.">
 	<meta name="keywords" content="Britt, Scott, Britt Scott, brittscott, bscott, brittlscott, bls, artist, 3d, 3d artist, art, environment, envrionmental artist, level, designer, level designer, game, development, developer, game developer, game development, game dev">
@@ -12,1047 +12,1036 @@
      <!-- Thumbnails CSS -->
      <link rel="stylesheet" href="css/ThumbsToys.css">
      <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
 
      <title>Toys</title>
 </head>
 <body>
-     <header class="bs-top">
+     <header>
           <nav>
-               <ul class="bs-container bs-bar">
-                    <li>
-                         <a class="bs-mobile-btn" href="javascript:void(0);" onclick="bs.toggleShow('#mobileMenu')"><span class="fas fa-bars fa-2x"></span></a>
+               <ul class="main-menu">
+                    <li class="nav-title">Britt Scott</li>
+                    <li class="nav-logo">         
+                         <i class="rj rj-bs-grid"></i>
+                         <i class="rj rj-bs-block"></i>
+                         <i class="rj rj-bs-text"></i>
+                         <i class="rj rj-bs-outline"></i>
                     </li>
-                    <li class="bs-bar-item bs-nav-title">Britt Scott - Level Designer</li>
-                    <li class="bs-nav-logo fa-stack">         
-                         <i class="rj rj-bs-grid fa-stack-2x"></i>
-                         <i class="rj rj-bs-block fa-stack-2x"></i>
-                         <i class="rj rj-bs-text fa-stack-2x"></i>
-                         <i class="rj rj-bs-outline fa-stack-2x"></i>
-                    </li>
-                    <li><a class="bs-bar-item bs-menu-About" href="index.html">About</a></li>
-                    <li><a class="bs-bar-item bs-menu-Blog" href="blog.html">Blog</a></li>
-                    <li><a class="bs-bar-item bs-menu-Videos" href="videos.html">Videos</a></li>
-                    <li><a class="bs-bar-item bs-menu-Images" href="images.html">Images</a></li>
-                    <li class="bs-dropdown-hover" id="menuExtras">
+                    <li><a class="menu-About" href="index.html">About</a></li>
+                    <li><a class="menu-Blog" href="blog.html">Blog</a></li>
+                    <li><a class="menu-Videos" href="videos.html">Videos</a></li>
+                    <li><a class="menu-Images" href="images.html">Images</a></li>
+                    <li><a class="menu-Contact" href="contact.php">Contact</a></li>
+                    <li class="menu-Extras">
                          <a href="#">Extras <i class="fas fa-caret-down"></i> </a>
-                         <div class="bs-dropdown-content bs-card">
-                              <a class="bs-menu-Books" href="books.html">Books</a>
-                              <a class="bs-menu-Comics" href="comics.html">Comics</a>
-                              <a class="bs-menu-Games" href="games.html">Games</a>
-                              <a class="bs-menu-Models" href="models.html">Models</a>
-                              <a class="bs-menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
-                              <a class="bs-menu-Quotes" href="quotes.html">Quotes</a>
-                              <a class="bs-menu-Toys" href="toys.html">Toys</a>
+                         <div class="dropdown-content">
+                              <a class="menu-Books" href="books.html">Books</a>
+                              <a class="menu-Comics" href="comics.html">Comics</a>
+                              <a class="menu-Games" href="games.html">Games</a>
+                              <a class="menu-Models" href="models.html">Models</a>
+                              <a class="menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
+                              <a class="menu-Quotes" href="quotes.html">Quotes</a>
+                              <a class="menu-Toys" href="toys.html">Toys</a>
                          </div>
                     </li>
                </ul>
-               <div id="mobileMenu" class="bs-bar" style="display: none;">
-                    <a href="index.html" class="bs-mobile bs-menu-About">About</a>
-                    <a href="blog.html" class="bs-mobile bs-menu-Blog">Blog</a>
-                    <a href="videos.html" class="bs-mobile bs-menu-Videos">Videos</a>
-                    <a href="images.html" class="bs-mobile bs-menu-Images">Images</a>
+               <div class="mobile-menu">
+                    <a class="mobile-btn" href="#"><span class="fas fa-bars"></span></a>
+                    <div class="mobile-dropdown-content">
+                         <a href="index.html" class="menu-About">About</a>
+                         <a href="blog.html" class="menu-Blog">Blog</a>
+                         <a href="videos.html" class="menu-Videos">Videos</a>
+                         <a href="images.html" class="menu-Images">Images</a>
+                         <a href="contact.php" class="menu-Contact">Contact</a>
+                    </div>
                </div>
           </nav>
      </header> <!-- END Header -->
 
-     <div class="bs-container bs-container-bg">
-          <div class="bs-page-announce">
-               <h1 class="bs-center-txt"><span class="fas fa-rocket"></span> Toys <span class="fas fa-rocket"></span></h1>
+     <main>
+          <div class="page-announce">
+               <h1><span class="fas fa-rocket"></span> Toys <span class="fas fa-rocket"></span></h1>
           </div>
-          <input type="text" class="bs-input bs-search-mobile-adjust" placeholder="Search..." oninput="bs.filterHTML('.bs-page-toys','.bs-page-toys div', this.value)">
-          <section class="bs-page-toys">
-               <div><h2>Star Wars</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/BobaFettSawedOffBlaster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BobaFettSawedOffBlaster" alt="Boba Fett Sawed Off Blaster"></a>						
-					<p>
-						Boba Fett With Sawed-Off Blaster<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/BobaFettSD.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BobaFettSD" alt="Boba Fett SD"></a>						
-					<p>
-						Boba Fett SD<br>
-
-					</p>					
-				</div>
-				<div>				
-					<a href="images/toys/DeathStarGunner.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeathStarGunner" alt="Death Star Gunner"></a>						
-					<p>
-						Death Star Gunner<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/JodoKast.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JodoKast" alt="Jodo Kast"></a>						
-					<p>
-						Jodo Kast<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/LeiaBoushhDisguise.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LeiaBoushhDisguise" alt="Leia Boushh Disguise"></a>						
-					<p>
-						Leia Boushh Disguise<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/SandtrooperHeavyBlaster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SandtrooperHeavyBlaster" alt="Sandtrooper Heavy Blaster"></a>						
-					<p>
-						Sandtrooper With Heavy Blaster<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Scorch.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Scorch" alt="Scorch"></a>						
-					<p>
-						Scorch<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/StormtrooperHeavyCannon.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite StormtrooperHeavyCannon" alt="Stormtrooper Heavy Cannon"></a>						
-					<p>
-						Stormtrooper With Heavy Cannon<br>
-
-					</p>						
-				</div>
+          <div class="search-container">
+               <input type="text" placeholder="Search . . ." oninput="bs.filterHTML('.page-models','figure', this.value)">
+          </div>
+          <section class="page-models">
+               <figure class="tag">Star Wars</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/BobaFettSawedOffBlaster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BobaFettSawedOffBlaster" alt="Boba Fett Sawed Off Blaster"></a>
+                         <figcaption>
+                              <h4>Boba Fett With Sawed-Off Blaster</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/BobaFettSD.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BobaFettSD" alt="Boba Fett SD"></a>
+                         <figcaption>
+                              <h4>Boba Fett SD</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DeathStarGunner.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeathStarGunner" alt="Death Star Gunner"></a>
+                         <figcaption>
+                              <h4>Death Star Gunner</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/JodoKast.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JodoKast" alt="Jodo Kast"></a>
+                         <figcaption>
+                              <h4>Jodo Kast</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/LeiaBoushhDisguise.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LeiaBoushhDisguise" alt="Leia Boushh Disguise"></a>
+                         <figcaption>
+                              <h4>Leia Boushh Disguise</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SandtrooperHeavyBlaster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SandtrooperHeavyBlaster" alt="Sandtrooper Heavy Blaster"></a>
+                         <figcaption>
+                              <h4>Sandtrooper With Heavy Blaster</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Scorch.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Scorch" alt="Scorch"></a>
+                         <figcaption>
+                              <h4>Scorch</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/StormtrooperHeavyCannon.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite StormtrooperHeavyCannon" alt="Stormtrooper Heavy Cannon"></a>
+                         <figcaption>
+                              <h4>Stormtrooper With Heavy Cannon</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Gundam</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/GP02A.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GP02A" alt="GP02A"></a>						
-					<p>
-						GP02A<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/RGC83GmCannon2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RGC83GmCannon2" alt="RGC 83 Gm Cannon 2"></a>						
-					<p>
-						RGC-83 GM Cannon 2<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/RGM79gGM.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RGM79gGM" alt="RGM 79g GM"></a>					
-					<p>
-						RGM-79G GM<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Rgm79GmAndBall.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rgm79GmAndBall" alt="Rgm 79 Gm And Ball"></a>						
-					<p>
-						RGM-79GM and RB-79 Ball<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/Rgm79nGmCustom.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rgm79nGmCustom" alt="Rgm 79n Gm Custom"></a>						
-					<p>
-						RGM-79N GM Custom<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Rx79g.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rx79g" alt="Rx 79g"></a>						
-					<p>
-						RX-79G<br>
-
-					</p>						
-				</div>
+               <figure class="tag">Gundam</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/GP02A.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GP02A" alt="GP02A"></a>
+                         <figcaption>
+                              <h4>GP02A</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/RGC83GmCannon2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RGC83GmCannon2" alt="RGC 83 Gm Cannon 2"></a>
+                         <figcaption>
+                              <h4>RGC-83 GM Cannon 2</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/RGM79gGM.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RGM79gGM" alt="RGM 79g GM"></a>
+                         <figcaption>
+                              <h4>RGM-79G GM</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Rgm79GmAndBall.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rgm79GmAndBall" alt="Rgm 79 Gm And Ball"></a>
+                         <figcaption>
+                              <h4>RGM-79GM and RB-79 Ball</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Rgm79nGmCustom.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rgm79nGmCustom" alt="Rgm 79n Gm Custom"></a>
+                         <figcaption>
+                              <h4>RGM-79N GM Custom</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Rx79g.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Rx79g" alt="Rx 79g"></a>
+                         <figcaption>
+                              <h4>RX-79G</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Iron Man</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/ClassicArmorIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ClassicArmorIronMan" alt="Classic Armor Iron Man"></a>						
-					<p>
-						Classic Armor Iron Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/CrimsonDynamo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CrimsonDynamo" alt="Crimson Dynamo"></a>						
-					<p>
-						Crimson Dynamo<br>
-						Iron Man 2
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/ExtremisArmorIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ExtremisArmorIronMan" alt="Extremis Armor Iron Man"></a>						
-					<p>
-						Extremis Armor Iron Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/HeroesRebornIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HeroesRebornIronMan" alt="Heroes Reborn Iron Man"></a>						
-					<p>
-						Heroes Reborn Iron Man<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/HulkbusterIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HulkbusterIronMan" alt="Hulkbuster Iron Man"></a>						
-					<p>
-						Hulkbuster Iron Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManIcons.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManIcons" alt="Iron Man Icons"></a>						
-					<p>
-						Iron Man Icons<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManMark3Armor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManMark3Armor" alt="Iron Man Mark 3 Armor"></a>						
-					<p>
-						Iron Man Mark 3 Armor<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManMark3Armor6in.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManMark3Armor6in" alt="IronManMark3Armor6in"></a>						
-					<p>
-						Iron Man Mark 3 Armor 6-inch<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/IronManModernArmor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManModernArmor" alt="Iron Man Modern Armor"></a>						
-					<p>
-						Iron Man Modern Armor<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManRepulsorPower.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManRepulsorPower" alt="Iron Man Repulsor Power"></a>						
-					<p>
-						Iron Man Repulsor Power<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManShapeShifters.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManShapeShifters" alt="Iron Man Shape Shifters"></a>						
-					<p>
-						Iron Man Shape Shifters<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManSilverCenturionArmor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManSilverCenturionArmor" alt="Iron Man Silver Centurion Armor"></a>						
-					<p>
-						Iron Man Silver Centurion Armor<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/IronManThorbuster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManThorbuster" alt="Iron Man Thorbuster"></a>						
-					<p>
-						Iron Man Thorbuster<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManVsMandarin.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManVsMandarin" alt="Iron Man Vs Mandarin"></a>						
-					<p>
-						Iron Man Vs Mandarin<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/UltimateIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite UltimateIronMan" alt="Ultimate Iron Man"></a>						
-					<p>
-						Ultimate Iron Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/UltimateIronManAnnihSeries.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite UltimateIronManAnnihSeries" alt="UltimateIronManAnnihSeries"></a>						
-					<p>
-						Ultimate Iron Man<br>
-						Annihilus Series
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/WarMachineGalSeries.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite WarMachineGalSeries" alt="War Machine Gal Series"></a>						
-					<p>
-						War Machine<br>
-						Galactus Series
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/WarMachineIM2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite WarMachineIM2" alt="War Machine IM 2"></a>						
-					<p>
-						War Machine<br>
-						Iron Man 2
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/ToyBizIronManSpace.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ToyBizIronManSpace" alt="Toy Biz Iron Man Space"></a>						
-					<p>
-						Iron Man Deep Space<br>
-						Marvel Universe 10 inch
-					</p>						
-				</div>
+               <figure class="tag">Iron Man</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/ClassicArmorIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ClassicArmorIronMan" alt="Classic Armor Iron Man"></a>	
+                         <figcaption>
+                              <h4>Classic Armor Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/CrimsonDynamo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CrimsonDynamo" alt="Crimson Dynamo"></a>						
+                         <figcaption>
+                              <h4>Crimson Dynamo</h4>
+                              <p>Iron Man 2</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/ExtremisArmorIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ExtremisArmorIronMan" alt="Extremis Armor Iron Man"></a>
+                         <figcaption>
+                              <h4>Extremis Armor Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/HeroesRebornIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HeroesRebornIronMan" alt="Heroes Reborn Iron Man"></a>
+                         <figcaption>
+                              <h4>Heroes Reborn Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/HulkbusterIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HulkbusterIronMan" alt="Hulkbuster Iron Man"></a>
+                         <figcaption>
+                              <h4>Hulkbuster Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManIcons.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManIcons" alt="Iron Man Icons"></a>						
+                         <figcaption>
+                              <h4>Iron Man Icons</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManMark3Armor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManMark3Armor" alt="Iron Man Mark 3 Armor"></a>
+                         <figcaption>
+                              <h4>Iron Man Mark 3 Armor</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManMark3Armor6in.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManMark3Armor6in" alt="IronManMark3Armor6in"></a>
+                         <figcaption>
+                              <h4>Iron Man Mark 3 Armor 6-inch</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManModernArmor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManModernArmor" alt="Iron Man Modern Armor"></a>
+                         <figcaption>
+                              <h4>Iron Man Modern Armor</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManRepulsorPower.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManRepulsorPower" alt="Iron Man Repulsor Power"></a>	
+                         <figcaption>
+                              <h4>Iron Man Repulsor Power</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManShapeShifters.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManShapeShifters" alt="Iron Man Shape Shifters"></a>
+                         <figcaption>
+                              <h4>Iron Man Shape Shifters</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManSilverCenturionArmor.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManSilverCenturionArmor" alt="Iron Man Silver Centurion Armor"></a>
+                         <figcaption>
+                              <h4>Iron Man Silver Centurion Armor</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManThorbuster.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManThorbuster" alt="Iron Man Thorbuster"></a>
+                         <figcaption>
+                              <h4>Iron Man Thorbuster</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManVsMandarin.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManVsMandarin" alt="Iron Man Vs Mandarin"></a>
+                         <figcaption>
+                              <h4>Iron Man Vs Mandarin</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/UltimateIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite UltimateIronMan" alt="Ultimate Iron Man"></a>
+                         <figcaption>
+                              <h4>Ultimate Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/UltimateIronManAnnihSeries.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite UltimateIronManAnnihSeries" alt="UltimateIronManAnnihSeries"></a>
+                         <figcaption>
+                              <h4>Ultimate Iron Man</h4>
+                              <p>Annihilus Series</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/WarMachineGalSeries.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite WarMachineGalSeries" alt="War Machine Gal Series"></a>
+                         <figcaption>
+                              <h4>War Machine</h4>
+                              <p>Galactus Series</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/WarMachineIM2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite WarMachineIM2" alt="War Machine IM 2"></a>
+                         <figcaption>
+                              <h4>War Machine</h4>
+                              <p>Iron Man 2</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/ToyBizIronManSpace.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ToyBizIronManSpace" alt="Toy Biz Iron Man Space"></a>
+                         <figcaption>
+                              <h4>Iron Man Deep Space</h4>
+                              <p>Marvel Universe 10 inch</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Batman</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/BattleGearBatman.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattleGearBatman" alt="Battle Gear Batman"></a>						
-					<p>
-						Battle Gear Batman<br>
-						Batman Begins
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/NinjaBruceToBatman.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite NinjaBruceToBatman" alt="NinjaBruceToBatman"></a>						
-					<p>
-						Ninja Bruce To Batman<br>
-						Batman Begins
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Scarecrow.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Scarecrow" alt="Scarecrow"></a>						
-					<p>
-						Scarecrow<br>
-						Batman Begins
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Tumbler.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Tumbler" alt="Tumbler"></a>						
-					<p>
-						Tumbler<br>
-						Batman Begins
-					</p>						
-				</div>
+               <figure class="tag">Batman</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/BattleGearBatman.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattleGearBatman" alt="Battle Gear Batman"></a>
+                         <figcaption>
+                              <h4>Battle Gear Batman</h4>
+                              <p>Batman Begins</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/NinjaBruceToBatman.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite NinjaBruceToBatman" alt="NinjaBruceToBatman"></a>
+                         <figcaption>
+                              <h4>Ninja Bruce To Batman</h4>
+                              <p>Batman Begins</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Scarecrow.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Scarecrow" alt="Scarecrow"></a>
+                         <figcaption>
+                              <h4>Scarecrow</h4>
+                              <p>Batman Begins</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Tumbler.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Tumbler" alt="Tumbler"></a>
+                         <figcaption>
+                              <h4>Tumbler</h4>
+                              <p>Batman Begins</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Halo</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/CqbSpartanSoldier.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CqbSpartanSoldier" alt="Cqb Spartan Soldier"></a>						
-					<p>
-						CQB Spartan Soldier<br>
-						Halo 3
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/HaloReachBoxSet.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HaloReachBoxSet" alt="Halo Reach Box Set"></a>						
-					<p>
-						Halo Reach Box Set<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MasterChiefH2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MasterChiefH2" alt="Master Chief H2"></a>						
-					<p>
-						Master Chief<br>
-						Halo 2
-					</p>						
-				</div>
+               <figure class="tag">Halo</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/CqbSpartanSoldier.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CqbSpartanSoldier" alt="Cqb Spartan Soldier"></a>
+                         <figcaption>
+                              <h4>CQB Spartan Soldier</h4>
+                              <p>Halo 3</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/HaloReachBoxSet.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HaloReachBoxSet" alt="Halo Reach Box Set"></a>
+                         <figcaption>
+                              <h4>Halo Reach Box Set</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MasterChiefH2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MasterChiefH2" alt="Master Chief H2"></a>
+                         <figcaption>
+                              <h4>Master Chief</h4>
+                              <p>Halo 2</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Spider-Man</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/AmazingSpiderMan18In.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AmazingSpiderMan18In" alt="Amazing Spider Man 18 In"></a>						
-					<p>
-						Amazing Spider-Man 18-inch<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/BattleRavagedSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattleRavagedSpiderMan" alt="Battle Ravaged Spider Man"></a>						
-					<p>
-						Battle Ravaged Spider-Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/BlackSuitSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BlackSuitSpiderMan" alt="Black Suit Spider Man"></a>						
-					<p>
-						Black Suit<br>
-						Spider-Man Classics
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/CyberSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CyberSpiderMan" alt="Cyber Spider Man"></a>						
-					<p>
-						Cyber Spider-Man<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/SpiderManBumpNgoCycle.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManBumpNgoCycle" alt="Spider Man Bump N go Cycle"></a>						
-					<p>
-						Spider-Man Bump-N-go Cycle<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/SuperPosableSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SuperPosableSpiderMan" alt="Super Posable Spider Man"></a>						
-					<p>
-						Super-Posable Spider-Man<br>
-						Spider-Man Movie
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/SuperPosableSpiderMan2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SuperPosableSpiderMan2" alt="SuperPosableSpiderMan2"></a>						
-					<p>
-						Super-Posable Spider-Man<br>
-						Spider-Man 2 Movie
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Venom.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Venom" alt="Venom"></a>						
-					<p>
-						Venom<br>
-						Spider-Man Classics
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/SpiderMan2099.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderMan2099" alt="Spider Man 2099"></a>						
-					<p>
-						Spider-Man 2099<br>
-						Spider-Man Origins
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/SpiderManSpark.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManSpark" alt="Spider Man Spark"></a>						
-					<p>
-						Steel Shock Spider-Man<br>
-						Spider-Man Electro Spark
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/ToybizSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ToybizSpiderMan" alt="Toy biz Spider Man"></a>						
-					<p>
-						War Armor Spider-Man<br>
-						Marvel Universe 10 inch
-					</p>						
-				</div>
+               <figure class="tag">Spider-Man</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/AmazingSpiderMan18In.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AmazingSpiderMan18In" alt="Amazing Spider Man 18 In"></a>	
+                         <figcaption>
+                              <h4>Amazing Spider-Man 18-inch</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/BattleRavagedSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattleRavagedSpiderMan" alt="Battle Ravaged Spider Man"></a>
+                         <figcaption>
+                              <h4>Battle Ravaged Spider-Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/BlackSuitSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BlackSuitSpiderMan" alt="Black Suit Spider Man"></a>
+                         <figcaption>
+                              <h4>Black Suit</h4>
+                              <p>Spider-Man Classics</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/CyberSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CyberSpiderMan" alt="Cyber Spider Man"></a>
+                         <figcaption>
+                              <h4>Cyber Spider-Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SpiderManBumpNgoCycle.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManBumpNgoCycle" alt="Spider Man Bump N go Cycle"></a>
+                         <figcaption>
+                              <h4>Spider-Man Bump-N-go Cycle</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SuperPosableSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SuperPosableSpiderMan" alt="Super Posable Spider Man"></a>
+                         <figcaption>
+                              <h4>Super-Posable Spider-Man</h4>
+                              <p>Spider-Man Movie</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SuperPosableSpiderMan2.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SuperPosableSpiderMan2" alt="SuperPosableSpiderMan2"></a>
+                         <figcaption>
+                              <h4>Super-Posable Spider-Man</h4>
+                              <p>Spider-Man 2 Movie</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Venom.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Venom" alt="Venom"></a>
+                         <figcaption>
+                              <h4>Venom</h4>
+                              <p>Spider-Man Classics</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/SpiderMan2099.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderMan2099" alt="Spider Man 2099"></a>
+                         <figcaption>
+                              <h4>Spider-Man 2099</h4>
+                              <p>Spider-Man Origins</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/SpiderManSpark.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManSpark" alt="Spider Man Spark"></a>
+                         <figcaption>
+                              <h4>Steel Shock Spider-Man</h4>
+                              <p>Spider-Man Electro Spark</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/ToybizSpiderMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ToybizSpiderMan" alt="Toy biz Spider Man"></a>
+                         <figcaption>
+                              <h4>War Armor Spider-Man</h4>
+                              <p>Marvel Universe 10 inch</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Transformers</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/GrimlockAnimated.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockAnimated" alt="Grimlock Animated"></a>						
-					<p>
-						Grimlock Animated<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/GrimlockClassicDeluxe.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockClassicDeluxe" alt="GrimlockClassicDeluxe"></a>						
-					<p>
-						Grimlock Classic Deluxe<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/GrimlockFallOfCybertron.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockFallOfCybertron" alt="GrimlockFallOfCybertron"></a>						
-					<p>
-						Grimlock Fall Of Cybertron<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/GrimlockTransformersAnimated.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockTransformersAnimated" alt="Grimlock Transformers Animated"></a>						
-					<p>
-						Grimlock Transformers Animated<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/JangoFettSlaveOne.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JangoFettSlaveOne" alt="Jango Fett Slave One"></a>						
-					<p>
-						Jango Fett Slave One<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/OptimusPrime1stMovie.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime1stMovie" alt="Optimus Prime 1st Movie"></a>						
-					<p>
-						Optimus Prime 1st Movie<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/OptimusPrime20Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime20Anniv" alt="Optimus Prime 20 Anniv"></a>						
-					<p>
-						Optimus Prime 20th Anniv<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/OptimusPrime20AnnivDvdEd.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime20AnnivDvdEd" alt="Optimus Prime 20 Anniv Dvd Ed"></a>						
-					<p>
-						Optimus Prime 20th Anniv Dvd Ed<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/OptimusPrimeG1_25Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrimeG1_25Anniv" alt="Optimus Prime G1 25 Anniv"></a>						
-					<p>
-						Optimus Prime G1 25 Anniv<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Ricochet.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ricochet" alt="Ricochet"></a>						
-					<p>
-						Ricochet<br>
-
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/BlasterG1.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BlasterG1" alt="Blaster G1"></a>						
-					<p>
-						Blaster<br>
-						Transformers G1
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/PolarClawBeastWars.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite PolarClawBeastWars" alt="Polar Claw Beast Wars"></a>						
-					<p>
-						Polar Claw<br>
-						Transformers Beast Wars
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/PoliceTransformer2001.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite PoliceTransformer2001" alt="Police Transformer 2001"></a>						
-					<p>
-						Prowl 2?, or Kay bee Prowl?<br>
-						Transformers Universe
-					</p>						
-				</div>
+               <figure class="tag">Transformers</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/GrimlockAnimated.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockAnimated" alt="Grimlock Animated"></a>
+                         <figcaption>
+                              <h4>Grimlock Animated</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/GrimlockClassicDeluxe.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockClassicDeluxe" alt="GrimlockClassicDeluxe"></a>
+                         <figcaption>
+                              <h4>Grimlock Classic Deluxe</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/GrimlockFallOfCybertron.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockFallOfCybertron" alt="GrimlockFallOfCybertron"></a>
+                         <figcaption>
+                              <h4>Grimlock Fall Of Cybertron</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/GrimlockTransformersAnimated.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GrimlockTransformersAnimated" alt="Grimlock Transformers Animated"></a>	
+                         <figcaption>
+                              <h4>Grimlock Transformers Animated</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/JangoFettSlaveOne.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JangoFettSlaveOne" alt="Jango Fett Slave One"></a>	
+                         <figcaption>
+                              <h4>Jango Fett Slave One</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/OptimusPrime1stMovie.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime1stMovie" alt="Optimus Prime 1st Movie"></a>
+                         <figcaption>
+                              <h4>Optimus Prime 1st Movie</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/OptimusPrime20Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime20Anniv" alt="Optimus Prime 20 Anniv"></a>
+                         <figcaption>
+                              <h4>Optimus Prime 20th Anniv</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/OptimusPrime20AnnivDvdEd.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrime20AnnivDvdEd" alt="Optimus Prime 20 Anniv Dvd Ed"></a>
+                         <figcaption>
+                              <h4>Optimus Prime 20th Anniv Dvd Ed</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/OptimusPrimeG1_25Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite OptimusPrimeG1_25Anniv" alt="Optimus Prime G1 25 Anniv"></a>
+                         <figcaption>
+                              <h4>Optimus Prime G1 25 Anniv</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Ricochet.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ricochet" alt="Ricochet"></a>
+                         <figcaption>
+                              <h4>Ricochet</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/BlasterG1.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BlasterG1" alt="Blaster G1"></a>
+                         <figcaption>
+                              <h4>Blaster</h4>
+                              <p>Transformers G1</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/PolarClawBeastWars.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite PolarClawBeastWars" alt="Polar Claw Beast Wars"></a>
+                         <figcaption>
+                              <h4>Polar Claw</h4>
+                              <p>Transformers Beast Wars</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/PoliceTransformer2001.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite PoliceTransformer2001" alt="Police Transformer 2001"></a>
+                         <figcaption>
+                              <h4>Prowl 2?, or Kay bee Prowl?</h4>
+                              <p>Transformers Universe</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Other Game Toys</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/Alcatraz.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Alcatraz" alt="Alcatraz"></a>						
-					<p>
-						Alcatraz<br>
-						Crysis 2
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/AlienAndPredator.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AlienAndPredator" alt="Alien And Predator"></a>						
-					<p>
-						Alien And Predator<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/AlienQueen.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AlienQueen" alt="Alien Queen"></a>						
-					<p>
-						Alien Queen<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Cell.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Cell" alt="Cell"></a>						
-					<p>
-						CELL<br>
-						Crysis 2
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/Ezio.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ezio" alt="Ezio"></a>						
-					<p>
-						Ezio<br>
-						Assassin's Creed
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MarcusFenix.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MarcusFenix" alt="Marcus Fenix"></a>						
-					<p>
-						Marcus Fenix<br>
-						Gears of War
-					</p>						
-				</div>
+               <figure class="tag">Other Game Toys</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/Alcatraz.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Alcatraz" alt="Alcatraz"></a>	
+                         <figcaption>
+                              <h4>Alcatraz</h4>
+                              <p>Crysis 2</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/AlienAndPredator.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AlienAndPredator" alt="Alien And Predator"></a>
+                         <figcaption>
+                              <h4>Alien And Predator</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/AlienQueen.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AlienQueen" alt="Alien Queen"></a>
+                         <figcaption>
+                              <h4>Alien Queen</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Cell.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Cell" alt="Cell"></a>
+                         <figcaption>
+                              <h4>CELL</h4>
+                              <p>Crysis 2</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Ezio.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ezio" alt="Ezio"></a>
+                         <figcaption>
+                              <h4>Ezio</h4>
+                              <p>Assassin's Creed</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MarcusFenix.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MarcusFenix" alt="Marcus Fenix"></a>	
+                         <figcaption>
+                              <h4>Marcus Fenix</h4>
+                              <p>1/144Gears of War</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Vehicles</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/Ford2005Gt.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ford2005Gt" alt="2005 Ford Gt"></a>						
-					<p>
-						2005 Ford GT<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/BttfTimeMachine.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BttfTimeMachine" alt="Bttf Time Machine"></a>						
-					<p>
-						Back To The Future Time Machine<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/CustomCorvette.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CustomCorvette" alt="Custom Corvette"></a>						
-					<p>
-						Custom Corvette<br>
-						Junkman
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/DaredevilP61BlackWidow.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DaredevilP61BlackWidow" alt="Daredevil P61 Black Widow"></a>						
-					<p>
-						P61 Black Widow<br>
-						Daredevil
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/DeloreanDmc12.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeloreanDmc12" alt="Delorean Dmc 12"></a>						
-					<p>
-						1981 Delorean DMC12<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/DeloreanDmc12Black.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeloreanDmc12Black" alt="Delorean Dmc 12 Black"></a>						
-					<p>
-						1981 Delorean DMC12 Black<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/DodgeChallengerDriftCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DodgeChallengerDriftCar" alt="Dodge Challenger Drift Car"></a>						
-					<p>
-						Dodge Challenger Drift Car<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/F1Racer.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite F1Racer" alt="F1 Racer"></a>						
-					<p>
-						F1 Racer<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/Ferrari330P4.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ferrari330P4" alt="Ferrari 330 P4"></a>						
-					<p>
-						Ferrari 330 P4<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/FerrariF430Spider.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite FerrariF430Spider" alt="Ferrari F430 Spider"></a>						
-					<p>
-						Ferrari F430 Spider<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/FordGtLm.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite FordGtLm" alt="Ford Gt Lm"></a>						
-					<p>
-						Ford GT LM<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/GhostRiderConceptCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GhostRiderConceptCar" alt="Ghost Rider Concept Car"></a>						
-					<p>
-						Concept Car<br>
-						Ghost Rider
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/GP2009.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GP2009" alt="GP 2009"></a>						
-					<p>
-						GP 2009<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManTerradyne.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTerradyne" alt="Iron Man Terradyne"></a>						
-					<p>
-						GMC Terradyne<br>
-						Iron Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManTomcat.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTomcat" alt="Iron Man Tomcat"></a>						
-					<p>
-						F-14 Tomcat<br>
-						Iron Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/IronManTriumphDaytona955i.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTriumphDaytona955i" alt="Iron Man Triumph Daytona 955i"></a>						
-					<p>
-						Triumph Daytona 955i<br>
-						Iron Man
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/JurrasicParkNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JurrasicParkNascar" alt="Jurrasic Park Nascar"></a>						
-					<p>
-						Jurrasic Park Nascar<br>
-						Jeff Gordon
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/LamborginiGallardo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LamborginiGallardo" alt="Lamborgini Gallardor"></a>						
-					<p>
-						Lamborgini Gallardo<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/LeadfootIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LeadfootIronMan" alt="Leadfoot Iron Man"></a>						
-					<p>
-						Leadfootn<br>
-						Iron Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MandMsCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MandMsCar" alt="M and Ms Car"></a>						
-					<p>
-						M&amp;Ms Rebel Without A Clue<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/MazdaFurai.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MazdaFurai" alt="Mazda Furai"></a>						
-					<p>
-						Mazda Furai<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MonopolyNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MonopolyNascar" alt="Monopoly Nascar"></a>						
-					<p>
-						Monopoly Nascar<br>
-						Bill Elliott
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MonsterTruckIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MonsterTruckIronMan" alt="Monster Truck Iron Man"></a>						
-					<p>
-						Monster Truck<br>
-						Iron Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MoversAndHaulersIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MoversAndHaulersIronMan" alt="Movers And Haulers Iron Man"></a>						
-					<p>
-						Movers And Haulers<br>
-						Iron Man
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/RileyAndScottMkIII.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RileyAndScottMkIII" alt="Riley And Scott Mk III"></a>						
-					<p>
-						Riley And Scott Mk III<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/SkittlesNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SkittlesNascar" alt="Skittles Nascar"></a>						
-					<p>
-						Skittles Nascar<br>
-						Derrike Cope
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/SpiderManFightingFalcon.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManFightingFalcon" alt="Spider Man Fighting Falcon"></a>						
-					<p>
-						F-16 Fighting Falcon<br>
-						Spider-Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/ThunderbatNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ThunderbatNascar" alt="Thunderbat Nascar"></a>						
-					<p>
-						Thunderbat Nascar<br>
-						Bill Elliott
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/MuscleMachinesFord2002Funline.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MuscleMachinesFord2002Funline" alt="Muscle Machines Ford 2002 Funline"></a>						
-					<p>
-						Muscle Machines Ford Mercury<br>
-						1/64
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/MuscleMachinesFord2002FunlineBig.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MuscleMachinesFord2002FunlineBig" alt="MuscleMachinesFord2002FunlineBig"></a>						
-					<p>
-						Muscle Machines Ford Mercury<br>
-						1/18
-					</p>						
-				</div>
+               <figure class="tag">Vehicles</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/Ford2005Gt.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ford2005Gt" alt="2005 Ford Gt"></a>
+                         <figcaption>
+                              <h4>2005 Ford GT</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/BttfTimeMachine.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BttfTimeMachine" alt="Bttf Time Machine"></a>
+                         <figcaption>
+                              <h4>Back To The Future Time Machine</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/CustomCorvette.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite CustomCorvette" alt="Custom Corvette"></a>
+                         <figcaption>
+                              <h4>Custom Corvette</h4>
+                              <p>Junkman</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DaredevilP61BlackWidow.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DaredevilP61BlackWidow" alt="Daredevil P61 Black Widow"></a>
+                         <figcaption>
+                              <h4>P61 Black Widow</h4>
+                              <p>Daredevil</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DeloreanDmc12.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeloreanDmc12" alt="Delorean Dmc 12"></a>
+                         <figcaption>
+                              <h4>1981 Delorean DMC12</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DeloreanDmc12Black.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DeloreanDmc12Black" alt="Delorean Dmc 12 Black"></a>
+                         <figcaption>
+                              <h4>1981 Delorean DMC12 Black</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DodgeChallengerDriftCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DodgeChallengerDriftCar" alt="Dodge Challenger Drift Car"></a>
+                         <figcaption>
+                              <h4>Dodge Challenger Drift Car</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/F1Racer.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite F1Racer" alt="F1 Racer"></a>
+                         <figcaption>
+                              <h4>F1 Racer</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Ferrari330P4.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Ferrari330P4" alt="Ferrari 330 P4"></a>
+                         <figcaption>
+                              <h4>Ferrari 330 P4</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/FerrariF430Spider.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite FerrariF430Spider" alt="Ferrari F430 Spider"></a>
+                         <figcaption>
+                              <h4>Ferrari F430 Spider</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/FordGtLm.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite FordGtLm" alt="Ford Gt Lm"></a>
+                         <figcaption>
+                              <h4>Ford GT LM</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/GhostRiderConceptCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GhostRiderConceptCar" alt="Ghost Rider Concept Car"></a>
+                         <figcaption>
+                              <h4>Concept Car</h4>
+                              <p>Ghost Rider</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/GP2009.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite GP2009" alt="GP 2009"></a>
+                         <figcaption>
+                              <h4>GP 2009</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManTerradyne.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTerradyne" alt="Iron Man Terradyne"></a>
+                         <figcaption>
+                              <h4>GMC Terradyne</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManTomcat.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTomcat" alt="Iron Man Tomcat"></a>
+                         <figcaption>
+                              <h4>F-14 Tomcat</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/IronManTriumphDaytona955i.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite IronManTriumphDaytona955i" alt="Iron Man Triumph Daytona 955i"></a>	
+                         <figcaption>
+                              <h4>Triumph Daytona 955i</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/JurrasicParkNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite JurrasicParkNascar" alt="Jurrasic Park Nascar"></a>
+                         <figcaption>
+                              <h4>Jurrasic Park Nascar</h4>
+                              <p>Jeff Gordon</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/LamborginiGallardo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LamborginiGallardo" alt="Lamborgini Gallardor"></a>
+                         <figcaption>
+                              <h4>Lamborgini Gallardo</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/LeadfootIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LeadfootIronMan" alt="Leadfoot Iron Man"></a>
+                         <figcaption>
+                              <h4>Leadfoot</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MandMsCar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MandMsCar" alt="M and Ms Car"></a>
+                         <figcaption>
+                              <h4>M&amp;Ms Rebel Without A Clue</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MazdaFurai.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MazdaFurai" alt="Mazda Furai"></a>
+                         <figcaption>
+                              <h4>Mazda Furai</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MonopolyNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MonopolyNascar" alt="Monopoly Nascar"></a>
+                         <figcaption>
+                              <h4>Monopoly Nascar</h4>
+                              <p>Bill Elliott</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MonsterTruckIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MonsterTruckIronMan" alt="Monster Truck Iron Man"></a>
+                         <figcaption>
+                              <h4>Monster Truck</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MoversAndHaulersIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MoversAndHaulersIronMan" alt="Movers And Haulers Iron Man"></a>
+                         <figcaption>
+                              <h4>Movers And Haulers</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/RileyAndScottMkIII.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RileyAndScottMkIII" alt="Riley And Scott Mk III"></a>
+                         <figcaption>
+                              <h4>Riley And Scott Mk III</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SkittlesNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SkittlesNascar" alt="Skittles Nascar"></a>
+                         <figcaption>
+                              <h4>Skittles Nascar</h4>
+                              <p>Derrike Cope</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SpiderManFightingFalcon.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManFightingFalcon" alt="Spider Man Fighting Falcon"></a>
+                         <figcaption>
+                              <h4>F-16 Fighting Falcon</h4>
+                              <p>Spider-Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/ThunderbatNascar.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ThunderbatNascar" alt="Thunderbat Nascar"></a>
+                         <figcaption>
+                              <h4>Thunderbat Nascar</h4>
+                              <p>Bill Elliott</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/MuscleMachinesFord2002Funline.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MuscleMachinesFord2002Funline" alt="Muscle Machines Ford 2002 Funline"></a>
+                         <figcaption>
+                              <h4>Muscle Machines Ford Mercury</h4>
+                              <p>1/64</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/MuscleMachinesFord2002FunlineBig.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MuscleMachinesFord2002FunlineBig" alt="MuscleMachinesFord2002FunlineBig"></a>
+                         <figcaption>
+                              <h4>Muscle Machines Ford Mercury</h4>
+                              <p>1/18</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Misc</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/AvengersAdvMandarin.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AvengersAdvMandarin" alt="Advengers Adv Mandarin"></a>						
-					<p>
-						Avengers Adversaries Mandarin<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/AvengersAdvIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AvengersAdvIronMan" alt="Avengers Adv Iron Man"></a>						
-					<p>
-						Avengers Adversaries Iron Man<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/DukeVsCobraCommander.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DukeVsCobraCommander" alt="Duke Vs Cobra Commander"></a>						
-					<p>
-						Duke Vs Cobra Commander<br>
-						G.I. Joe
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Halo3LegendaryEdition.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Halo3LegendaryEdition" alt="Halo 3 Legendary Edition"></a>						
-					<p>
-						Halo 3 Legendary Edition<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/HaloReachLegendaryEdition.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HaloReachLegendaryEdition" alt="Halo Reach Legendary Edition"></a>						
-					<p>
-						Halo Reach Legendary Edition<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/MindstormsNXT.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MindstormsNXT" alt="Mindstorms NXT"></a>						
-					<p>
-						Mindstorms NXT<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/RetroAndClassicArmorStatues.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RetroAndClassicArmorStatues" alt="RetroAndClassicArmorStatues"></a>						
-					<p>
-						Retro And Classic Armor Statues<br>
-						Iron Man
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/RoadDog.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RoadDog" alt="Road Dog"></a>						
-					<p>
-						Road Dog<br>
-						WWF
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/Sable.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Sable" alt="Sable"></a>						
-					<p>
-						Sable<br>
-						WWF
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/ShadowHawk10Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ShadowHawk10Anniv" alt="ShadowHawk 10 Anniv"></a>						
-					<p>
-						ShadowHawk 10th Anniv<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Spawn.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Spawn" alt="Spawn"></a>						
-					<p>
-						Spawn<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Spawn10Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Spawn10Anniv" alt="Spawn 10 Anniv"></a>						
-					<p>
-						Spawn 10th Anniv<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/SpiderManLunchBox.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManLunchBox" alt="SpiderMan LunchBox"></a>						
-					<p>
-						Spider-Man Lunch Box<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/T800EndoSkeleton.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite T800EndoSkeleton" alt="T800 Endo Skeleton"></a>						
-					<p>
-						T-800 Endo Skeleton<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/TransformersLunchBox.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite TransformersLunchBox" alt="Transformers Lunch Box"></a>					
-					<p>
-						Transformers Lunch Box<br>
-
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/BattletechBushwhacker.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattletechBushwhacker" alt="Battletech Bushwhacker"></a>						
-					<p>
-						Battletech Bushwhacker<br>
-						Tyco
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/BattletechAxMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattletechAxMan" alt="Battletech AxMan"></a>						
-					<p>
-						Battletech Ax Man<br>
-						Tyco
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/Cyclops1991ToyBiz.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Cyclops1991ToyBiz" alt="Cyclops 1991 Toy Biz"></a>						
-					<p>
-						Cyclops<br>
-						Uncanny X-Men ToyBiz
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/LostInSpaceBattleRavagedRobot.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceBattleRavagedRobot" alt="Lost In Space Battle Ravaged Robot"></a>						
-					<p>
-						Battle Ravaged Robot<br>
-						Lost In Space
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/LostInSpaceMajorWest.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceMajorWest" alt="Lost I nSpace Major West"></a>						
-					<p>
-						Major Don West<br>
-						Lost In Space
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/LostInSpaceRocketLauncherRobot.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceRocketLauncherRobot" alt="Lost In Space Rocket Launcher Robot"></a>						
-					<p>
-						Rocket Launcher Robot<br>
-						Lost In Space
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/LostInSpaceRobotBig.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceRobotBig" alt="Lost In Space Robot Big"></a>						
-					<p>
-						Robot with Lights and Sound<br>
-						Lost In Space
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/MarsDollarGeneral.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MarsDollarGeneral" alt="Mars Dollar General"></a>						
-					<p>
-						M.A.R.S. Heroes<br>
-
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/RobotechDestroidRadarX.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechDestroidRadarX" alt="Robotech Destroid Radar X"></a>						
-					<p>
-						Radar-X<br>
-						Robotech Destroid
-					</p>						
-                    </div>
-                    <div class="bs-has-problems">					
-					<a href="images/toys/RobotechDestroidExcalibur.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechDestroidExcalibur" alt="Robotech Destroid Excalibur"></a>						
-					<p>
-						Excalibur<br>
-						Robotech Destroid
-					</p>						
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/RobotechBattloidsSpartan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechBattloidsSpartan" alt="Robotech Battloids Spartan"></a>						
-					<p>
-						Spartan<br>
-						Robotech Battloids
-					</p>					
-				</div>
-				<div class="bs-has-problems">					
-					<a href="images/toys/ClownII.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ClownII" alt="Clown II"></a>						
-					<p>
-						Clown II<br>
-						Spawn
-					</p>						
-				</div>
+               <figure class="tag">Misc</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/AvengersAdvMandarin.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AvengersAdvMandarin" alt="Advengers Adv Mandarin"></a>
+                         <figcaption>
+                              <h4>Avengers Adversaries Mandarin</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/AvengersAdvIronMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite AvengersAdvIronMan" alt="Avengers Adv Iron Man"></a>
+                         <figcaption>
+                              <h4>Avengers Adversaries Iron Man</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DukeVsCobraCommander.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DukeVsCobraCommander" alt="Duke Vs Cobra Commander"></a>
+                         <figcaption>
+                              <h4>Duke Vs Cobra Commander</h4>
+                              <p>G.I. Joe</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Halo3LegendaryEdition.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Halo3LegendaryEdition" alt="Halo 3 Legendary Edition"></a>
+                         <figcaption>
+                              <h4>Halo 3 Legendary Edition</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/HaloReachLegendaryEdition.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite HaloReachLegendaryEdition" alt="Halo Reach Legendary Edition"></a>
+                         <figcaption>
+                              <h4>Halo Reach Legendary Edition</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/MindstormsNXT.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MindstormsNXT" alt="Mindstorms NXT"></a>
+                         <figcaption>
+                              <h4>Mindstorms NXT</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/RetroAndClassicArmorStatues.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RetroAndClassicArmorStatues" alt="RetroAndClassicArmorStatues"></a>
+                         <figcaption>
+                              <h4>Retro And Classic Armor Statues</h4>
+                              <p>Iron Man</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/RoadDog.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RoadDog" alt="Road Dog"></a>	
+                         <figcaption>
+                              <h4>Road Dog</h4>
+                              <p>WWF</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Sable.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Sable" alt="Sable"></a>
+                         <figcaption>
+                              <h4>Sable</h4>
+                              <p>WWF</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/ShadowHawk10Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ShadowHawk10Anniv" alt="ShadowHawk 10 Anniv"></a>
+                         <figcaption>
+                              <h4>ShadowHawk 10th Anniv</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Spawn.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Spawn" alt="Spawn"></a>
+                         <figcaption>
+                              <h4>Spawn</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Spawn10Anniv.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Spawn10Anniv" alt="Spawn 10 Anniv"></a>
+                         <figcaption>
+                              <h4>Spawn 10th Anniv</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/SpiderManLunchBox.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite SpiderManLunchBox" alt="SpiderMan LunchBox"></a>
+                         <figcaption>
+                              <h4>Spider-Man Lunch Box</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/T800EndoSkeleton.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite T800EndoSkeleton" alt="T800 Endo Skeleton"></a>
+                         <figcaption>
+                              <h4>T-800 Endo Skeleton</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/TransformersLunchBox.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite TransformersLunchBox" alt="Transformers Lunch Box"></a>
+                         <figcaption>
+                              <h4>Transformers Lunch Box</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/BattletechBushwhacker.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattletechBushwhacker" alt="Battletech Bushwhacker"></a>
+                         <figcaption>
+                              <h4>Battletech Bushwhacker</h4>
+                              <p>Tyco</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/BattletechAxMan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite BattletechAxMan" alt="Battletech AxMan"></a>
+                         <figcaption>
+                              <h4>Battletech Ax Man</h4>
+                              <p>Tyco</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/Cyclops1991ToyBiz.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Cyclops1991ToyBiz" alt="Cyclops 1991 Toy Biz"></a>	
+                         <figcaption>
+                              <h4>Cyclops</h4>
+                              <p>Uncanny X-Men ToyBiz</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/LostInSpaceBattleRavagedRobot.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceBattleRavagedRobot" alt="Lost In Space Battle Ravaged Robot"></a>
+                         <figcaption>
+                              <h4>Battle Ravaged Robot</h4>
+                              <p>Lost In Space</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/LostInSpaceMajorWest.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceMajorWest" alt="Lost I nSpace Major West"></a>	
+                         <figcaption>
+                              <h4>Major Don West</h4>
+                              <p>Lost In Space</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/LostInSpaceRocketLauncherRobot.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceRocketLauncherRobot" alt="Lost In Space Rocket Launcher Robot"></a>
+                         <figcaption>
+                              <h4>Rocket Launcher Robot</h4>
+                              <p>Lost In Space</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/LostInSpaceRobotBig.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite LostInSpaceRobotBig" alt="Lost In Space Robot Big"></a>
+                         <figcaption>
+                              <h4>Robot with Lights and Sound</h4>
+                              <p>Lost In Space</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/MarsDollarGeneral.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite MarsDollarGeneral" alt="Mars Dollar General"></a>
+                         <figcaption>
+                              <h4>M.A.R.S. Heroes</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/RobotechDestroidRadarX.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechDestroidRadarX" alt="Robotech Destroid Radar X"></a>	
+                         <figcaption>
+                              <h4>Radar-X</h4>
+                              <p>Robotech Destroid</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/RobotechDestroidExcalibur.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechDestroidExcalibur" alt="Robotech Destroid Excalibur"></a>
+                         <figcaption>
+                              <h4>Excalibur</h4>
+                              <p>Robotech Destroid</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/RobotechBattloidsSpartan.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite RobotechBattloidsSpartan" alt="Robotech Battloids Spartan"></a>
+                         <figcaption>
+                              <h4>Spartan</h4>
+                              <p>Robotech Battloids</p>
+                         </figcaption>
+                    </figure>
+                    <figure class="problems">
+                         <a href="images/toys/ClownII.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite ClownII" alt="Clown II"></a>
+                         <figcaption>
+                              <h4>Clown II</h4>
+                              <p>Spawn</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div><h2>Teenage Mutant Ninja Turtles</h2></div>
-               <div class="bs-gallery">
-                    <div>					
-					<a href="images/toys/Donatello.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Donatello" alt="Donatello"></a>						
-					<p>
-						Donatello<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/DontelloWindUp.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DontelloWindUp" alt="Dontello Wind Up"></a>						
-					<p>
-						Dontello Wind-Up-Walkin <br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Leonardo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Leonardo" alt="Leonardo"></a>						
-					<p>
-						Leonardo<br>
-
-					</p>						
-				</div>
-				<div>					
-					<a href="images/toys/Michelangelo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Michelangelo" alt="Michelangelo"></a>						
-					<p>
-						Michelangelo<br>
-
-					</p>						
-                    </div>
-                    <div>					
-					<a href="images/toys/Raphael.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Raphael" alt="Raphael"></a>						
-					<p>
-						Raphael<br>
-
-					</p>						
-				</div>
+               <figure class="tag">Teenage Mutant Ninja Turtles</figure>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/toys/Donatello.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Donatello" alt="Donatello"></a>	
+                         <figcaption>
+                              <h4>Donatello</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/DontelloWindUp.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite DontelloWindUp" alt="Dontello Wind Up"></a>	
+                         <figcaption>
+                              <h4>Dontello Wind-Up-Walkin</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Leonardo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Leonardo" alt="Leonardo"></a>
+                         <figcaption>
+                              <h4>Leonardo</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Michelangelo.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Michelangelo" alt="Michelangelo"></a>
+                         <figcaption>
+                              <h4>Michelangelo</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/toys/Raphael.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Raphael" alt="Raphael"></a>
+                         <figcaption>
+                              <h4>Raphael</h4>
+                              <p></p>
+                         </figcaption>
+                    </figure>
                </div>
-          </section>
-     </div> <!-- END Main Container -->
+          </section>     
+     </main> <!-- END Main Container -->
 
      <!-- To Top Button -->
-     <a class="bs-to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
-     
-     <!-- Background Grid -->
-	<div class="rj rj-bs-gridper bs-bg-grid"></div>
+     <a class="to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
 
-     <footer class="bs-bottom">
-          <ul class="bs-bar bs-container bs-footer-non-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i><span> Follow me</span></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i><span> Follow me</span></a></li>
-               <li><span class="bs-bar-item bs-hover-none">Britt Scott &copy; <cite>2008 - <span name="dynYear">0000</span></cite></span></li>
-               <li><span class="bs-bar-item bs-last-mod">Last Modified: <cite id="lastMod" onclick="bs.toggleShow('#menuExtras')"></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-desktop fas fa-desktop fa-lg"></b></li>
-               <li><b class="bs-bar-item bs-indicator-tablet fas fa-tablet-alt fa-lg"></b></li>
-          </ul>
-          <ul class="bs-bar bs-container bs-footer-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i></a></li>
-               <li><span class="bs-bar-item">Britt Scott &copy; <cite><span name="dynYear">0000</span></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-mobile fas fa-mobile-alt fa-lg"></b></li>
+     <footer>
+          <ul>
+               <li><span>Britt Scott</span> &copy; <cite>2008 - <cite class="dynYearElement">0000</cite></cite></li>
+               <li><span class="last-mod">Last Modified: <cite class="last-Mod-Element"></cite></span></li>
+               <li><b class="fas fa-desktop"></b><b class="fas fa-tablet-alt"></b><b class="fas fa-mobile-alt"></b></li>
           </ul>
      </footer> <!--END Footer -->
 
      <!-- JS -->
-     <script src="js/jquery.min.js"></script>
      <script src="js/bs-javascript.js"></script>
-     <!-- Menu Hightlight -->
-	<script type="text/javascript">
-          $(".bs-menu-Toys").addClass("bs-menu-dropdown-highlight");
-          $("#menuExtras").addClass("bs-menu-highlight");
-	</script>
+     <script>
+          menuToys.classList.add('menu-dropdown-highlight');// Desktop Menu Highlight
+     </script>
     
 </body>
 </html>

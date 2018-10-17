@@ -14,14 +14,8 @@ a:visited{
      color: none !important;
 }
 
-.#{$site-prefix}-container-bg a{
-     background: $secondary-color;
-     color: $white;
-     padding: 0.1rem 0.2rem;
-}
-
 ul{
-     list-style-type:none;
+     list-style-type: none;
 }
 
 // Base
@@ -31,14 +25,23 @@ html,body{
      line-height: #{$font-base-line-height};
 }
 html{
-     overflow-x:hidden;
+     overflow-x: hidden;
 }
 body{
      background-color: $dark-color;
-     margin-top: 2.5rem;
-     margin-bottom: 3rem;
+     margin-top: 3.25rem;
+     margin-bottom: 1rem;
 }
 
-h2{
-     @extend .#{$site-prefix}-tag;
+main{
+     max-width: #{$container-width};
+     margin: auto;
+     padding: 0.5rem 0 0.5rem 0;
+
+     background-color: $bg-opacity;
+     color: set-text-color($bg-opacity);
+
+     section{
+          padding: 1rem;
+     }
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0, user-scalable=0">    
+     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">    
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <meta name="description" content="Britt is interested in video game level design because it incorprates a little bit of everything that goes into making a game.">
 	<meta name="keywords" content="Britt, Scott, Britt Scott, brittscott, bscott, brittlscott, bls, artist, 3d, 3d artist, art, environment, envrionmental artist, level, designer, level designer, game, development, developer, game developer, game development, game dev">
@@ -12,177 +12,256 @@
      <!-- Thumbnails CSS -->
      <link rel="stylesheet" href="css/ThumbsLevels.css">
      <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
 
      <title>Images</title>
 </head>
 <body>
-     <header class="bs-top">
+     <header>
           <nav>
-               <ul class="bs-container bs-bar">
-                    <li>
-                         <a class="bs-mobile-btn" href="javascript:void(0);" onclick="bs.toggleShow('#mobileMenu')"><span class="fas fa-bars fa-2x"></span></a>
+               <ul class="main-menu">
+                    <li class="nav-title">Britt Scott</li>
+                    <li class="nav-logo">         
+                         <i class="rj rj-bs-grid"></i>
+                         <i class="rj rj-bs-block"></i>
+                         <i class="rj rj-bs-text"></i>
+                         <i class="rj rj-bs-outline"></i>
                     </li>
-                    <li class="bs-bar-item bs-nav-title">Britt Scott - Level Designer</li>
-                    <li class="bs-nav-logo fa-stack">         
-                         <i class="rj rj-bs-grid fa-stack-2x"></i>
-                         <i class="rj rj-bs-block fa-stack-2x"></i>
-                         <i class="rj rj-bs-text fa-stack-2x"></i>
-                         <i class="rj rj-bs-outline fa-stack-2x"></i>
-                    </li>
-                    <li><a class="bs-bar-item bs-menu-About" href="index.html">About</a></li>
-                    <li><a class="bs-bar-item bs-menu-Blog" href="blog.html">Blog</a></li>
-                    <li><a class="bs-bar-item bs-menu-Videos" href="videos.html">Videos</a></li>
-                    <li><a class="bs-bar-item bs-menu-Images" href="images.html">Images</a></li>
-                    <li class="bs-dropdown-hover" id="menuExtras">
+                    <li><a class="menu-About" href="index.html">About</a></li>
+                    <li><a class="menu-Blog" href="blog.html">Blog</a></li>
+                    <li><a class="menu-Videos" href="videos.html">Videos</a></li>
+                    <li><a class="menu-Images" href="images.html">Images</a></li>
+                    <li><a class="menu-Contact" href="contact.php">Contact</a></li>
+                    <li class="menu-Extras">
                          <a href="#">Extras <i class="fas fa-caret-down"></i> </a>
-                         <div class="bs-dropdown-content bs-card">
-                              <a class="bs-menu-Books" href="books.html">Books</a>
-                              <a class="bs-menu-Comics" href="comics.html">Comics</a>
-                              <a class="bs-menu-Games" href="games.html">Games</a>
-                              <a class="bs-menu-Models" href="models.html">Models</a>
-                              <a class="bs-menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
-                              <a class="bs-menu-Quotes" href="quotes.html">Quotes</a>
-                              <a class="bs-menu-Toys" href="toys.html">Toys</a>
+                         <div class="dropdown-content">
+                              <a class="menu-Books" href="books.html">Books</a>
+                              <a class="menu-Comics" href="comics.html">Comics</a>
+                              <a class="menu-Games" href="games.html">Games</a>
+                              <a class="menu-Models" href="models.html">Models</a>
+                              <a class="menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
+                              <a class="menu-Quotes" href="quotes.html">Quotes</a>
+                              <a class="menu-Toys" href="toys.html">Toys</a>
                          </div>
                     </li>
                </ul>
-               <div id="mobileMenu" class="bs-bar" style="display: none;">
-                    <a href="index.html" class="bs-mobile bs-menu-About">About</a>
-                    <a href="blog.html" class="bs-mobile bs-menu-Blog">Blog</a>
-                    <a href="videos.html" class="bs-mobile bs-menu-Videos">Videos</a>
-                    <a href="images.html" class="bs-mobile bs-menu-Images">Images</a>
+               <div class="mobile-menu">
+                    <a class="mobile-btn" href="#"><span class="fas fa-bars"></span></a>
+                    <div class="mobile-dropdown-content">
+                         <a href="index.html" class="menu-About">About</a>
+                         <a href="blog.html" class="menu-Blog">Blog</a>
+                         <a href="videos.html" class="menu-Videos">Videos</a>
+                         <a href="images.html" class="menu-Images">Images</a>
+                         <a href="contact.php" class="menu-Contact">Contact</a>
+                    </div>
                </div>
           </nav>
      </header> <!-- END Header -->
 
-     <div class="bs-container bs-container-bg bs-page-images">
-          <div class="bs-page-announce">
-               <h1 class="bs-center-txt"><span class="fas fa-images"></span> Images <span class="fas fa-images"></span></h1>
+     <main>
+          <div class="page-announce">
+               <h1><span class="fas fa-images"></span> Images <span class="fas fa-images"></span></h1>
           </div>
-
-          <h2><i class="rj rj-unreal"></i> Unreal <i class="rj rj-unreal"></i></h2>
-          <div class="bs-gallery">
-               <div>
-                    <a href="images/levels/Unreal-DmOutpost-Overview_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Overview" alt="DM Outpost Overview"></a>
-                    <p>DM-Outpost Overview - A view of my outpost mod made using Unreal Tournament 3. <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
-                         <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-                    </p>
+          <section class="page-images">
+               <h2><i class="rj rj-unreal"></i> Unreal <i class="rj rj-unreal"></i></h2>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/levels/Unreal-DmOutpost-Overview_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Overview" alt="DM Outpost Overview"></a>
+                         <figcaption>
+                              <h4>DM-Outpost Overview</h4>
+                              <p>A view of my outpost mod made using Unreal Tournament 3.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DmOutpost-Lava_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Lava" alt="DM Outpost Lava"></a>
+                         <figcaption>
+                              <h4>DM-Outpost Lava</h4>
+                              <p>A view of my outpost mod made using Unreal Tournament 3.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DmOutpost-Starport_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Starport" alt="DM Outpost Starport"></a>
+                         <figcaption>
+                              <h4>DM-Outpost Starport</h4>
+                              <p>A view of my outpost mod made using Unreal Tournament 3.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DmOutpost-ComCenter_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-ComCenter" alt="DM Outpost Com Center"></a>
+                         <figcaption>
+                              <h4>DM-Outpost Command Center</h4>
+                              <p>A view of my outpost mod made using Unreal Tournament 3.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DmOutpost-Bunker_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Bunker" alt="DM Outpost Bunker"></a>
+                         <figcaption>
+                              <h4>DM-Outpost Bunker</h4>
+                              <p>A view of my outpost mod made using Unreal Tournament 3.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DualCoreV3_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV3" alt="Dual Core v3"></a>
+                         <figcaption>
+                              <h4>Dual Core v3</h4>
+                              <p>A deathmatch mod, made using Unreal Tournament 3 and my friend, Josh Havens.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1dU2M1FUw9kj_xFrRsxRyK10fVY0i2xdK"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DualCoreV2_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV2" alt="Dual Core v2"></a>
+                         <figcaption>
+                              <h4>Dual Core v2</h4>
+                              <p>A destory their base mod, made using Unreal Tournament 2004 and classmates from my Game Development II class.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1xFnGLLadLnbO0dpq5S1qbHMTwq1rvQuS"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-DualCoreV1_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV1" alt="Dual Core v1"></a>
+                         <figcaption>
+                              <h4>Dual Core v1</h4>
+                              <p>A capture the flag mod, made using Unreal Tournament 2004 and classmates from my Game Development I class.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1i2wM5Zocw5F5n8crHVXOIJX5MCRbWo5U"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-IHDealershipInGame_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-IHDealershipInGame" alt="IH Dealership In Game"></a>
+                         <figcaption>
+                              <h4>IH Dealership Level</h4>
+                              <p>A tractor dealership level made using the Unreal Developer Kit.</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Unreal-IHDealershipConcept_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-IHDealershipConcept" alt="IH Dealership Concept"></a>
+                         <figcaption>
+                              <h4>IH Dealership Level Concept</h4>
+                              <p>Concept made using Illustrator for my tractor dealership level.</p>
+                         </figcaption>
+                    </figure>
                </div>
-               <div>
-                    <a href="images/levels/Unreal-DmOutpost-Lava_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Lava" alt="DM Outpost Lava"></a>
-                    <p>DM-Outpost Lava - A view of my outpost mod made using Unreal Tournament 3. <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
-                         <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-                    </p>
+               <h2><i class="rj rj-torque"></i> Torque <i class="rj rj-torque"></i></h2>
+               <div class="gallery">
+                    <figure>
+                         <a href="images/levels/Torque-FarmInGame_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-FarmInGame" alt="Farm In Game"></a>
+                         <figcaption>
+                              <h4>Farm Level</h4>
+                              <p>A farm level made using Torque Game Engine and mostly BSP-based, geometry.</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-FarmConcept_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-FarmConcept" alt="Farm Concept"></a>
+                         <figcaption>
+                             <h4>Farm Level Concept</h4>
+                             <p>Concept made using Sketchup for my Farm Level.</p>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-TDKA-OfficeLayoutGenerator_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-TDKA-OfficeLayoutGenerator" alt="TDKA Office Layout Generator"></a>
+                         <figcaption>
+                              <h4>TDKA Office Layout Generator</h4>
+                              <p>An office layout generator made with Torque Game Engine and classmates from my Game Project III class.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1y3yqI8OfcGfiWFQR7qy3GQs0Mv_HqF_k"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-HighSchoolDrag_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-HighSchoolDrag" alt="High School Drag"></a>
+                         <figcaption>
+                              <h4>High School Drag</h4>
+                              <p>A racing game made with Torque Game Engine and classmates from my Game Project (I + II) classes.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1BENjXsJRETbmdaSlETZaUVwSmhEi-yBC"><i class="fas fa-download"></i></a>
+                                   <a href="downloads/TGE-HighSchoolDrag-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-MechStarterKit_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-MechStarterKit" alt="Mech Starter Kit"></a>
+                         <figcaption>
+                              <h4>Mech Starter Kit</h4>
+                              <p>A project designed as a learning tool for those developing mech/robot games with the Torque Game Engine.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1W6FlMZ5u1ajhvgPBKQwPBJwy-P035IOH"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-RallyCarAndXboxGamepad_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-RallyCarAndXboxGamepad" alt="Rally Car and Xbox Gamepad"></a>
+                         <figcaption>
+                              <h4>Rally Car and Xbox Gamepad support</h4>
+                              <p>A vehicle used for testing in Torque 3D. It was the next evolution of the Battle Frog. It included toggleable lights and xbox controller support.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=12pO2FFvYB8gMJ1EPybUOmx_2PzxCq3gd"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-SideScroller_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-SideScroller" alt="Side Scroller"></a>
+                         <figcaption>
+                              <h4>Side Scroller</h4>
+                              <p>An example using a 3d game engine to create a side scrolling game.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1OZqcpWuH__-CD7pzAYnVJRcY53R2Xilv"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                    <figure>
+                         <a href="images/levels/Torque-BattleFrog_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-BattleFrog" alt="Battle Frog"></a>
+                         <figcaption>
+                              <h4>Battle Frog</h4>
+                              <p>A vehicle used for testing in the Torque Game Engine. It was mainly an experiment in adding toggleable headlights.</p>
+                              <div class="downloads">
+                                   <a href="https://drive.google.com/open?id=1MyN7UnBWq4-biAzJ7y4EtHyYx-njmK2-"><i class="fas fa-download"></i></a>
+                              </div>
+                         </figcaption>
+                    </figure>
                </div>
-               <div>
-                    <a href="images/levels/Unreal-DmOutpost-Starport_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Starport" alt="DM Outpost Starport"></a>
-                    <p>DM-Outpost Starport - A view of my outpost mod made using Unreal Tournament 3. <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
-                         <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-                    </p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-DmOutpost-ComCenter_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-ComCenter" alt="DM Outpost Com Center"></a>
-                    <p>DM-Outpost Command Center - A view of my outpost mod made using Unreal Tournament 3. <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
-                         <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-                    </p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-DmOutpost-Bunker_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DmOutpost-Bunker" alt="DM Outpost Bunker"></a>
-                    <p>DM-Outpost Bunker - A view of my outpost mod made using Unreal Tournament 3. <a href="https://drive.google.com/open?id=1-Gb5Rg1q4AjabNpUBrLLC6k6qZViNngP"><i class="fas fa-download"></i></a>
-                         <a href="downloads/Unreal-DM-Outpost-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-                    </p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-DualCoreV3_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV3" alt="Dual Core v3"></a>
-                    <p>Dual Core v3 - A deathmatch mod, made using Unreal Tournament 3 and my friend, Josh Havens. <a href="https://drive.google.com/open?id=1dU2M1FUw9kj_xFrRsxRyK10fVY0i2xdK"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-DualCoreV2_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV2" alt="Dual Core v2"></a>
-                    <p>Dual Core v2 - A destory their base mod, made using Unreal Tournament 2004 and classmates from my Game Development II class. <a href="https://drive.google.com/open?id=1xFnGLLadLnbO0dpq5S1qbHMTwq1rvQuS"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-DualCoreV1_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-DualCoreV1" alt="Dual Core v1"></a>
-                    <p>Dual Core v1 - A capture the flag mod, made using Unreal Tournament 2004 and classmates from my Game Development I class. <a href="https://drive.google.com/open?id=1i2wM5Zocw5F5n8crHVXOIJX5MCRbWo5U"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-IHDealershipInGame_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-IHDealershipInGame" alt="IH Dealership In Game"></a>
-                    <p>IH Dealership Level - A tractor dealership level made using the Unreal Developer Kit.</p>
-               </div>
-               <div>
-                    <a href="images/levels/Unreal-IHDealershipConcept_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Unreal-IHDealershipConcept" alt="IH Dealership Concept"></a>
-                    <p>IH Dealership Level Concept - Concept made using Illustrator for my tractor dealership level.</p>
-               </div>
-          </div>
-
-          <h2><i class="rj rj-torque"></i> Torque <i class="rj rj-torque"></i></h2>
-          <div class="bs-gallery">
-               <div>
-                    <a href="images/levels/Torque-FarmInGame_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-FarmInGame" alt="Farm In Game"></a>
-                    <p>Farm Level - A farm level made using Torque Game Engine and mostly BSP-based, geometry.</p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-FarmConcept_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-FarmConcept" alt="Farm Concept"></a>
-                    <p>Farm Level Concept - Concept made using Sketchup for my Farm Level.</p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-TDKA-OfficeLayoutGenerator_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-TDKA-OfficeLayoutGenerator" alt="TDKA Office Layout Generator"></a>
-                    <p>TDKA Office Layout Generator - An office layout generator made with Torque Game Engine and classmates from my Game Project III class. <a href="https://drive.google.com/open?id=1y3yqI8OfcGfiWFQR7qy3GQs0Mv_HqF_k"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-HighSchoolDrag_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-HighSchoolDrag" alt="High School Drag"></a>
-                    <p>High School Drag - A racing game made with Torque Game Engine and classmates from my Game Project (I + II) classes. <a href="https://drive.google.com/open?id=1BENjXsJRETbmdaSlETZaUVwSmhEi-yBC"><i class="fas fa-download"></i></a><a href="downloads/TGE-HighSchoolDrag-PostMortem_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-MechStarterKit_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-MechStarterKit" alt="Mech Starter Kit"></a>
-                    <p>Mech Starter Kit - A project designed as a learning tool for those developing mech/robot games with the Torque Game Engine. <a href="https://drive.google.com/open?id=1W6FlMZ5u1ajhvgPBKQwPBJwy-P035IOH"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-RallyCarAndXboxGamepad_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-RallyCarAndXboxGamepad" alt="Rally Car and Xbox Gamepad"></a>
-                    <p>Rally Car and Xbox Gamepad support - A vehicle used for testing in Torque 3D. It was the next evolution of the Battle Frog. It included toggleable lights and xbox controller support. <a href="https://drive.google.com/open?id=12pO2FFvYB8gMJ1EPybUOmx_2PzxCq3gd"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-SideScroller_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-SideScroller" alt="Side Scroller"></a>
-                    <p>Side Scroller - An example using a 3d game engine to create a side scrolling game. <a href="https://drive.google.com/open?id=1OZqcpWuH__-CD7pzAYnVJRcY53R2Xilv"><i class="fas fa-download"></i></a></p>
-               </div>
-               <div>
-                    <a href="images/levels/Torque-BattleFrog_BrittScott.jpg" target="_blank"><img src="images/spriteHolder.gif" class="sprite Torque-BattleFrog" alt="Battle Frog"></a>
-                    <p>Battle Frog - A vehicle used for testing in the Torque Game Engine. It was mainly an experiment in adding toggleable headlights. <a href="https://drive.google.com/open?id=1MyN7UnBWq4-biAzJ7y4EtHyYx-njmK2-"><i class="fas fa-download"></i></a></p>
-               </div>
-          </div>
-          
-     </div> <!-- END Main Container -->
+          </section>     
+     </main> <!-- END Main Container -->
 
      <!-- To Top Button -->
-     <a class="bs-to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
-     
-     <!-- Background Grid -->
-	<div class="rj rj-bs-gridper bs-bg-grid"></div>
+     <a class="to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
 
-     <footer class="bs-bottom">
-          <ul class="bs-bar bs-container bs-footer-non-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i><span> Follow me</span></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i><span> Follow me</span></a></li>
-               <li><span class="bs-bar-item bs-hover-none">Britt Scott &copy; <cite>2008 - <span name="dynYear">0000</span></cite></span></li>
-               <li><span class="bs-bar-item bs-last-mod">Last Modified: <cite id="lastMod" onclick="bs.toggleShow('#menuExtras')"></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-desktop fas fa-desktop fa-lg"></b></li>
-               <li><b class="bs-bar-item bs-indicator-tablet fas fa-tablet-alt fa-lg"></b></li>
-          </ul>
-          <ul class="bs-bar bs-container bs-footer-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i></a></li>
-               <li><span class="bs-bar-item">Britt Scott &copy; <cite><span name="dynYear">0000</span></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-mobile fas fa-mobile-alt fa-lg"></b></li>
+     <footer>
+          <ul>
+               <li><span>Britt Scott</span> &copy; <cite>2008 - <cite class="dynYearElement">0000</cite></cite></li>
+               <li><span class="last-mod">Last Modified: <cite class="last-Mod-Element"></cite></span></li>
+               <li><b class="fas fa-desktop"></b><b class="fas fa-tablet-alt"></b><b class="fas fa-mobile-alt"></b></li>
           </ul>
      </footer> <!--END Footer -->
 
      <!-- JS -->
-     <script src="js/jquery.min.js"></script>
      <script src="js/bs-javascript.js"></script>
-     <!-- Menu Hightlight -->
-	<script type="text/javascript">
-          $(".bs-menu-Images").addClass("bs-menu-highlight");
-	</script>
+     <script>
+          menuImages.classList.add('menu-highlight');// Desktop Menu Highlight
+     </script>
     
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0, user-scalable=0">    
+     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">    
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <meta name="description" content="Britt is interested in video game level design because it incorprates a little bit of everything that goes into making a game.">
 	<meta name="keywords" content="Britt, Scott, Britt Scott, brittscott, bscott, brittlscott, bls, artist, 3d, 3d artist, art, environment, envrionmental artist, level, designer, level designer, game, development, developer, game developer, game development, game dev">
@@ -10,56 +10,61 @@
      <!-- Font Awesome 5 CSS -->
      <link rel="stylesheet" href="css/fontawesome.css">
      <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
 
      <title>Blog</title>
 </head>
 <body>
-     <header class="bs-top">
+     <header>
           <nav>
-               <ul class="bs-container bs-bar">
-                    <li>
-                         <a class="bs-mobile-btn" href="javascript:void(0);" onclick="bs.toggleShow('#mobileMenu')"><span class="fas fa-bars fa-2x"></span></a>
+               <ul class="main-menu">
+                    <li class="nav-title">Britt Scott</li>
+                    <li class="nav-logo">         
+                         <i class="rj rj-bs-grid"></i>
+                         <i class="rj rj-bs-block"></i>
+                         <i class="rj rj-bs-text"></i>
+                         <i class="rj rj-bs-outline"></i>
                     </li>
-                    <li class="bs-bar-item bs-nav-title">Britt Scott - Level Designer</li>
-                    <li class="bs-nav-logo fa-stack">         
-                         <i class="rj rj-bs-grid fa-stack-2x"></i>
-                         <i class="rj rj-bs-block fa-stack-2x"></i>
-                         <i class="rj rj-bs-text fa-stack-2x"></i>
-                         <i class="rj rj-bs-outline fa-stack-2x"></i>
-                    </li>
-                    <li><a class="bs-bar-item bs-menu-About" href="index.html">About</a></li>
-                    <li><a class="bs-bar-item bs-menu-Blog" href="blog.html">Blog</a></li>
-                    <li><a class="bs-bar-item bs-menu-Videos" href="videos.html">Videos</a></li>
-                    <li><a class="bs-bar-item bs-menu-Images" href="images.html">Images</a></li>
-                    <li class="bs-dropdown-hover" id="menuExtras">
+                    <li><a class="menu-About" href="index.html">About</a></li>
+                    <li><a class="menu-Blog" href="blog.html">Blog</a></li>
+                    <li><a class="menu-Videos" href="videos.html">Videos</a></li>
+                    <li><a class="menu-Images" href="images.html">Images</a></li>
+                    <li><a class="menu-Contact" href="contact.php">Contact</a></li>
+                    <li class="menu-Extras">
                          <a href="#">Extras <i class="fas fa-caret-down"></i> </a>
-                         <div class="bs-dropdown-content bs-card">
-                              <a class="bs-menu-Books" href="books.html">Books</a>
-                              <a class="bs-menu-Comics" href="comics.html">Comics</a>
-                              <a class="bs-menu-Games" href="games.html">Games</a>
-                              <a class="bs-menu-Models" href="models.html">Models</a>
-                              <a class="bs-menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
-                              <a class="bs-menu-Quotes" href="quotes.html">Quotes</a>
-                              <a class="bs-menu-Toys" href="toys.html">Toys</a>
+                         <div class="dropdown-content">
+                              <a class="menu-Books" href="books.html">Books</a>
+                              <a class="menu-Comics" href="comics.html">Comics</a>
+                              <a class="menu-Games" href="games.html">Games</a>
+                              <a class="menu-Models" href="models.html">Models</a>
+                              <a class="menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
+                              <a class="menu-Quotes" href="quotes.html">Quotes</a>
+                              <a class="menu-Toys" href="toys.html">Toys</a>
                          </div>
                     </li>
                </ul>
-               <div id="mobileMenu" class="bs-bar" style="display: none;">
-                    <a href="index.html" class="bs-mobile bs-menu-About">About</a>
-                    <a href="blog.html" class="bs-mobile bs-menu-Blog">Blog</a>
-                    <a href="videos.html" class="bs-mobile bs-menu-Videos">Videos</a>
-                    <a href="images.html" class="bs-mobile bs-menu-Images">Images</a>
+               <div class="mobile-menu">
+                    <a class="mobile-btn" href="#"><span class="fas fa-bars"></span></a>
+                    <div class="mobile-dropdown-content">
+                         <a href="index.html" class="menu-About">About</a>
+                         <a href="blog.html" class="menu-Blog">Blog</a>
+                         <a href="videos.html" class="menu-Videos">Videos</a>
+                         <a href="images.html" class="menu-Images">Images</a>
+                         <a href="contact.php" class="menu-Contact">Contact</a>
+                    </div>
                </div>
           </nav>
      </header> <!-- END Header -->
 
-     <div class="bs-container bs-container-bg">
-          <div class="bs-page-announce">
-               <h1 class="bs-center-txt"><span class="fas fa-newspaper"></span> Blog <span class="fas fa-newspaper"></span></h1>
+     <main>
+          <div class="page-announce">
+               <h1><span class="fas fa-newspaper"></span> Blog <span class="fas fa-newspaper"></span></h1>
           </div>
-          <input type="text" class="bs-input bs-search-mobile-adjust" placeholder="Search..." oninput="bs.filterHTML('.bs-page-blog','p', this.value)">
-          <section class="bs-page-blog">
+          <div class="search-container">
+               <input type="text" placeholder="Search . . ." oninput="bs.filterHTML('.page-blog','p', this.value)">
+          </div>
+          <section class="page-blog">
+               <p><b>10/07/2018</b> - Changed to <b class="version">version 4.1.0</b>. Rebuilt, entire style of website. Removed JQuery. Changed javascript to use newer javascript standards. Added Contact page, back. Removed background grid graphic. Rebuilt galleries using CSS Grid.</p>
                <p><b>09/16/2017</b> - Adjusted spacing and made links stand out a little more on the About page.</p>
                <p><b>09/04/2018</b> - Updated movies/tv section.</p>
                <p><b>07/07/2018</b> - Updated to Font Awesome 5.1.0. Updated "main" logo. Updated favicon to match new "main" logo. Updated download links on the Images page to Google Drive (since, I had forgot to update them). Added Side Scroller to Torque section on Images page.</p>
@@ -162,39 +167,25 @@
                <p><b>09/24/2007</b> - Finished <a href="https://drive.google.com/open?id=1y3yqI8OfcGfiWFQR7qy3GQs0Mv_HqF_k" target="_blank">TKDA Office Layout Generator <span class="fas fa-download"></span></a> for our Game Project III class. <i>Note: Added for historical records.</i></p>
                <p><b>03/27/2007</b> - Wrote <a href="downloads/TGE-HighSchoolDrag-PostMortem_BrittScott.pdf" target="_blank">High School Drag Post Mortem <span class="fas fa-download"></span></a> for our Game Project II classes. <i>Note: Added for historical records.</i></p>
                <p><b>03/19/2007</b> - Finished <a href="https://drive.google.com/open?id=1BENjXsJRETbmdaSlETZaUVwSmhEi-yBC" target="_blank">High School Drag <span class="fas fa-download"></span></a> for our Game Project I and II classes. <i>Note: Added for historical records.</i></p>
-          </section>
-     </div> <!-- END Main Container -->
+          </section>     
+     </main> <!-- END Main Container -->
 
      <!-- To Top Button -->
-     <a class="bs-to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
-     
-     <!-- Background Grid -->
-	<div class="rj rj-bs-gridper bs-bg-grid"></div>
+     <a class="to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
 
-     <footer class="bs-bottom">
-          <ul class="bs-bar bs-container bs-footer-non-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i><span> Follow me</span></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i><span> Follow me</span></a></li>
-               <li><span class="bs-bar-item bs-hover-none">Britt Scott &copy; <cite>2008 - <span name="dynYear">0000</span></cite></span></li>
-               <li><span class="bs-bar-item bs-last-mod">Last Modified: <cite id="lastMod" onclick="bs.toggleShow('#menuExtras')"></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-desktop fas fa-desktop fa-lg"></b></li>
-               <li><b class="bs-bar-item bs-indicator-tablet fas fa-tablet-alt fa-lg"></b></li>
-          </ul>
-          <ul class="bs-bar bs-container bs-footer-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i></a></li>
-               <li><span class="bs-bar-item">Britt Scott &copy; <cite><span name="dynYear">0000</span></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-mobile fas fa-mobile-alt fa-lg"></b></li>
+     <footer>
+          <ul>
+               <li><span>Britt Scott</span> &copy; <cite>2008 - <cite class="dynYearElement">0000</cite></cite></li>
+               <li><span class="last-mod">Last Modified: <cite class="last-Mod-Element"></cite></span></li>
+               <li><b class="fas fa-desktop"></b><b class="fas fa-tablet-alt"></b><b class="fas fa-mobile-alt"></b></li>
           </ul>
      </footer> <!--END Footer -->
 
      <!-- JS -->
-     <script src="js/jquery.min.js"></script>
      <script src="js/bs-javascript.js"></script>
-     <!-- Menu Hightlight -->
-	<script type="text/javascript">
-          $(".bs-menu-Blog").addClass("bs-menu-highlight");
-	</script>
+     <script>
+          menuBlog.classList.add('menu-highlight');// Desktop Menu Highlight
+     </script>
     
 </body>
 </html>

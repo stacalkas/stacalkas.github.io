@@ -1,0 +1,55 @@
+// Icons
+
+.fa-bars{font-size: 2rem;}
+
+.rj-bs-block, .fa-desktop{color: $light-color;}
+
+.rj-bs-grid{color: $white;}
+
+.rj-bs-outline{color: $black;}
+
+.fa-js{color: saddlebrown;}
+
+.fa-file-alt{color: $grey;}
+
+.fa-facebook{color: #607d8b;}
+
+.fa-file-word{color: $blue;}
+
+.fa-mobile-alt{color: $gold;}
+
+.fa-bed, .fa-sass{color: $pink;}
+
+.fa-css3-alt, .fa-font-awesome{color: #2196F3;}
+
+.fa-youtube, .fa-thumbs-down, .fa-file-pdf{color: $red;}
+
+.fa-tablet-alt, .fa-html5{color: $orange;}
+
+.fa-thumbs-up{color: $green;}
+
+// Text
+mark{
+     background-color: $yellow;
+     color: set-text-color($yellow);
+     padding: 0 0.25rem;
+}
+
+.last-mod{
+     color: $accent-color;
+}
+
+h2{
+     background-color: ($secondary-color);
+     color: set-text-color($secondary-color);
+     text-align: center;
+     padding: 0.5rem 0;
+     border-radius: 1rem;
+     margin: 1rem 0;
+}
+
+.tag{
+     @extend h2;
+     font-size: 1.5rem;
+     font-weight: bold;
+}

@@ -1,71 +1,163 @@
 // Media Queries
 
 // Desktop
-@media only screen and (min-width:$desktop-min-size) {
-     .#{$site-prefix}-footer-mobile, .#{$site-prefix}-indicator-tablet, .bs-mobile-btn,
-     .#{$site-prefix}-page-comics a{
-          display: none !important;
-     }
-     #menuExtras{
+@include desktop{
+     .page-comics p, .mobile-dropdown-content, .menu-Extras, .mobile-menu, .fa-tablet-alt, .fa-mobile-alt{
           display: none;
      }
 }
-// Tablet
-@media (max-width: $tablet-max-size) and (min-width: $tablet-min-size) {
-     .#{$site-prefix}-indicator-desktop, .#{$site-prefix}-footer-mobile, #menuExtras, .bs-mobile-btn, 
-     .#{$site-prefix}-last-mod, .#{$site-prefix}-nav-title, .#{$site-prefix}-nav-logo,
-     .#{$site-prefix}-page-comics embed{
-          display: none !important;
-     }
-     .#{$site-prefix}-indicator-tablet{
-          display: inline;
-     }
-     .#{$site-prefix}-gallery div{
-          width: $third;
-     }
-     form .fa-fw{
-          display: block;
-          margin: 0.5rem auto;
-     }
-     form .#{$site-prefix}-input{
-          width: 100%;
-     }
-}
-// Mobile
-@media only screen and (max-width: $mobile-max-size) {
-     .#{$site-prefix}-footer-non-mobile, #menuExtras, nav .#{$site-prefix}-bar-item, .#{$site-prefix}-nav-logo,
-     .#{$site-prefix}-page-comics embed{
-          display: none !important;
-     }
-     .#{$site-prefix}-search-mobile-adjust{
-          position:fixed;
-          width:81%;
-          z-index:1;
-          top: -0.75rem;
 
+// Tablet
+@include tablet{
+     .page-comics embed, .mobile-dropdown-content, .mobile-menu, .menu-Extras, .fa-desktop, .fa-mobile-alt, .last-mod, .nav-title, .nav-logo{
+          display: none !important;
      }
-     .#{$site-prefix}-gallery div{
-          clear: left;
-          width: 100%;
-          img{
-               left: 50%;
-               transform: translateX(-50%);
+
+     .to-top{
+          right: 1rem;
+          bottom: 2.5rem;
+     }
+
+     nav{
+          ul{
+               grid-template-columns: repeat(6, 1fr);
+               grid-template-areas:
+                    'navAbout navBlog navImages navVideos navContact navExtras navMobile';
+          } 
+     }
+
+     .powered-by{
+          div{
+               grid-template-columns: repeat(2, 1fr) !important;
           }
      }
-     .#{$site-prefix}-page-comics a{
-          display: inline;
+
+     footer{
+          ul{
+               grid-template-columns: repeat(3, 1fr);
+               justify-items: center;
+          }
      }
-     .#{$site-prefix}-link-btns a{
-          clear: both;
-          width: 100%;
-          border-left: none;
-          border-bottom: 0.05rem $secondary-color solid;
+}
+
+// Mobile
+@include mobile{
+     .page-comics embed, .mobile-dropdown-content, .main-menu, .menu-Extras, .nav-logo, .nav-title, .fa-desktop, .fa-tablet-alt, .last-mod{
+          display: none;
      }
-     form .fa-fw{
-          display: block;
-          margin: 0.5rem auto;
+
+     main{
+          .page-announce{
+               margin: 0.25rem;
+          }
+
+          section{
+               padding: 0.5rem;
+          }
      }
-     form .#{$site-prefix}-input{
-          width: 100%;
+
+     nav{
+          ul{
+               grid-template-columns: repeat(2, auto);
+               grid-template-areas:
+                    'navSearch navMobile';
+          } 
+     }
+
+     .page-about{
+          .resume-links{
+               p{
+                    margin-bottom: 1rem;
+               }
+
+               div{
+                    grid-template-columns: 1fr;
+                    grid-gap: 0;
+     
+                    a{
+                         margin: 0.5rem;
+                         width: 90%;
+                    }
+               }
+          }
+
+          .education{
+               p{
+                    line-height: 1.5;
+
+                    b{
+                         display: block;
+                         padding: 0.5rem;
+                    }
+               }
+          }
+
+          .related-skills{
+               ul{
+                    grid-template-columns: 1fr;
+               }
+          }
+
+          .related-experience{
+               ul{
+                    font-size: 0.9rem;
+                    line-height: 1.5;
+                    
+                    li{
+                         margin: 1rem 0;
+                    }
+               }
+          }
+
+          .powered-by{
+               div{
+                    grid-template-columns: 1fr;
+
+                    a{
+                         padding: 1rem 0;
+                         width: 90%; 
+                         margin: auto;
+                    }
+               }
+
+               .fab{
+                    font-size: 2rem;
+               }
+          }
+     }
+
+     h2{
+          margin-bottom: 1rem;
+     }
+
+     .to-top{
+          right: 0.25rem;
+          bottom: 2.5rem;
+     }
+
+     .search-container{
+          grid-area: navSearch;
+          position: fixed;
+          
+          width: 80%;
+          margin: 0 0 0 0.5rem;
+          z-index: 1;
+          top: 0.3rem;
+
+          input{
+               
+          }
+     }
+
+     footer{
+          ul{
+               grid-template-columns: repeat(3, 1fr);
+               grid-gap: 0;
+               justify-items: center;
+
+               span{
+                    display: none;
+               }
+          }
      }
 }

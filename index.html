@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0, user-scalable=0">    
+     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">    
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <meta name="description" content="Britt is interested in video game level design because it incorprates a little bit of everything that goes into making a game.">
 	<meta name="keywords" content="Britt, Scott, Britt Scott, brittscott, bscott, brittlscott, bls, artist, 3d, 3d artist, art, environment, envrionmental artist, level, designer, level designer, game, development, developer, game developer, game development, game dev">
@@ -10,151 +10,139 @@
      <!-- Font Awesome 5 CSS -->
      <link rel="stylesheet" href="css/fontawesome.css">
      <!-- Custom CSS -->
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
 
      <title>Britt Scott</title>
 </head>
 <body>
-     <header class="bs-top">
+     <header>
           <nav>
-               <ul class="bs-container bs-bar">
-                    <li>
-                         <a class="bs-mobile-btn" href="javascript:void(0);" onclick="bs.toggleShow('#mobileMenu')"><span class="fas fa-bars fa-2x"></span></a>
+               <ul class="main-menu">
+                    <li class="nav-title">Britt Scott</li>
+                    <li class="nav-logo">         
+                         <i class="rj rj-bs-grid"></i>
+                         <i class="rj rj-bs-block"></i>
+                         <i class="rj rj-bs-text"></i>
+                         <i class="rj rj-bs-outline"></i>
                     </li>
-                    <li class="bs-bar-item bs-nav-title">Britt Scott - Level Designer</li>
-                    <li class="bs-nav-logo fa-stack">         
-                         <i class="rj rj-bs-grid fa-stack-2x"></i>
-                         <i class="rj rj-bs-block fa-stack-2x"></i>
-                         <i class="rj rj-bs-text fa-stack-2x"></i>
-                         <i class="rj rj-bs-outline fa-stack-2x"></i>
-                    </li>
-                    <li><a class="bs-bar-item bs-menu-About" href="index.html">About</a></li>
-                    <li><a class="bs-bar-item bs-menu-Blog" href="blog.html">Blog</a></li>
-                    <li><a class="bs-bar-item bs-menu-Videos" href="videos.html">Videos</a></li>
-                    <li><a class="bs-bar-item bs-menu-Images" href="images.html">Images</a></li>
-                    <li class="bs-dropdown-hover" id="menuExtras">
+                    <li><a class="menu-About" href="index.html">About</a></li>
+                    <li><a class="menu-Blog" href="blog.html">Blog</a></li>
+                    <li><a class="menu-Videos" href="videos.html">Videos</a></li>
+                    <li><a class="menu-Images" href="images.html">Images</a></li>
+                    <li><a class="menu-Contact" href="contact.php">Contact</a></li>
+                    <li class="menu-Extras">
                          <a href="#">Extras <i class="fas fa-caret-down"></i> </a>
-                         <div class="bs-dropdown-content bs-card">
-                              <a class="bs-menu-Books" href="books.html">Books</a>
-                              <a class="bs-menu-Comics" href="comics.html">Comics</a>
-                              <a class="bs-menu-Games" href="games.html">Games</a>
-                              <a class="bs-menu-Models" href="models.html">Models</a>
-                              <a class="bs-menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
-                              <a class="bs-menu-Quotes" href="quotes.html">Quotes</a>
-                              <a class="bs-menu-Toys" href="toys.html">Toys</a>
+                         <div class="dropdown-content">
+                              <a class="menu-Books" href="books.html">Books</a>
+                              <a class="menu-Comics" href="comics.html">Comics</a>
+                              <a class="menu-Games" href="games.html">Games</a>
+                              <a class="menu-Models" href="models.html">Models</a>
+                              <a class="menu-MoviesTV" href="moviesTV.html">Movies &amp; TV</a>
+                              <a class="menu-Quotes" href="quotes.html">Quotes</a>
+                              <a class="menu-Toys" href="toys.html">Toys</a>
                          </div>
                     </li>
                </ul>
-               <div id="mobileMenu" class="bs-bar" style="display: none;">
-                    <a href="index.html" class="bs-mobile bs-menu-About">About</a>
-                    <a href="blog.html" class="bs-mobile bs-menu-Blog">Blog</a>
-                    <a href="videos.html" class="bs-mobile bs-menu-Videos">Videos</a>
-                    <a href="images.html" class="bs-mobile bs-menu-Images">Images</a>
+               <div class="mobile-menu">
+                    <a class="mobile-btn" href="#"><span class="fas fa-bars"></span></a>
+                    <div class="mobile-dropdown-content">
+                         <a href="index.html" class="menu-About">About</a>
+                         <a href="blog.html" class="menu-Blog">Blog</a>
+                         <a href="videos.html" class="menu-Videos">Videos</a>
+                         <a href="images.html" class="menu-Images">Images</a>
+                         <a href="contact.phphtml" class="menu-Contact">Contact</a>
+                    </div>
                </div>
           </nav>
      </header> <!-- END Header -->
 
-     <div class="bs-container bs-container-bg">
-          <div class="bs-page-announce">
-               <h1 class="bs-center-txt"><span class="fas fa-info-circle"></span> About <span class="fas fa-info-circle"></span></h1>
+     <main class="page-about">
+          <div class="page-announce">
+               <h1><span class="fas fa-info-circle"></span> About <span class="fas fa-info-circle"></span></h1>
           </div>
-          <section>
+          <section class="resume-links">
                <p>
                     I'm Britt, level designer. I became interested in video game level design because it incorporates a little bit of everything that goes into making a game.
                </p>
-               <div class="bs-resume-links">
-                    <a href="downloads/Resume_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf fa-2x fa-fw"></i> Resume pdf download</a>
-                    <a href="downloads/Resume_BrittScott.doc" target="_blank"><i class="fas fa-file-word fa-2x fa-fw"></i> Resume doc download</a>
-                    <a href="downloads/Resume_BrittScott.txt" target="_blank"><i class="fas fa-file-alt fa-2x fa-fw"></i> Resume txt download</a>
+               <div>
+                    <a href="downloads/Resume_BrittScott.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Resume pdf download</a>
+                    <a href="downloads/Resume_BrittScott.doc" target="_blank"><i class="fas fa-file-word"></i> Resume doc download</a>
+                    <a href="downloads/Resume_BrittScott.txt" target="_blank"><i class="fas fa-file-alt"></i> Resume txt download</a>
                </div>
-               <div class="bs-center-txt">
-                    <i class="bs-contact-note">Note: Resumes contain my personal contact information.</i>
-               </div>
-
           </section>
-          <section>
+          <section class="education">
                <h2>Education</h2>
-               <p class="bs-education">
+               <p>
                     2007 - <a href="https://en.wikipedia.org/wiki/Brown_College_(Minnesota)" target="_blank">Brown College, Mendota Heights MN</a><br>
 				Bachelor of Science degree: Game Design and Development<br>
 				<b>CGPA: <span>3.53</span></b>
                </p>
           </section>
-          <section>
-               <h2>Related Skills <span class="bs-text-size-default">(listed in order of proficiency)</span></h2>
-               <ul class="bs-ul">
-			     <li>Unreal 3/ UDK</li>
+          <section class="related-skills">
+               <h2>Related Skills</h2>
+               <ul>
+			     <li>Unreal 4</li>
 				<li>Torque 3D</li>
 				<li>3ds Max</li>
 				<li>Photoshop</li>
 				<li>Illustrator</li>
-				<li>Scripting</li>
-				<li>MS Office</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+				<li>Office</li>
 				<li>Version Control</li>
 			</ul>
           </section>
-          <section>
+          <section class="related-experience">
                <h2>Related Experience</h2>
-               <ul class="bs-related-experience">
+               <ul>
                     <li><b>Level Designer:</b> Unreal Tournament 3 mod, called <a href="http://youtu.be/CX7bCURUNoc" target="_blank">Scug</a></li>
                     <li><b>Technical Artist:</b> Unreal Tournament 2004 mod, called <a href="http://youtu.be/_0TivwJ-byA" target="_blank">Dual Core</a></li>
                     <li><b>3D Vehicle Modeler/Document Designer:</b> Torque Game Engine(Torque 3D) <a href="http://youtu.be/Aoki2BPVH0M" target="_blank">High School Drag</a></li>
                     <li><b>3D Furniture Modeler:</b> Torque Game Engine - <a href="http://youtu.be/T8leg3u3BKc" target="_blank">Generated interior designs for buildings</a></li>
                </ul>
           </section>
-          <section>
-               <h2 class="bs-center-txt">Website Powered By:</h2>
-               <div class="bs-powered-by">
-                    <a href="http://www.w3.org/html/" target="_blank">HTML<br><i class="fab fa-html5 fa-3x"></i></a>
-                    <a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_blank">CSS<br><i class="fab fa-css3-alt fa-3x"></i></a>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Javascript<br><i class="fab fa-js fa-3x"></i></a>
-                    <a href="http://sass-lang.com/" target="_blank">Sass<br><i class="fab fa-sass fa-3x"></i></a>
-                    <a href="https://fontawesome.com" target="_blank">Font Awesome<br><i class="fab fa-font-awesome fa-3x"></i></a>
+          <section class="powered-by">
+               <h2>Website Powered By</h2>
+               <div>
+                    <a href="http://www.w3.org/html/" target="_blank">HTML<br><i class="fab fa-html5"></i></a>
+                    <a href="http://www.w3.org/Style/CSS/Overview.en.html" target="_blank">CSS<br><i class="fab fa-css3-alt"></i></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Javascript<br><i class="fab fa-js"></i></a>
+                    <a href="http://sass-lang.com/" target="_blank">Sass<br><i class="fab fa-sass"></i></a>
+                    <a href="https://fontawesome.com" target="_blank">Font Awesome<br><i class="fab fa-font-awesome"></i></a>
                </div>
           </section>
-          <section>
-               <h2>Website <span id="siteVer" class="bs-site-ver">0.0.0</span> Notes</h2>
+          <section class="website-notes">
+               <h2>Website <span class="site-ver">0.0.0</span> Notes</h2>
                <ul>
-                    <li><mark>Update image galleries to use CSS Grid</mark></li>
-                    <li><mark>Computer repair website with OpenCart and OctoberCMS</mark></li>
+                    <li><mark>add changelog.md and readme.md</mark></li>
+                    <li><mark>update movies/tv shows</mark></li>
+                    <li><mark>Get contact page, social links styled</mark></li>
+                    <li><mark>Test Mobile and Tablet layouts</mark></li>
+                    <li><mark>Test Youtube videos style</mark></li>
+                    <li><mark>Computer repair website with OpenCart and/or OctoberCMS</mark></li>
                     <li><mark>Iron Man Fan site</mark></li>
-                    <li><mark>Mech site</mark></li>
+                    <li><mark>Robot Game site</mark></li>
                </ul>
           </section>
-     </div> <!-- END Main Container -->
+     </main> <!-- END Main Container -->
 
      <!-- To Top Button -->
-     <a class="bs-to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
-     
-     <!-- Background Grid -->
-	<div class="rj rj-bs-gridper bs-bg-grid"></div>
+     <a class="to-top" href="#"><span class="fas fa-arrow-circle-up"></span> Top </a>
 
-     <footer class="bs-bottom">
-          <ul class="bs-bar bs-container bs-footer-non-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i><span> Follow me</span></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i><span> Follow me</span></a></li>
-               <li><span class="bs-bar-item bs-hover-none">Britt Scott &copy; <cite>2008 - <span name="dynYear">0000</span></cite></span></li>
-               <li><span class="bs-bar-item bs-last-mod">Last Modified: <cite id="lastMod" onclick="bs.toggleShow('#menuExtras')"></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-desktop fas fa-desktop fa-lg"></b></li>
-               <li><b class="bs-bar-item bs-indicator-tablet fas fa-tablet-alt fa-lg"></b></li>
-          </ul>
-          <ul class="bs-bar bs-container bs-footer-mobile">
-               <li><a href="http://facebook.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-facebook fa-lg"></i></a></li>
-               <li><a href="http://youtube.com/stacalkas" target="_blank" class="bs-bar-item"><i class="fab fa-youtube fa-lg"></i></a></li>
-               <li><span class="bs-bar-item">Britt Scott &copy; <cite><span name="dynYear">0000</span></cite></span></li>
-               <li><b class="bs-bar-item bs-indicator-mobile fas fa-mobile-alt fa-lg"></b></li>
+     <footer>
+          <ul>
+               <li><span>Britt Scott</span> &copy; <cite>2008 - <cite class="dynYearElement">0000</cite></cite></li>
+               <li><span class="last-mod">Last Modified: <cite class="last-Mod-Element"></cite></span></li>
+               <li><b class="fas fa-desktop"></b><b class="fas fa-tablet-alt"></b><b class="fas fa-mobile-alt"></b></li>
           </ul>
      </footer> <!--END Footer -->
 
      <!-- JS -->
-     <script src="js/jquery.min.js"></script>
      <script src="js/bs-javascript.js"></script>
-     <!-- Menu Hightlight -->
-	<script type="text/javascript">
-          $(".bs-menu-About").addClass("bs-menu-highlight");
-	</script>
-     <!-- Set Website Version -->
-	<script>siteVersion();</script>
+     <script>
+          menuAbout.classList.add('menu-highlight');// Desktop Menu Highlight
+          siteVersion();
+     </script>
     
 </body>
 </html>

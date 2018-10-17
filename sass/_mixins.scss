@@ -1,6 +1,0 @@
-// Mixins
-
-@mixin color-txt-based-on-bg($color){
-     background-color: $color;
-     color: set-text-color($color);
-}
