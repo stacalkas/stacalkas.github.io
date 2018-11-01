@@ -18,7 +18,8 @@
                     padding: 2rem 2rem;
                     border-radius: 0.5rem;
                     border: 0.2rem $secondary-color solid;
-                    @include easeInOut;
+                    //@include easeInOut; // Chrome hates this for some reason
+                    transition: all 0.5s ease-in-out;
      
                     &:hover{
                          background-color: $light-color;
@@ -67,7 +68,8 @@
                     text-align: center;
                     padding: 2rem 2rem;
                     box-shadow: 0 0.25rem 0.25rem 0 $dark-color;
-                    @include easeInOut;
+                    //@include easeInOut; // Chrome hates this for some reason
+                    transition: all 0.5s ease-in-out;
                     
                     &:hover{
                          background-color: $dark-color;
@@ -111,6 +113,29 @@
      }
 }
 
+// Changelog
+.page-changelog{
+     h1{
+          display: none; // Keep "changelog" from being displayed more than once.
+     }
+
+     p{
+          text-align: center;
+     }
+
+     h3{
+          margin-top: 1rem;
+     }
+
+     ul{
+          list-style-type: disc;
+     }
+
+     li{
+          margin-left: 1rem;
+     }
+}
+
 // Videos
 .page-videos{
      h2{ 
@@ -142,10 +167,40 @@
      }
 }
 
+// Contact
+.page-contact{
+     div{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          justify-items: center;
+          grid-gap: 1rem;
+
+          font-size: 1.5rem;
+          font-weight: bold;
+          
+          a{
+               margin: 2rem 0rem;
+               background-color: $dark-color;
+               color: set-text-color($dark-color);
+               text-align: center;
+               padding: 2rem 2rem;
+               border-radius: 0.5rem;
+               border: 0.2rem $secondary-color solid;
+               //@include easeInOut; // Chrome hates this for some reason
+               transition: all 0.5s ease-in-out;
+
+               &:hover{
+                    background-color: $light-color;
+                    color: set-text-color($light-color);
+               }
+          }
+     }
+}
+
 // Books
 .page-books{
      .gallery{
-          grid-template-columns: repeat(4, 1fr);
+          //grid-template-columns: repeat(4, 1fr);
 
           figcaption{
                p{
@@ -182,7 +237,7 @@
 // Models
 .page-models{
      .gallery{
-          grid-template-columns: repeat(4, 1fr);
+          //grid-template-columns: repeat(4, 1fr);
 
           figcaption{
                p{
@@ -243,7 +298,7 @@ blockquote cite{
 // Toys
 .page-toys{
      .gallery{
-          grid-template-columns: repeat(4, 1fr);
+          //grid-template-columns: repeat(4, 1fr);
 
           figcaption{
                p{

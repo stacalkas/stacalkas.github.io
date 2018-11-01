@@ -21,8 +21,8 @@
      nav{
           ul{
                grid-template-columns: repeat(6, 1fr);
-               grid-template-areas:
-                    'navAbout navBlog navImages navVideos navContact navExtras navMobile';
+               //grid-template-areas:
+               //     'navAbout navBlog navImages navVideos navContact navExtras navMobile';
           } 
      }
 
@@ -37,6 +37,16 @@
                grid-template-columns: repeat(3, 1fr);
                justify-items: center;
           }
+     }
+
+     .page-contact{
+          div{
+               grid-template-columns: 1fr;
+          }
+     }
+     
+     .gallery{
+          grid-template-columns: repeat(2, 1fr);
      }
 }
 
@@ -59,8 +69,8 @@
      nav{
           ul{
                grid-template-columns: repeat(2, auto);
-               grid-template-areas:
-                    'navSearch navMobile';
+               //grid-template-areas:
+               //     'navSearch navMobile';
           } 
      }
 
@@ -126,6 +136,10 @@
           }
      }
 
+     .gallery{
+          grid-template-columns: 1fr;
+     }
+
      h2{
           margin-bottom: 1rem;
      }
@@ -136,17 +150,13 @@
      }
 
      .search-container{
-          grid-area: navSearch;
+          //grid-area: navSearch;
           position: fixed;
           
           width: 80%;
           margin: 0 0 0 0.5rem;
           z-index: 1;
           top: 0.3rem;
-
-          input{
-               
-          }
      }
 
      footer{
@@ -157,6 +167,16 @@
 
                span{
                     display: none;
+               }
+          }
+     }
+
+     .page-contact{
+          div{
+               grid-template-columns: 1fr;
+
+               a{
+                    width: 100%;
                }
           }
      }

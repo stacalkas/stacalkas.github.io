@@ -1,7 +1,8 @@
 // BS Javascript
 
 // Define Menu Vars
-const menuBlog = document.querySelector('.menu-Blog');
+//const menuBlog = document.querySelector('.menu-Blog');  Old Blog
+const menuLog = document.querySelector('.menu-Log');
 const menuBooks = document.querySelector('.menu-Books');
 const menuComics = document.querySelector('.menu-Comics');
 const menuGames = document.querySelector('.menu-Games');
@@ -18,24 +19,22 @@ const mobileBtn = document.querySelector('.mobile-btn');
 const menuMobile = document.querySelector('.mobile-dropdown-content');
 // Define Site Version Vars
 const siteVerElement = document.querySelector('.site-ver');
-const versionNumber = "4.1.0";
+const versionNumber = "4.1.2";
 // Define Time Vars
 const today = new Date();
 const currentYear = today.getFullYear();
 const dynYear = document.querySelector('.dynYearElement');
 // Define Last Modified Vars
 const lastModElement = document.querySelector('.last-Mod-Element');
-// Define Filter HTML Vars
-const filterInput = document.querySelector('filter-input');
 
 // Run these functions, when this file loads
 getYear();
 getLastMod();
 
 // Hide Form Success
-setTimeout(function(){
-     document.querySelector('.formSuccess').style.display = 'none';
-}, 5000);
+// setTimeout(function(){
+//      document.querySelector('.formSuccess').style.display = 'none';
+// }, 5000);
 
 // Toggle Mobile Menu //
 mobileBtn.addEventListener('click', toggleMobileMenu);

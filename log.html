@@ -12,7 +12,7 @@
      <!-- Custom CSS -->
      <link rel="stylesheet" href="css/main.min.css">
 
-     <title>Comics</title>
+     <title>Changelog</title>
 </head>
 <body>
      <header>
@@ -58,12 +58,11 @@
 
      <main>
           <div class="page-announce">
-               <h1><span class="fas fa-archive"></span> Comics <span class="fas fa-archive"></span></h1>
+               <h1><span class="fas fa-code-branch"></span> Changelog <span class="fas fa-code-branch"></span></h1>
           </div>
-          <section class="page-comics">
-               <embed src="downloads/Comics-v3_BrittScott.pdf" type="application/pdf" >
-               <p><a href="downloads/Comics-v3_BrittScott.pdf" target="_blank"><span class="fas fa-file-pdf"></span> Download Britt's Comics <span class="fas fa-download"></span></a></p>
-          </section>     
+          <section class="page-changelog" data-markdown="CHANGELOG.md">
+               <!-- Load Markdown here -->
+          </section>
      </main> <!-- END Main Container -->
 
      <!-- To Top Button -->
@@ -79,8 +78,24 @@
 
      <!-- JS -->
      <script src="js/bs-javascript.js"></script>
+     <script src="js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
      <script>
-          menuComics.classList.add('menu-dropdown-highlight');// Desktop Menu Highlight
+          menuLog.classList.add('menu-highlight');// Desktop Menu Highlight
+
+          Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                         { src: 'js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+				]
+			});
+
      </script>
     
 </body>

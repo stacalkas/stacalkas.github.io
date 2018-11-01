@@ -14,14 +14,15 @@ header{
           ul{
                display: grid;
                grid-template-columns: repeat(9, 1fr);
-               grid-template-areas:
-               'navTitle navLogo navAbout navBlog navImages navVideos navContact navExtras navMobile';
+               //grid-template-areas:
+               //'navTitle navLogo navAbout navBlog navImages navVideos navContact navExtras navMobile';
                justify-items: center;
 
                li{
                     padding-top: 0.5rem;
                     padding-bottom: 1rem;
-                    @include easeInOut;
+                    //@include easeInOut; // Chrome hates this for some reason
+                    transition: all 0.5s ease-in-out;
                     
                     a{
                          padding: 1rem 1rem;
@@ -33,14 +34,14 @@ header{
                     }
 
                     &:nth-child(1){
-                         grid-area: navTitle;
+                         //grid-area: navTitle;
                          &:hover{
                               background: transparent;
                               cursor: default;
                          }
                     }
                     &:nth-child(2){
-                         grid-area: navLogo;
+                         //grid-area: navLogo;
                          display: inline-block;
                          height: 2rem;
                          line-height: 2rem;
@@ -61,13 +62,13 @@ header{
                               cursor: default;
                          }
                     }
-                    &:nth-child(3){grid-area: navAbout;}
-                    &:nth-child(4){grid-area: navBlog;}
-                    &:nth-child(5){grid-area: navImages;}
-                    &:nth-child(6){grid-area: navVideos;}
-                    &:nth-child(7){grid-area: navContact;}
+                    //&:nth-child(3){grid-area: navAbout;}
+                    //&:nth-child(4){grid-area: navBlog;}
+                    //&:nth-child(5){grid-area: navImages;}
+                    //&:nth-child(6){grid-area: navVideos;}
+                    //&:nth-child(7){grid-area: navContact;}
                     &:nth-child(8){
-                         grid-area: navExtras;
+                         //grid-area: navExtras;
                          &:hover{
                               .dropdown-content{
                                    display: block;
@@ -75,7 +76,7 @@ header{
                               }
                          }
                     }
-                    &:nth-child(9){grid-area: navMobile;}
+                    //&:nth-child(9){grid-area: navMobile;}
                }
           }
 
@@ -94,7 +95,7 @@ header{
 
                &:hover{
                     .dropdown-content{
-                         border: 0.1rem solid $secondary-color;
+                         border: 0.1rem solid $accent-color;
                          cursor: auto;
                          
                          display: block;
@@ -110,7 +111,8 @@ header{
                               padding: 0.5rem 0.1rem;
                               background-color: $light-color;
                               color: set-text-color($light-color);
-                              @include easeInOut;
+                              //@include easeInOut; // Chrome hates this for some reason
+                              transition: all 0.5s ease-in-out;
                               &:hover{
                                    background-color: $dark-color;
                                    color: set-text-color($dark-color);
@@ -126,7 +128,8 @@ header{
                     float: right;
                     background-color: $dark-color;
                     color: set-text-color($dark-color);
-                    @include easeInOut;
+                    //@include easeInOut; // Chrome hates this for some reason
+                    transition: all 0.5s ease-in-out;
      
                     &:hover{
                          background-color: $light-color;
@@ -152,7 +155,8 @@ header{
                          
                          background-color: $light-color;
                          color: set-text-color($light-color);
-                         @include easeInOut;
+                         //@include easeInOut; // Chrome hates this for some reason
+                         transition: all 0.5s ease-in-out;
 
                          &:hover{
                               background-color: $dark-color;

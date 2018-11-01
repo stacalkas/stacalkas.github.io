@@ -4,6 +4,8 @@
 
 .rj-bs-block, .fa-desktop{color: $light-color;}
 
+.fa-ban{color: $accent-color;}
+
 .rj-bs-grid{color: $white;}
 
 .rj-bs-outline{color: $black;}
@@ -45,11 +47,13 @@ h2{
      text-align: center;
      padding: 0.5rem 0;
      border-radius: 1rem;
-     margin: 1rem 0;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
 }
 
 .tag{
      @extend h2;
      font-size: 1.5rem;
      font-weight: bold;
+     margin-top: 2rem;
 }
