@@ -19,7 +19,7 @@ const mobileBtn = document.querySelector('.mobile-btn');
 const menuMobile = document.querySelector('.mobile-dropdown-content');
 // Define Site Version Vars
 const siteVerElement = document.querySelector('.site-ver');
-const versionNumber = "4.1.2";
+const versionNumber = "4.1.22";
 // Define Time Vars
 const today = new Date();
 const currentYear = today.getFullYear();
@@ -79,6 +79,29 @@ function getYear(){
 function getLastMod(){
      lastModElement.innerText = document.lastModified;
      //clearTimeout(getLastMod); // Kill our setTimeout to stop calling this
+}
+// Load Markdown File //
+function loadMarkdownFile(){
+     // Create XHR Object
+     var xhr = new XMLHttpRequest();
+     // OPEN - type, url/file, async
+     xhr.open('GET', 'CHANGELOG.md', true);
+
+     xhr.onload = function(){
+          if(this.status == 200){
+               //console.log(this.responseText);
+               var mdText = xhr.responseText;
+               var mdConverter = new showdown.Converter(),
+               convertedMarkdown = mdConverter.makeHtml(mdText);
+               //console.log(mdText);
+
+               // Define Markdown Holder Element Vars
+               var mdHolder = document.querySelector('.md-holder');
+               mdHolder.innerHTML = convertedMarkdown;
+          }
+     }
+     // Sends request
+     xhr.send();
 }
 	
 /* W3.JS 1.01 Jan 2017 by w3schools.com */

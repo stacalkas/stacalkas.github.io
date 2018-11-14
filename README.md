@@ -14,4 +14,4 @@ Powered by:
 
 ### Live Site
 ---
-[Visit the Live Site](htttps://stacalkas.github.io) Check to see if this link works!
+[Visit the Live Site](https://stacalkas.github.io)

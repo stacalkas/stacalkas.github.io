@@ -4,36 +4,86 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-[Visit the Live Site](htttps://stacalkas.github.io) - A portfolio website for Britt.
+[Visit the Live Site](https://stacalkas.github.io) - A portfolio website for Britt.
 
 
 ## [Unreleased]
 ### Added
-- ...
+- For new features.
 
 ### Changed
-- ...
+- For changes in existing functionality.
+
+### Deprecated
+- For once-stable features removed in upcoming releases.
 
 ### Fixed
-- ...
+- For any bug fixes.
 
 ### Removed
-- ...
+- For deprecated features removed in this release.
+
+### Security
+- To invite users to upgrade in case of vulnerabilities.
+
+## [4.1.22] - 2018-11-14
+### Added
+- fontawesome.min.css.
+- showdown.js.
+- books.sprite.css.
+- levels.sprite.css.
+- models.sprite.css.
+- toys.sprite.css.
+- sprite-based scss files.
+- books.sprite.jpg.
+- levels.sprite.jpg.
+- models.sprite.jpg.
+- toys.sprite.jpg.
+
+### Changed
+- Formatting of CHANGELOG.md to include types of changes.
+- All pages to reference fontawesome.min.css.
+- All pages that used sprite-images to a new sprite-creation system.
+- bs-javascript.js to include load markdown function.
+- log.html to load markdown files with fewer javascript files.
+- the name of the sass folder to scss.
+
+### Removed
+- head.min.js.
+- markdown.js.
+- marked.js.
+- reveal.js.
+- ThumbsBooks.css.
+- ThumbsLevels.css.
+- ThumbsModels.css.
+- ThumbsToys.css.
+- ThumbsBooks.jpg.
+- ThumbsLevels.jpg.
+- ThumbsModels.jpg.
+- ThumbsToys.jpg.
+
+## [4.1.21] - 2018-11-01
+### Changed
+- Updated main.css.
+- Updated bs-javascript.js
+
+### Fixed
+- Menu not linking to log page.
 
 ## [4.1.2] - 2018-10-31
 ### Added
-- head.min.js
-- markdown.js
-- marked.js
-- reveal.js
-- log.html
+- head.min.js.
+- markdown.js.
+- marked.js.
+- reveal.js.
+- log.html.
 
 ### Changed
 - Menu to include link to log page.
 - Updated MoviesTV page.
 
 ### Removed
-- blog.html
+- blog.html.
 
 ## [4.1.1] - 2018-10-24
 ### Added
