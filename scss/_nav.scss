@@ -14,25 +14,26 @@ header{
           ul{
                display: grid;
                grid-template-columns: repeat(9, 1fr);
-               //grid-template-areas:
-               //'navTitle navLogo navAbout navBlog navImages navVideos navContact navExtras navMobile';
                justify-items: center;
 
                li{
                     padding-top: 0.5rem;
                     padding-bottom: 1rem;
                     //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
+                    
                     
                     a{
                          padding: 1rem 1rem;
                          color: $light-color;
-                    }
-                    &:hover{
-                         background-color: $dark-color;
-                         color: set-text-color($dark-color);
-                    }
+                         transition: all 0.5s ease-in-out;
 
+                         &:hover{
+                              background-color: $dark-color;
+                              color: set-text-color($dark-color);
+                         }
+     
+                    }
+                    
                     &:nth-child(1){
                          //grid-area: navTitle;
                          &:hover{

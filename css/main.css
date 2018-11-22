@@ -1,4 +1,4 @@
-/*! BS Site 4.1.21 November 2018 by Britt Scott */
+/*! BS Site 4.1.23 November 2018 by Britt Scott */
 * {
   margin: 0;
   padding: 0;
@@ -71,16 +71,16 @@ header nav ul {
 header nav ul li {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 header nav ul li a {
   padding: 1rem 1rem;
   color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
   background-color: black;
   color: #fff;
 }

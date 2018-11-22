@@ -26,6 +26,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - To invite users to upgrade in case of vulnerabilities.
 
+## [4.1.23] - 2018-11-22
+### Fixed
+- Menu hover transitions.
+
 ## [4.1.22] - 2018-11-14
 ### Added
 - fontawesome.min.css.
