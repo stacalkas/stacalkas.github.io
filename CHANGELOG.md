@@ -26,6 +26,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - To invite users to upgrade in case of vulnerabilities.
 
+## [4.1.25] - 2019-01-40 UPCOMING
+
+
+## [4.1.24] - 2019-01-20
+### Added
+- TheIronMan.jpg.
+- Ford73Mustang.jpg.
+- New version of megadon logo.
+
+### Changed
+- moviesTV.html.
+- games.html.
+- books.html.
+- books.sprite.min.css.
+- models.html.
+- models.sprite.min.css.
+
+### Security
+- Updated to Font Awesome 5.6.3.
+
 ## [4.1.23] - 2018-11-22
 ### Fixed
 - Menu hover transitions.

@@ -4,7 +4,7 @@
 	Author: Güray Yarar (https://github.com/gurayyarar)
 */
 .books {
-  background-image: url("../images/sprites/books.sprite.jpg?v=vDGncS7KPddz9P8E3vKChQ9wKNQPnPGHymzcD");
+  background-image: url("../images/sprites/books.sprite.jpg?v=JprPBaKBKPs6DOVZX21lbmiW6MsE9tnKt7nBp");
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -1035,188 +1035,194 @@
   background-position: -0px -34000px;
 }
 
-.books.TheNameOfTheWind {
+.books.TheIronMan {
   width: 200px;
   height: 200px;
   background-position: -0px -34200px;
 }
 
-.books.TheRavenAndOtherPoems {
+.books.TheNameOfTheWind {
   width: 200px;
   height: 200px;
   background-position: -0px -34400px;
 }
 
-.books.TheVoyageOfTheBeagle {
+.books.TheRavenAndOtherPoems {
   width: 200px;
   height: 200px;
   background-position: -0px -34600px;
 }
 
-.books.TheWiseMansFear {
+.books.TheVoyageOfTheBeagle {
   width: 200px;
   height: 200px;
   background-position: -0px -34800px;
 }
 
-.books.ThreeDGameEnvironments {
+.books.TheWiseMansFear {
   width: 200px;
   height: 200px;
   background-position: -0px -35000px;
 }
 
-.books.ThreeDGameTextures {
+.books.ThreeDGameEnvironments {
   width: 200px;
   height: 200px;
   background-position: -0px -35200px;
 }
 
-.books.ThreeDSMax7Fundamentals {
+.books.ThreeDGameTextures {
   width: 200px;
   height: 200px;
   background-position: -0px -35400px;
 }
 
-.books.ThreeDSMaxModelingBotsMechsDroids {
+.books.ThreeDSMax7Fundamentals {
   width: 200px;
   height: 200px;
   background-position: -0px -35600px;
 }
 
-.books.ThreeDSMaxModelingForGames {
+.books.ThreeDSMaxModelingBotsMechsDroids {
   width: 200px;
   height: 200px;
   background-position: -0px -35800px;
 }
 
-.books.TransformersAnnihilation {
+.books.ThreeDSMaxModelingForGames {
   width: 200px;
   height: 200px;
   background-position: -0px -36000px;
 }
 
-.books.TransformersFusion {
+.books.TransformersAnnihilation {
   width: 200px;
   height: 200px;
   background-position: -0px -36200px;
 }
 
-.books.TransformersHardwired {
+.books.TransformersFusion {
   width: 200px;
   height: 200px;
   background-position: -0px -36400px;
 }
 
-.books.TransformersMovieNovel {
+.books.TransformersHardwired {
   width: 200px;
   height: 200px;
   background-position: -0px -36600px;
 }
 
-.books.TransformersUltimateGuide {
+.books.TransformersMovieNovel {
   width: 200px;
   height: 200px;
   background-position: -0px -36800px;
 }
 
-.books.TwoDGameBuilding {
+.books.TransformersUltimateGuide {
   width: 200px;
   height: 200px;
   background-position: -0px -37000px;
 }
 
-.books.UnitedStatesOfJapan {
+.books.TwoDGameBuilding {
   width: 200px;
   height: 200px;
   background-position: -0px -37200px;
 }
 
-.books.UnofficalLegoBuildersGuide {
+.books.UnitedStatesOfJapan {
   width: 200px;
   height: 200px;
   background-position: -0px -37400px;
 }
 
-.books.UpFront {
+.books.UnofficalLegoBuildersGuide {
   width: 200px;
   height: 200px;
   background-position: -0px -37600px;
 }
 
-.books.WarcraftArchive {
+.books.UpFront {
   width: 200px;
   height: 200px;
   background-position: -0px -37800px;
 }
 
-.books.WarcraftDayOfTheDragon {
+.books.WarcraftArchive {
   width: 200px;
   height: 200px;
   background-position: -0px -38000px;
 }
 
-.books.WarcraftLordOfTheClans {
+.books.WarcraftDayOfTheDragon {
   width: 200px;
   height: 200px;
   background-position: -0px -38200px;
 }
 
-.books.WarcraftOfBloodAndHonor {
+.books.WarcraftLordOfTheClans {
   width: 200px;
   height: 200px;
   background-position: -0px -38400px;
 }
 
-.books.WarcraftTheLastGuardian {
+.books.WarcraftOfBloodAndHonor {
   width: 200px;
   height: 200px;
   background-position: -0px -38600px;
 }
 
-.books.Xenocide {
+.books.WarcraftTheLastGuardian {
   width: 200px;
   height: 200px;
   background-position: -0px -38800px;
 }
 
-.books.XMen2MovieNovel {
+.books.Xenocide {
   width: 200px;
   height: 200px;
   background-position: -0px -39000px;
 }
 
-.books.XMenLegacyQuestBook1 {
+.books.XMen2MovieNovel {
   width: 200px;
   height: 200px;
   background-position: -0px -39200px;
 }
 
-.books.XMenLegacyQuestBook2 {
+.books.XMenLegacyQuestBook1 {
   width: 200px;
   height: 200px;
   background-position: -0px -39400px;
 }
 
-.books.XMenLegacyQuestBook3 {
+.books.XMenLegacyQuestBook2 {
   width: 200px;
   height: 200px;
   background-position: -0px -39600px;
 }
 
-.books.YouCanDrawMecha {
+.books.XMenLegacyQuestBook3 {
   width: 200px;
   height: 200px;
   background-position: -0px -39800px;
 }
 
-.books.YoureNeverWeirdOnTheInternet {
+.books.YouCanDrawMecha {
   width: 200px;
   height: 200px;
   background-position: -0px -40000px;
 }
 
-.books.ZombieSurvivalGuide {
+.books.YoureNeverWeirdOnTheInternet {
   width: 200px;
   height: 200px;
   background-position: -0px -40200px;
+}
+
+.books.ZombieSurvivalGuide {
+  width: 200px;
+  height: 200px;
+  background-position: -0px -40400px;
 }

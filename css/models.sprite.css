@@ -4,7 +4,7 @@
 	Author: Güray Yarar (https://github.com/gurayyarar)
 */
 .models {
-  background-image: url("../images/sprites/models.sprite.jpg?v=ntnN0c9VqyMrb3NiB6KMiCEj7Gnfw1dM1nZ9X");
+  background-image: url("../images/sprites/models.sprite.jpg?v=XiVdOEQmjN39d17UHImiWk0cP067mm0iEEfQV");
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -105,188 +105,194 @@
   background-position: -0px -3000px;
 }
 
-.models.Gastima {
+.models.Ford73Mustang {
   width: 200px;
   height: 200px;
   background-position: -0px -3200px;
 }
 
-.models.GearaDoga {
+.models.Gastima {
   width: 200px;
   height: 200px;
   background-position: -0px -3400px;
 }
 
-.models.GeonaceCustom {
+.models.GearaDoga {
   width: 200px;
   height: 200px;
   background-position: -0px -3600px;
 }
 
-.models.GmcPickupWPlow {
+.models.GeonaceCustom {
   width: 200px;
   height: 200px;
   background-position: -0px -3800px;
 }
 
-.models.GmIII {
+.models.GmcPickupWPlow {
   width: 200px;
   height: 200px;
   background-position: -0px -4000px;
 }
 
-.models.GmSniper2Mg {
+.models.GmIII {
   width: 200px;
   height: 200px;
   background-position: -0px -4200px;
 }
 
-.models.GmSniperK9 {
+.models.GmSniper2Mg {
   width: 200px;
   height: 200px;
   background-position: -0px -4400px;
 }
 
-.models.GP02aTypeMLRS {
+.models.GmSniperK9 {
   width: 200px;
   height: 200px;
   background-position: -0px -4600px;
 }
 
-.models.GyaGya {
+.models.GP02aTypeMLRS {
   width: 200px;
   height: 200px;
   background-position: -0px -4800px;
 }
 
-.models.HeavyArmsMg {
+.models.GyaGya {
   width: 200px;
   height: 200px;
   background-position: -0px -5000px;
 }
 
-.models.IhTranstarEagle {
+.models.HeavyArmsMg {
   width: 200px;
   height: 200px;
   background-position: -0px -5200px;
 }
 
-.models.JestaCannon {
+.models.IhTranstarEagle {
   width: 200px;
   height: 200px;
   background-position: -0px -5400px;
 }
 
-.models.JestaMg {
+.models.JestaCannon {
   width: 200px;
   height: 200px;
   background-position: -0px -5600px;
 }
 
-.models.KampferAmazing {
+.models.JestaMg {
   width: 200px;
   height: 200px;
   background-position: -0px -5800px;
 }
 
-.models.KnightRider {
+.models.KampferAmazing {
   width: 200px;
   height: 200px;
   background-position: -0px -6000px;
 }
 
-.models.KnightRider2000 {
+.models.KnightRider {
   width: 200px;
   height: 200px;
   background-position: -0px -6200px;
 }
 
-.models.LowboyTrailer {
+.models.KnightRider2000 {
   width: 200px;
   height: 200px;
   background-position: -0px -6400px;
 }
 
-.models.MsOptionSet5 {
+.models.LowboyTrailer {
   width: 200px;
   height: 200px;
   background-position: -0px -6600px;
 }
 
-.models.Rgm79Gm {
+.models.MsOptionSet5 {
   width: 200px;
   height: 200px;
   background-position: -0px -6800px;
 }
 
-.models.Rgm79nGmCustom {
+.models.Rgm79Gm {
   width: 200px;
   height: 200px;
   background-position: -0px -7000px;
 }
 
-.models.RgmConroysJegan {
+.models.Rgm79nGmCustom {
   width: 200px;
   height: 200px;
   background-position: -0px -7200px;
 }
 
-.models.RgmJegan {
+.models.RgmConroysJegan {
   width: 200px;
   height: 200px;
   background-position: -0px -7400px;
 }
 
-.models.Rx78v3Mg {
+.models.RgmJegan {
   width: 200px;
   height: 200px;
   background-position: -0px -7600px;
 }
 
-.models.SerpentCustom {
+.models.Rx78v3Mg {
   width: 200px;
   height: 200px;
   background-position: -0px -7800px;
 }
 
-.models.SpaceJahannam {
+.models.SerpentCustom {
   width: 200px;
   height: 200px;
   background-position: -0px -8000px;
 }
 
-.models.SubaruWrxSti {
+.models.SpaceJahannam {
   width: 200px;
   height: 200px;
   background-position: -0px -8200px;
 }
 
-.models.SystemBase1 {
+.models.SubaruWrxSti {
   width: 200px;
   height: 200px;
   background-position: -0px -8400px;
 }
 
-.models.ValvraveIHito {
+.models.SystemBase1 {
   width: 200px;
   height: 200px;
   background-position: -0px -8600px;
 }
 
-.models.VanishingPointChallenger {
+.models.ValvraveIHito {
   width: 200px;
   height: 200px;
   background-position: -0px -8800px;
 }
 
-.models.ZakuSniper {
+.models.VanishingPointChallenger {
   width: 200px;
   height: 200px;
   background-position: -0px -9000px;
 }
 
-.models.Zedas {
+.models.ZakuSniper {
   width: 200px;
   height: 200px;
   background-position: -0px -9200px;
+}
+
+.models.Zedas {
+  width: 200px;
+  height: 200px;
+  background-position: -0px -9400px;
 }
