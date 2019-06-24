@@ -5,6 +5,7 @@ header{
      background-color: $primary-color;
      z-index: 1;
      top: 0;
+     border-bottom: 0.25rem black solid;
 
      nav{
           max-width: #{$container-width};
@@ -187,6 +188,7 @@ footer{
      z-index: 1;
      font-size: 0.8rem;
      padding-top: 0.5rem;
+     border-top: 0.25rem black solid;
 
      ul{
           max-width: #{$container-width};

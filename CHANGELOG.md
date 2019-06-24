@@ -26,9 +26,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - To invite users to upgrade in case of vulnerabilities.
 
-## [4.1.25] - 2019-01-40 UPCOMING
+
+## [4.1.25] - 2019-06-23
+### Added
+- Border to bottom of the menu to separate elements that are the same color as the menu.
+- Border to top of the footer to separate elements that are the same color as the menu.
+
 ### Changed
+- models.html.
 - moviesTV.html.
+- quotes.html.
+- toys.sprite.jpg.
+- toys.sprite.scss.
+- toys.sprite.css.
+- toys.sprite.min.css.
+
+### Fixed
+- Menu button, Contact, referencing old php code.
+- Sass referencing .png instead of .jpg (might become a reoccurring issue).
+- Formatting in Resume_BrittScott.txt.
+- Spelling error in metadata for all html files.
+
+### Removed
+- Optimus Prime 20th Anniv from toys.html.
+- OpimusPrime20Anniv.jpg from toy thumbs.
 
 ## [4.1.24] - 2019-01-20
 ### Added
@@ -264,7 +285,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Styled Movies/TV page different than previous pages.
-- Simplified To-Top Button and bacground grid.
+- Simplified To-Top Button and background grid.
 
 ## [3.7.5] - 2017-11-29
 ### Added

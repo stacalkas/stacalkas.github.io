@@ -16,13 +16,11 @@ Scripting
 MS Office
 
 RELATED EXPERIENCE
-Level Designer: Unreal Tournament 3 mod, called “Scug”
+Level Designer: Unreal Tournament 3 mod, called "Scug"
 	youtube link -> http://youtu.be/CX7bCURUNoc
 Technical Artist: Unreal Tournament 2004 mod, called "Dual Core"
 	youtube link -> http://youtu.be/_0TivwJ-byA
 3D Vehicle Modeler/Document Designer: Torque Game Engine game, called "High School Drag"
 	youtube link -> http://youtu.be/Aoki2BPVH0M
-3D Furniture Modeler: Torque Game Engine – Building Layout Generator
+3D Furniture Modeler: Torque Game Engine, a building Layout Generator
 	youtube link -> http://youtu.be/T8leg3u3BKc
-
-

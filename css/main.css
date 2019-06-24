@@ -1,4 +1,4 @@
-/*! BS Site 4.1.24 January 2019 by Britt Scott */
+/*! BS Site 4.1.25 June 2019 by Britt Scott */
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +52,7 @@ header {
   background-color: #3853A4;
   z-index: 1;
   top: 0;
+  border-bottom: 0.25rem black solid;
 }
 
 header nav {
@@ -213,6 +214,7 @@ footer {
   z-index: 1;
   font-size: 0.8rem;
   padding-top: 0.5rem;
+  border-top: 0.25rem black solid;
 }
 
 footer ul {
