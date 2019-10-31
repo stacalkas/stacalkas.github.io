@@ -27,6 +27,33 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - To invite users to upgrade in case of vulnerabilities.
 
 
+## [4.2.00] - 2019-10-30
+### Added
+- min-height to gallery images.
+- lazyload.min.js.
+- lazyload images.
+- lazyload iframes for videos.
+- New Model Images and thumbnails.
+- Webp versions of all images, but keeping jpg versions as a fallback except for large images.
+
+### Changed
+- games.html.
+- models.html.
+- moviesTV.html.
+- quotes.html.
+- Margin-top spacing on powered-by div.
+- Gallery Download links to have better alignment.
+
+### Fixed
+- Multiple .html files not referencing fontawesome.min.css.
+- Some release dates in the Changelog that were being displayed as clickable links.
+
+### Removed
+- Sprite files and any associated files.
+- gallery image classes, since they referenced sprite files.
+- W3 JS except search filter functions.
+- Movie/Tv rating system.
+
 ## [4.1.25] - 2019-06-23
 ### Added
 - Border to bottom of the menu to separate elements that are the same color as the menu.
@@ -646,12 +673,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - First version of Actionscript 3, flash site.
 - SCUG (UT3 Mod) screenshots.
 
-## [1.4.1] - 2010-02-18
+## [1.4.01] - 2010-02-18
 ### Added
 - SCUG (UT3 Mod) screenshot.
 - RSS Feed.
 
-## [1.4.0] - 2009-11-30
+## [1.4.00] - 2009-11-30
 ### Added
 - Fifth version of Actionscript 2, flash site.
 - php contact form.
@@ -662,58 +689,58 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 - mailto email.
 
-## [1.3.6] - 2009-09-16
+## [1.3.06] - 2009-09-16
 ### Added
 - Farm Level screenshot.
 
 ### Fixed
 - Some site bugs.
 
-## [1.3.5] - 2009-06-04
+## [1.3.05] - 2009-06-04
 ### Changed
 - General site cleanup.
 - portrait image.
 
-## [1.3.4] - 2009-05-28
+## [1.3.04] - 2009-05-28
 ### Changed
 - Fourth version of Actionscript 2, flash site is complete.
 
-## [1.3.3] - 2009-04-20
+## [1.3.03] - 2009-04-20
 ### Added
 - Farm Level screenshot.
 
-## [1.3.2] - 2009-03-26
+## [1.3.02] - 2009-03-26
 ### Added
 - Farm Level screenshot.
 
-## [1.3.1] - 2009-03-19
+## [1.3.01] - 2009-03-19
 ### Added
 - Bookmark icon.
 
 ### Changed
 - Minor site update.
 
-## [1.3.0] - 2009-03-04
+## [1.3.00] - 2009-03-04
 ### Added
 - Fourth version of Actionscript 2, flash site.
 
-## [1.2.4] - 2009-02-19
+## [1.2.04] - 2009-02-19
 ### Changed
 - General site update.
 
-## [1.2.3] - 2009-02-15
+## [1.2.03] - 2009-02-15
 ### Added
 - Farm level screenshots.
 
-## [1.2.2] - 2009-02-05
+## [1.2.02] - 2009-02-05
 ### Added
 - Mech/Robot Starter Kit download.
 
-## [1.2.1] - 2009-01-27
+## [1.2.01] - 2009-01-27
 ### Added
 - Farm level screenshots.
 
-## [1.2.0] - 2009-01-12
+## [1.2.00] - 2009-01-12
 ### Added
 - Third version of Actionscript 2, flash site.
 

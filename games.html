@@ -61,7 +61,7 @@
                <h1><span class="fas fa-gamepad"></span> Games <span class="fas fa-gamepad"></span></h1>
           </div>
           <div class="search-container">
-               <input type="text" placeholder="Search . . ." oninput="bs.filterHTML('.page-games','p', this.value)">
+               <input type="text" placeholder="Search . . ." oninput="doc.filterHTML('.page-games','p', this.value)">
           </div>
           <section class="page-games">
                <p class="tag">A</p>
@@ -72,6 +72,8 @@
                     <p class="completed">Assassins Creed: Revelations</p>
                     <p class="completed">Assassins Creed 3</p>
                     <p class="completed">Assassins Creed IV: Black Flag</p>
+                    <p>Assassins Creed: Odyssey</p>
+                    <p>Assassins Creed: Origins</p>
                     <p>Assassins Creed: Unity</p>
                <p class="tag">B</p>
 				<p>Baldurs Gate</p>
@@ -104,7 +106,9 @@
 				<p class="completed">Diablo</p>
 				<p class="completed">Diablo 2 + LOD</p>
 				<p class="completed">Diablo 3</p>
-				<p class="completed">Dirt</p>
+                    <p class="completed">Dirt</p>
+                    <p>Divinity Original Sin</p>
+                    <p>Divinity Original Sin 2</p>
 				<p>Dragon Age: Inquisition</p>
 				<p class="completed">Driver</p>
 				<p class="completed">Driver 2</p>
@@ -123,9 +127,8 @@
 				<p>Far Cry 4</p>
 				<p class="completed">Farming Simulator 2015</p>
 				<p>Final Fantasy VII</p>
-				<p>Final Fantasy VIII</p>
 				<p class="completed">Forza 2</p>
-				<p>Forza 4</p>
+				<p class="completed">Forza 4</p>
 				<p>Forza 5</p>
 				<p class="completed">Forza Horizon 2</p>
 				<p class="completed">FTL</p>
@@ -147,7 +150,8 @@
 				<p class="completed">Gran Turismo 4</p>
 				<p class="completed">Gran Turismo 5: Prologue</p>
 				<p class="completed">Gran Turismo 5</p>
-				<p>Gran Turismo 6</p>
+                    <p>Gran Turismo 6</p>
+                    <p class="completed">Graveyard Keeper</p>
 				<p>Grim Fandango</p>
 				<p class="completed">Guild Wars</p>
 				<p class="completed">Gundam Battle Assualt 2</p>
@@ -177,15 +181,13 @@
 				<p>Knights of the Temple 2</p>
                <p class="tag">L</p>
 				<p class="completed">Legend of Zelda: Link's Awakening</p>
+				<p>Legend of Zelda: Breath of the Wild</p>
 				<p>Legend of Zelda: Twlight Princess</p>
                     <p class="completed">Lifeless Planet [2014]</p>
                     <p>Left 4 Dead</p>
                     <p>Left 4 Dead 2</p>
                <p class="tag">M</p>
 				<p>Mad World</p>
-				<p>Mass Effect</p>
-				<p>Mass Effect 2</p>
-				<p>Mass Effect 3</p>
 				<p class="completed">Mech Assault 2</p>
 				<p>Mech Commander</p>
 				<p>Mech Commander 2</p>
@@ -226,7 +228,8 @@
 				<p class="completed">Shadow of the Colossus</p>
 				<p class="completed">Starcraft + Brood Wars</p>
 				<p class="completed">Starcraft 2: Wings of Liberty</p>
-				<p class="completed">Starcraft 2: Heart of the Swarm</p>
+                    <p class="completed">Starcraft 2: Heart of the Swarm</p>
+                    <p>Stardew Valley</p>
 				<p class="completed">Star Wars Republic Commando</p>
 				<p>Super Smash Bros Brawl</p>
 				<p>System Shock</p>
@@ -284,10 +287,10 @@
      </footer> <!--END Footer -->
 
      <!-- JS -->
+     <script src="js/lazyload.min.js"></script>
      <script src="js/bs-javascript.js"></script>
      <script>
           menuGames.classList.add('menu-dropdown-highlight');// Desktop Menu Highlight
-     </script>
-    
+     </script> 
 </body>
 </html>

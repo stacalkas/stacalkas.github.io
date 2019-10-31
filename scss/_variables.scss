@@ -1,7 +1,7 @@
 // Variables
 
-$site-version: "4.1.25";
-$site-version-date: "June 2019";
+$site-version: "4.2.00";
+$site-version-date: "Oct 2019";
 /*! BS Site #{$site-version} #{$site-version-date} by Britt Scott */
 
 // Site Class Prefix (added before class names)
@@ -17,7 +17,7 @@ $bg-opacity: rgba(212, 221, 247,0.9);
 
 $black: black;
 $white: white;
-$blue: #3853A4; // rgb(56, 83, 164);
+$blue: #3853A4 !important; // rgb(56, 83, 164);
 $grey: #808184; $gray: #808184;
 $yellow: yellow;
 $red: #f44336;
