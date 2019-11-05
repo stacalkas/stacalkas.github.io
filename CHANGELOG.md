@@ -27,6 +27,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - To invite users to upgrade in case of vulnerabilities.
 
 
+## [4.2.01] - 2019-11-02
+### Added
+- bs-javascript.min.js.
+- showdown.min.js.
+
+### Changed
+- All html files to reference bs-javascript.min.js
+- log.html to reference showdown.min.js.
+
 ## [4.2.00] - 2019-10-30
 ### Added
 - min-height to gallery images.
