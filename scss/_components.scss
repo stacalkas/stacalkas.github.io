@@ -224,7 +224,7 @@ video{
                     border-radius: 0.5rem;
                     min-height: 200px;
                     //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
+                    transition: all 0.25s ease-in-out;
 
                     &:hover{
                          opacity: 0.4;
@@ -264,7 +264,7 @@ video{
                     display: block;
                     margin-bottom: 1rem;
                     //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
+                    transition: all 0.25s ease-in-out;
                     &:hover{
                          background-color: $accent-color;
                     }

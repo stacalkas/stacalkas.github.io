@@ -19,7 +19,7 @@
                     border-radius: 0.5rem;
                     border: 0.2rem $secondary-color solid;
                     //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
+                    transition: all 0.25s ease-in-out;
      
                     &:hover{
                          background-color: $light-color;
@@ -70,7 +70,7 @@
                     padding: 2rem 2rem;
                     box-shadow: 0 0.25rem 0.25rem 0 $dark-color;
                     //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
+                    transition: all 0.25s ease-in-out;
                     
                     &:hover{
                          background-color: $dark-color;
@@ -188,7 +188,7 @@
                border-radius: 0.5rem;
                border: 0.2rem $secondary-color solid;
                //@include easeInOut; // Chrome hates this for some reason
-               transition: all 0.5s ease-in-out;
+               transition: all 0.25s ease-in-out;
 
                &:hover{
                     background-color: $light-color;

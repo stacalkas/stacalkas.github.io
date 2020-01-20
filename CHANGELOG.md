@@ -35,6 +35,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - All html files to reference bs-javascript.min.js
 - log.html to reference showdown.min.js.
+- models.html.
+- moviesTV.html.
+- All hover animations from 0.5s to 0.25s.
 
 ## [4.2.00] - 2019-10-30
 ### Added
