@@ -18,7 +18,7 @@ const mobileBtn = document.querySelector('.mobile-btn');
 const menuMobile = document.querySelector('.mobile-dropdown-content');
 // Define Site Version Vars
 const siteVerElement = document.querySelector('.site-ver');
-const versionNumber = "4.2.01";
+const versionNumber = "4.3.00";
 // Define Time Vars
 const today = new Date();
 const currentYear = today.getFullYear();

@@ -1,4 +1,4 @@
-/*! BS Site 4.2.01 Nov 2019 by Britt Scott */
+/*! BS Site 4.3.00 Apr 2020 by Britt Scott */
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +16,12 @@ a:visited {
 
 ul {
   list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid #bbb;
+  cursor: pointer;
 }
 
 html, body {
@@ -81,6 +87,7 @@ header nav ul li {
 header nav ul li a {
   padding: 1rem 1rem;
   color: white;
+  font-size: 1rem;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
@@ -575,7 +582,7 @@ video {
   background-color: white;
   color: #000;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 3rem 1rem;
   -webkit-box-shadow: 0 0.25rem 0.25rem 0 black;
           box-shadow: 0 0.25rem 0.25rem 0 black;
   -webkit-transition: all 0.25s ease-in-out;
@@ -718,6 +725,12 @@ video {
 .page-movies-tv p {
   margin: 0.5rem;
   padding-left: 0.5rem;
+}
+
+.page-movies-tv p i {
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+  background-color: black;
 }
 
 .page-movies-tv p .fas {

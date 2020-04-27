@@ -1,8 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog (site link)](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning (site link)](http://semver.org/spec/v2.0.0.html).
 
 [Visit the Live Site](https://stacalkas.github.io) - A portfolio website for Britt.
 
@@ -26,6 +26,31 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - To invite users to upgrade in case of vulnerabilities.
 
+
+## [4.3.00] - 2020-04-27
+### Added
+- More descriptive links.
+- More descriptive alt text to images, in the event that they do not load.
+- Fullsize_ and Thumbnail_ , before images.
+
+### Changed
+- quotes.html.
+- moviesTV.html.
+- images.html.
+- contact.html.
+- books.html.
+- toys.html.
+- models.html.
+- comics.html.
+
+### Fixed
+- moviesTV.html spelling mistakes.
+
+### Removed
+- jpg thumbnails and fullsize images.
+
+### Special Note
+- Started to make the site blind, friendly, but halted work. This was due to the realization that this would require a complete site overhaul.
 
 ## [4.2.01] - 2019-11-02
 ### Added

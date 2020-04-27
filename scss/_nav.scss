@@ -22,10 +22,10 @@ header{
                     padding-bottom: 1rem;
                     //@include easeInOut; // Chrome hates this for some reason
                     
-                    
                     a{
                          padding: 1rem 1rem;
                          color: $light-color;
+                         font-size: 1rem;
                          transition: all 0.25s ease-in-out;
 
                          &:hover{
