@@ -27,6 +27,22 @@ and this project adheres to [Semantic Versioning (site link)](http://semver.org/
 - To invite users to upgrade in case of vulnerabilities.
 
 
+## [4.3.01] - 2020-07-09
+### Added
+- New model images.
+
+### Changed
+- index.html, changed Related Skills.
+- moviesTV.html.
+- Resume_BrittScott.doc.
+- Resume_BrittScott.pdf.
+- Resume_BrittScott.txt.
+- models.html.
+- quotes.html.
+
+### Removed
+- Some toys from toys.html.
+
 ## [4.3.00] - 2020-04-27
 ### Added
 - More descriptive links.
@@ -50,7 +66,7 @@ and this project adheres to [Semantic Versioning (site link)](http://semver.org/
 - jpg thumbnails and fullsize images.
 
 ### Special Note
-- Started to make the site blind, friendly, but halted work. This was due to the realization that this would require a complete site overhaul.
+- Started to make the site blind-friendly, but halted work. This was due to the realization that this would require a complete site overhaul.
 
 ## [4.2.01] - 2019-11-02
 ### Added

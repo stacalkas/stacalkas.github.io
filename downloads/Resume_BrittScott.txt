@@ -7,13 +7,13 @@ Bachelor of Science degree: Game Design & Development
 CGPA: 3.53
 
 RELATED SKILLS (listed in order of proficiency)
-Unreal 3/ UDK
-Torque 3D
-3ds Max
-Photoshop
-Illustrator
-Scripting
-MS Office
+Unreal 4 Engine
+Autodesk 3ds Max
+Adobe Photoshop
+Adobe Illustrator
+HTML5
+CSS3
+Microsoft Office
 
 RELATED EXPERIENCE
 Level Designer: Unreal Tournament 3 mod, called "Scug"
