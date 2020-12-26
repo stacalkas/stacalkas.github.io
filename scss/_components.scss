@@ -58,7 +58,7 @@
      &:hover{
           opacity: 1;
      }
- }
+}
 
 // Forms and Inputs
 .search-container{
@@ -78,7 +78,7 @@
           &:focus{
                border: 0.2rem solid $secondary-color;
           }
-      }
+     }
 }
 
 // Leave the below for php form
@@ -222,12 +222,11 @@ video{
                     @extend .center-object;
                     margin: 1rem 0 0.5rem 0;
                     border-radius: 0.5rem;
-                    min-height: 200px;
-                    //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.25s ease-in-out;
+                    min-height: 200px;                   
 
                     &:hover{
                          opacity: 0.4;
+                         transition: all 0.25s ease-in-out;
                     }
                }
 
@@ -263,10 +262,10 @@ video{
                     text-align: center;
                     display: block;
                     margin-bottom: 1rem;
-                    //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.25s ease-in-out;
+
                     &:hover{
                          background-color: $accent-color;
+                         transition: all 0.25s ease-in-out;
                     }
 
                     .fas{

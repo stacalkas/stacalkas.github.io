@@ -18,12 +18,11 @@
                     padding: 2rem 2rem;
                     border-radius: 0.5rem;
                     border: 0.2rem $secondary-color solid;
-                    //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.25s ease-in-out;
      
                     &:hover{
                          background-color: $light-color;
                          color: set-text-color($light-color);
+                         transition: all 0.25s ease-in-out;
                     }
                }
           }
@@ -68,13 +67,12 @@
                     color: set-text-color($light-color);
                     text-align: center;
                     padding: 3rem 1rem;
-                    box-shadow: 0 0.25rem 0.25rem 0 $dark-color;
-                    //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.25s ease-in-out;
+                    box-shadow: 0 0.25rem 0.25rem 0 $dark-color;         
                     
                     &:hover{
                          background-color: $dark-color;
                          color: set-text-color($dark-color);
+                         transition: all 0.25s ease-in-out;
                     }
                }
           }
@@ -84,8 +82,10 @@
           }
      }
 
-     .website-notes{
-          ul{
+     .website-version{
+          text-align: center;
+
+          mark{
                line-height: 2;
           }
      }
@@ -168,6 +168,22 @@
      }
 }
 
+// Comics
+.page-comics{
+     embed{
+          width: 100%;
+          height: 65rem;
+     }
+
+     p{
+          text-align: center;
+     }
+
+     .fas{
+          margin: 0 0.5rem;
+     }
+}
+
 // Contact
 .page-contact{
      div{
@@ -186,13 +202,12 @@
                text-align: center;
                padding: 2rem 2rem;
                border-radius: 0.5rem;
-               border: 0.2rem $secondary-color solid;
-               //@include easeInOut; // Chrome hates this for some reason
-               transition: all 0.25s ease-in-out;
+               border: 0.2rem $secondary-color solid;               
 
                &:hover{
                     background-color: $light-color;
                     color: set-text-color($light-color);
+                    transition: all 0.25s ease-in-out;
                }
           }
      }
@@ -212,20 +227,7 @@
 }
 
 // Comics
-.page-comics{
-     embed{
-          width: 100%;
-          height: 65rem;
-     }
 
-     p{
-          text-align: center;
-     }
-
-     .fas{
-          margin: 0 0.5rem;
-     }
-}
 
 // Games
 .page-games{
@@ -254,20 +256,16 @@
           margin: 0.5rem;
           padding-left: 0.5rem;
           
-               i{
-                    margin-left: 0.5rem;
-                    padding: 0.25rem;
-                    background-color: $dark-color;
-               }
-
           .fas{
-               margin-left: 0.5rem;
+               margin-right: 0.5rem;
                padding: 0.25rem;
                background-color: $dark-color;
           }
 
           .fa-film{
                color: $yellow;
+               padding-left: 0.35rem !important; // this line and the line below sets this icon's width equal to the other icons
+               padding-right: 0.35rem !important;
           }
 
           .fa-tv{

@@ -1,4 +1,4 @@
-/*! BS Site 4.3.01 Jul 2020 by Britt Scott */
+/*! BS Site 4.3.02 Dec 2020 by Britt Scott */
 * {
   margin: 0;
   padding: 0;
@@ -157,13 +157,13 @@ header nav .menu-Extras:hover .dropdown-content a {
   padding: 0.5rem 0.1rem;
   background-color: white;
   color: #000;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 header nav .menu-Extras:hover .dropdown-content a:hover {
   background-color: black;
   color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 header nav .mobile-menu .mobile-btn {
@@ -171,13 +171,13 @@ header nav .mobile-menu .mobile-btn {
   float: right;
   background-color: black;
   color: #fff;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 header nav .mobile-menu .mobile-btn:hover {
   background-color: white;
   color: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 header nav .mobile-menu .mobile-btn .fas {
@@ -198,13 +198,13 @@ header nav .mobile-menu .mobile-dropdown-content a {
   padding: 1rem 0rem;
   background-color: white;
   color: #000;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 header nav .mobile-menu .mobile-dropdown-content a:hover {
   background-color: black;
   color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-highlight {
@@ -465,12 +465,12 @@ video {
   margin: 1rem 0 0.5rem 0;
   border-radius: 0.5rem;
   min-height: 200px;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 
 .gallery figure a img:hover {
   opacity: 0.4;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .gallery figure a .fa-ban {
@@ -498,12 +498,12 @@ video {
   text-align: center;
   display: block;
   margin-bottom: 1rem;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 
 .gallery figure .downloads a:hover {
   background-color: #d4ddf7;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .gallery figure .downloads a .fas {
@@ -537,13 +537,13 @@ video {
   padding: 2rem 2rem;
   border-radius: 0.5rem;
   border: 0.2rem #a48938 solid;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 
 .page-about .resume-links div a:hover {
   background-color: white;
   color: #000;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .page-about .resume-links .fas {
@@ -585,20 +585,24 @@ video {
   padding: 3rem 1rem;
   -webkit-box-shadow: 0 0.25rem 0.25rem 0 black;
           box-shadow: 0 0.25rem 0.25rem 0 black;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 
 .page-about .powered-by div a:hover {
   background-color: black;
   color: #fff;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .page-about .powered-by .fab {
   font-size: 3rem;
 }
 
-.page-about .website-notes ul {
+.page-about .website-version {
+  text-align: center;
+}
+
+.page-about .website-version mark {
   line-height: 2;
 }
 
@@ -668,6 +672,19 @@ video {
   color: #d4ddf7;
 }
 
+.page-comics embed {
+  width: 100%;
+  height: 65rem;
+}
+
+.page-comics p {
+  text-align: center;
+}
+
+.page-comics .fas {
+  margin: 0 0.5rem;
+}
+
 .page-contact div {
   display: -ms-grid;
   display: grid;
@@ -687,30 +704,17 @@ video {
   padding: 2rem 2rem;
   border-radius: 0.5rem;
   border: 0.2rem #a48938 solid;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
 }
 
 .page-contact div a:hover {
   background-color: white;
   color: #000;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .page-books .gallery figcaption p {
   text-align: center;
-}
-
-.page-comics embed {
-  width: 100%;
-  height: 65rem;
-}
-
-.page-comics p {
-  text-align: center;
-}
-
-.page-comics .fas {
-  margin: 0 0.5rem;
 }
 
 .page-games p {
@@ -727,20 +731,16 @@ video {
   padding-left: 0.5rem;
 }
 
-.page-movies-tv p i {
-  margin-left: 0.5rem;
-  padding: 0.25rem;
-  background-color: black;
-}
-
 .page-movies-tv p .fas {
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   padding: 0.25rem;
   background-color: black;
 }
 
 .page-movies-tv p .fa-film {
   color: yellow;
+  padding-left: 0.35rem !important;
+  padding-right: 0.35rem !important;
 }
 
 .page-movies-tv p .fa-tv {

@@ -20,7 +20,6 @@ header{
                li{
                     padding-top: 0.5rem;
                     padding-bottom: 1rem;
-                    //@include easeInOut; // Chrome hates this for some reason
                     
                     a{
                          padding: 1rem 1rem;
@@ -113,11 +112,11 @@ header{
                               padding: 0.5rem 0.1rem;
                               background-color: $light-color;
                               color: set-text-color($light-color);
-                              //@include easeInOut; // Chrome hates this for some reason
-                              transition: all 0.5s ease-in-out;
+                              
                               &:hover{
                                    background-color: $dark-color;
                                    color: set-text-color($dark-color);
+                                   transition: all 0.5s ease-in-out;
                               }
                          }
                     }
@@ -130,12 +129,11 @@ header{
                     float: right;
                     background-color: $dark-color;
                     color: set-text-color($dark-color);
-                    //@include easeInOut; // Chrome hates this for some reason
-                    transition: all 0.5s ease-in-out;
      
                     &:hover{
                          background-color: $light-color;
                          color: set-text-color($light-color);
+                         transition: all 0.5s ease-in-out;
                     }
 
                     .fas{
@@ -157,12 +155,11 @@ header{
                          
                          background-color: $light-color;
                          color: set-text-color($light-color);
-                         //@include easeInOut; // Chrome hates this for some reason
-                         transition: all 0.5s ease-in-out;
 
                          &:hover{
                               background-color: $dark-color;
-                              color: set-text-color($dark-color)
+                              color: set-text-color($dark-color);
+                              transition: all 0.5s ease-in-out;
                          }
                     }
                }

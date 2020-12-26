@@ -27,6 +27,23 @@ and this project adheres to [Semantic Versioning (site link)](http://semver.org/
 - To invite users to upgrade in case of vulnerabilities.
 
 
+## [4.3.02] - 2020-12-25
+### Added
+- New model image.
+
+### Changed
+- moviesTV.html.
+- movie/tv year from being surrounded by [year] to (year).
+- Icon for category of video from being after text to before it.
+- quotes.html.
+- models.html.
+- Website Notes section on About page to Website Version Number.
+
+### Fixed
+- Some missing paragraph end tags in moviesTV.html.
+- Animated buttons, that were animating on page load instead of only animating on hover.
+- Movie titles in moviesTV.html that were incorrectly named.
+
 ## [4.3.01] - 2020-07-09
 ### Added
 - New model images.
