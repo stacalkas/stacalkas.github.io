@@ -1,0 +1,38 @@
+// Icons
+
+.rj-bars{font-size: 2rem;}
+
+.rj-bs-block, .rj-desktop{color: $light-color;}
+
+.rj-bs-grid{color: $white;}
+
+.rj-bs-outline{color: $black;}
+
+.rj-file-alt{color: $grey;}
+
+.rj-download{color: $cyan;}
+
+.rj-file-word{color: $blue;}
+
+.rj-mobile-alt{color: $gold;}
+
+.rj-youtube, .rj-file-pdf{color: $red;}
+
+.rj-tablet-alt{color: $orange;}
+
+// Text
+mark{
+     background-color: $yellow;
+     color: set-text-color($yellow);
+     padding: 0 0.25rem;
+}
+
+h2{
+     background-color: ($secondary-color);
+     color: set-text-color($secondary-color);
+     text-align: center;
+     padding: 0.5rem 0;
+     border-radius: 1rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}

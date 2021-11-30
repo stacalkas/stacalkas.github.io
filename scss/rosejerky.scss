@@ -1,0 +1,99 @@
+/*! Rose Jerky Icons 3.0.0 by Britt Scott */
+
+.rj {
+     -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     display: inline-block;
+     font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+     line-height: 1;
+
+     font-family: 'RoseJerky';
+}
+
+.rj-bs-grid{@extend .rj;}
+.rj-bs-grid:before {content: "\f000";}
+
+.rj-bs-block{@extend .rj;}
+.rj-bs-block:before {content: "\f001";}
+
+.rj-bs-outline{@extend .rj;}
+.rj-bs-outline:before {content: "\f002";}
+
+.rj-im-head-base{@extend .rj;}
+.rj-im-head-base:before {content: "\f003";}
+
+.rj-im-head-faceplate{@extend .rj;}
+.rj-im-head-faceplate:before {content: "\f004";}
+
+.rj-im-head-eyees{@extend .rj;}
+.rj-im-head-eyes:before {content: "\f005";}
+
+.rj-megadon-jaw{@extend .rj;}
+.rj-megadon-jaw:before {content: "\f006";}
+
+.rj-megadon-mouth{@extend .rj;}
+.rj-megadon-mouth:before {content: "\f007";}
+
+.rj-megadon-base{@extend .rj;}
+.rj-megadon-base:before {content: "\f008";}
+
+.rj-matsumoto{@extend .rj;}
+.rj-matsumoto:before {content: "\f009";}
+
+.rj-bars{@extend .rj;}
+.rj-bars:before {content: "\f010";}
+
+.rj-arrow-circle-up{@extend .rj;}
+.rj-arrow-circle-up:before {content: "\f011";}
+
+//.rj-bed (old name)
+.be{@extend .rj;}
+.be:before {content: "\f012";}
+
+.rj-desktop{@extend .rj;}
+.rj-desktop:before {content: "\f013";}
+
+.rj-envelope{@extend .rj;}
+.rj-envelope:before {content: "\f014";}
+
+.rj-file-alt{@extend .rj;}
+.rj-file-alt:before {content: "\f015";}
+
+.rj-file-pdf{@extend .rj;}
+.rj-file-pdf:before {content: "\f016";}
+
+.rj-file-word{@extend .rj;}
+.rj-file-word:before {content: "\f017";}
+
+//.rj-film (old name)
+.f{@extend .rj;}
+.f:before {content: "\f018";}
+
+.rj-mobile-alt{@extend .rj;}
+.rj-mobile-alt:before {content: "\f019";}
+
+.rj-tablet-alt{@extend .rj;}
+.rj-tablet-alt:before {content: "\f020";}
+
+.tv{@extend .rj;}
+.tv:before {content: "\f021";}
+
+.rj-youtube{@extend .rj;}
+.rj-youtube:before {content: "\f022";}
+
+.rj-download{@extend .rj;}
+.rj-download:before {content: "\f023";}
+
+@font-face {
+     font-family: 'RoseJerky';
+     font-style: normal;
+     font-weight: normal;
+     src: url("../webfonts/rj-icons.ttf") format("truetype");
+     /* src: url("../webfonts/rj-icons.ttf") format("truetype"), url("../webfonts/rj-icons.svg") format("svg"); */
+}
+
+/* .rj {
+     font-family: 'RoseJerky';
+} */

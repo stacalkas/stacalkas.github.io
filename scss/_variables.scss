@@ -1,0 +1,51 @@
+// Variables
+
+$site-version: "4.4.1";
+$site-version-date: "Nov 2021";
+/*! BS Site #{$site-version} #{$site-version-date} by Britt Scott */
+
+// Font
+$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-base-size: 100%; // 16px, Assuming that, the default browser font size is 16px
+$font-base-line-height: 1.5;
+
+// Colors
+$bg-opacity: rgba(212, 221, 247,0.9);
+
+$black: black;
+$white: white;
+$blue: #3853A4 !important; // rgb(56, 83, 164);
+$grey: #808184; $gray: #808184;
+$yellow: yellow;
+$red: #f44336;
+$green: #4CAF50;
+$orange: #ff9800;
+$pink: #e91e63;
+$sand: #fdf5e6;
+$cyan: #00bcd4;
+$gold: #a48938; // rgb(164, 137, 56);
+$glassBlue: #d4ddf7; // rgb(212, 221, 247);
+
+$primary-color: $blue;
+$secondary-color: $gold;
+$accent-color: $glassBlue;
+$light-color: $white;
+$dark-color: $black;
+
+// Media Query Sizes
+$desktop-min-size: 993px;
+$tablet-max-size: 992px;
+$tablet-min-size: 601px;
+$mobile-max-size: 600px;
+
+// Widths
+$container-width: 63.36rem; // 980px or close to
+
+//$quarter: 24.99%;
+//$quarter: 24.5%;
+//$fifth: 19.99%;
+//$third: 33.33%;
+//$third: 32.75%;
+//$half: 49.99%;
+//$three-quarter: 74.99%;
+//$two-third: 66.66%;

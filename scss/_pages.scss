@@ -1,0 +1,316 @@
+// Pages
+
+// Header
+header{
+     background-color: $light-color;
+     color: set-text-color($light-color);
+     border-radius: 0.5rem;
+     padding: 0.5rem 1rem;
+     margin: 0rem 0.5rem 1rem 0.5rem;
+     border: 0.2rem solid $dark-color;
+
+     h1{
+          text-align: center;
+          text-transform: uppercase;
+     }
+}
+
+// Footer
+footer{
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+     background-color: $primary-color;
+     z-index: 1;
+     font-size: 0.8rem;
+     padding-top: 0.25rem;
+     padding-bottom: 0.25rem;
+     border-top: 0.25rem black solid;
+
+     text-align: center;
+
+     cite{
+          font-weight: 600;
+     }
+
+     b{
+          margin-left: 0.5rem;
+     }
+}
+
+// About
+.page-about{
+
+     label{cursor:pointer;}
+
+     #menu-toggle{
+          display: none;
+     }
+
+     #menu{
+          display: none;
+     }
+
+     #menu-toggle:checked + #menu{
+          display: block;
+     }
+
+     .head-shot{
+          img{
+               @extend .center-object;
+               border-radius: 50%;
+               }
+     }
+
+     .resume-links{
+          p{
+               text-align: center;
+          }
+
+          img{
+               max-width: 1.5rem;
+               vertical-align: sub;
+          }
+
+          i{
+               font-size: 2rem;
+          }
+
+          div{
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               justify-items: center;
+               grid-gap: 1rem;
+               
+               a{
+                    margin: 2rem 0rem;
+                    background-color: $dark-color;
+                    color: set-text-color($dark-color);
+                    text-align: center;
+                    padding: 2rem 2rem;
+                    border-radius: 0.5rem;
+                    border: 0.2rem $secondary-color solid;
+     
+                    &:hover{
+                         background-color: $light-color;
+                         color: set-text-color($light-color);
+                         transition: all 0.25s ease-in-out;
+                    }
+               }
+          }
+     }
+
+     .education{
+          p{
+               text-align: center;
+               line-height: 2;
+          }
+     }
+
+     .related-skills{
+          ul{
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               justify-items: center;
+               grid-gap: 1rem;
+          }
+     }
+
+     .related-experience{
+          ul{
+               line-height: 2;
+               margin-left: 1rem;
+          }
+     }
+
+     .website-version{
+          text-align: center;
+
+          p{
+               margin-bottom: 0.5rem;
+          }
+
+          mark{
+               line-height: 2;
+          }
+     }
+}
+
+// Samples
+.page-samples{
+     video{
+          @extend .responsive-16by9;
+          padding-bottom: 0;
+          margin-bottom: 2rem;
+     }
+
+     h3{
+          margin: 2rem 0 0.5rem 0;
+     }
+}
+
+// Files
+.page-files{
+     h2:nth-child(1){
+          margin-top: 0rem;        // Keeps first h2 from having extra space between it and the header.
+     }
+
+     a{
+          display: block;
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          color: black;
+
+          span{
+               margin-right: 0.5rem;
+               padding: 0.1rem;
+               background-color: black;
+          }
+     }
+
+     // a:nth-child(odd){
+     //      background-color: $primary-color;
+     //      color: $light-color;
+     // }
+
+     // a:nth-child(even){
+     //      background-color: $secondary-color;
+     //      color: set-text-color($secondary-color);
+     // }
+
+     h2{
+          width: 75%;
+          @extend .center-object;
+
+          margin-top: 2rem;
+          border: 0.1rem solid white;
+     }
+}
+
+
+// Contact
+.page-contact{
+     div{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          justify-items: center;
+          grid-gap: 1rem;
+
+          font-size: 1.5rem;
+          font-weight: bold;
+          
+          a{
+               margin: 2rem 0rem;
+               background-color: $dark-color;
+               color: set-text-color($dark-color);
+               text-align: center;
+               padding: 2rem 2rem;
+               border-radius: 0.5rem;
+               border: 0.2rem $secondary-color solid;               
+
+               &:hover{
+                    background-color: $light-color;
+                    color: set-text-color($light-color);
+                    transition: all 0.25s ease-in-out;
+               }
+          }
+     }
+}
+
+// Books
+.page-books{
+     .gallery{
+          //grid-template-columns: repeat(4, 1fr);
+
+          figcaption{
+               p{
+                    text-align: center;
+               }
+          }
+     }
+}
+
+
+// Games
+.page-games{
+     p{
+          margin: 0.5rem;
+          padding-left: 0.5rem;
+     }
+}
+
+// Models
+.page-models{
+     .gallery{
+          //grid-template-columns: repeat(4, 1fr);
+
+          figcaption{
+               p{
+                    text-align: center;
+               }
+          }
+     }
+}
+
+// Movies
+.page-movies{
+     p{
+          margin: 0.5rem;
+          padding-left: 0.5rem;
+     }
+}
+
+// TV
+.page-tv{
+     p{
+          margin: 0.5rem;
+          padding-left: 0.5rem;
+     }
+}
+
+// Hentai
+.page-hentai{
+     p{
+          margin: 0.5rem;
+          padding-left: 0.5rem;
+     }
+}
+
+// Quotes
+.page-quotes{
+     blockquote{
+          padding: 1rem;
+          font-size: 1.25em;
+          margin: 1rem;
+     }
+
+     blockquote:nth-child(odd){
+          background-color: $primary-color;
+          color: $light-color;
+     }
+     blockquote:nth-child(even){
+          background-color: $secondary-color;
+          color: set-text-color($secondary-color);
+     }
+
+     blockquote cite{
+          display: block;
+          font-size: 1rem;
+          &:before{
+               content: " - ";
+          }
+     }
+}
+
+// Toys
+.page-toys{
+     .gallery{
+          //grid-template-columns: repeat(4, 1fr);
+
+          figcaption{
+               p{
+                    text-align: center;
+               }
+          }
+     }
+}

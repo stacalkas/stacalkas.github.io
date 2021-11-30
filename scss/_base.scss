@@ -1,0 +1,53 @@
+// Base
+
+// Reset
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+
+a{
+     text-decoration: none;   
+}
+a:visited{
+     color: none !important;
+}
+
+ul{
+     list-style-type: none;
+}
+
+button{
+     background-color: transparent;
+     border: 0px solid #bbb;
+     cursor: pointer;
+}
+
+// Base
+html,body{
+     font-family: #{$font};
+     font-size: #{$font-base-size};
+     line-height: #{$font-base-line-height};
+}
+html{
+     overflow-x: hidden;
+}
+body{
+     background-color: $dark-color;
+     margin-top: 3.25rem;
+     margin-bottom: 1rem;
+}
+
+main{
+     max-width: #{$container-width};
+     margin: auto;
+     padding: 0.5rem 0 0.5rem 0;
+
+     background-color: $bg-opacity;
+     color: set-text-color($bg-opacity);
+
+     section{
+          padding: 1rem;
+     }
+}
